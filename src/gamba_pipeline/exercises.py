@@ -55,9 +55,13 @@ def _title_case_segment(segment: str) -> str:
 
 
 def _capitalize_first_letter(word: str) -> str:
+    """Capitalizes the word's first letter after any opening punctuation, as in "(Multiple". A word
+    that starts with a digit ("180's", "3/4") stays as it is."""
     for index, character in enumerate(word):
         if character.isalpha():
             return word[:index] + character.upper() + word[index + 1 :]
+        if character.isdigit():
+            return word
     return word
 
 

@@ -22,6 +22,7 @@ OVERRIDES = json.loads((FIXTURES / "overrides.json").read_text())
         ("Close-Grip Push-Up off of a Dumbbell", "Close-Grip Push-Up off of a Dumbbell"),
         ("Bent Over Barbell Row", "Bent Over Barbell Row"),
         ("3/4 Sit-Up", "3/4 Sit-Up"),
+        ("Landmine 180's", "Landmine 180's"),
     ],
 )
 def test_title_case(raw, cased):
