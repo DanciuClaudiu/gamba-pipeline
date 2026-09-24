@@ -23,7 +23,10 @@ uv run pytest -q
 | [Open Food Facts](https://world.openfoodfacts.org/) (packs) | ODbL |
 | [USDA FoodData Central](https://fdc.nal.usda.gov/) Branded Foods (the US pack) | Public domain (CC0) |
 
-This repository's own license is decided before the first packs are published (Q69).
+## License
+
+The code is [MIT](LICENSE). The packs are ODbL, with Open Food Facts' contents under DbCL, and
+`reference.sqlite` is public domain: see [DATA-LICENSE.md](DATA-LICENSE.md).
 
 ## Results
 

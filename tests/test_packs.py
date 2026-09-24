@@ -34,6 +34,8 @@ def test_builds_the_romanian_pack(off_parquet, tmp_path):
         "schemaVersion": "1.0",
         "buildDate": "2026-09-24",
         "country": "ro",
+        "license": "ODbL-1.0; contents DbCL-1.0",
+        "attribution": "Open Food Facts contributors, https://world.openfoodfacts.org",
     }
     assert report.stats == Counter(
         {
@@ -75,6 +77,8 @@ def test_builds_the_us_pack_with_usda_branded(off_parquet, tmp_path):
         ("00041000000041", "serving", 240.0, "1004"),
         ("05449000000996", "1 can", 330.0, "5449000000996"),
     ]
+    attribution = db.execute("SELECT value FROM meta WHERE key = 'attribution'").fetchone()[0]
+    assert attribution.endswith("; USDA FoodData Central, https://fdc.nal.usda.gov")
     assert report.stats["in both"] == 3
     assert report.stats["usda nutrients kept"] == 2
     assert report.stats["usda only"] == 1

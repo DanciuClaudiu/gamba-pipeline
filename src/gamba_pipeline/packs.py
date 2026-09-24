@@ -9,6 +9,11 @@ from gamba_pipeline import pack_writer, validate
 from gamba_pipeline.countries import Country
 from gamba_pipeline.products import PackProduct, finalize, merge
 
+# Open Food Facts requires derived databases to stay under ODbL, with its contents under DbCL.
+PACK_LICENSE = "ODbL-1.0; contents DbCL-1.0"
+OFF_ATTRIBUTION = "Open Food Facts contributors, https://world.openfoodfacts.org"
+USDA_ATTRIBUTION = "USDA FoodData Central, https://fdc.nal.usda.gov"
+
 
 @dataclass
 class PackReport:
@@ -73,7 +78,11 @@ def build(
     report: PackReport,
 ) -> PackReport:
     products = select(country, off_products, usda_products, report)
-    pack_writer.write(output, products, {**meta, "country": country.code})
+    attribution = OFF_ATTRIBUTION
+    if country.usda_branded:
+        attribution += f"; {USDA_ATTRIBUTION}"
+    pack_meta = {**meta, "country": country.code, "license": PACK_LICENSE}
+    pack_writer.write(output, products, {**pack_meta, "attribution": attribution})
     report.products = len(products)
     report.size_bytes = output.stat().st_size
     return report
