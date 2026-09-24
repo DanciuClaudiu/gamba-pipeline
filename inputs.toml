@@ -1,0 +1,19 @@
+# Every input is pinned by release and SHA-256; a mismatch stops the build.
+
+[foundation]
+url = "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_foundation_food_csv_2026-04-30.zip"
+release = "2026-04-30"
+sha256 = "70457ee9d9342f43bda2010318c85f04210c689fdeb9cd2da4c513b0e8dbc655"
+file = "foundation.zip"
+
+[sr_legacy]
+url = "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_csv_2018-04.zip"
+release = "2018-04"
+sha256 = "b80817294b8850530aaedf2e515c02593b1824f763a0ff356e5c2081643e6fd0"
+file = "sr_legacy.zip"
+
+[exercises]
+url = "https://raw.githubusercontent.com/yuhonas/free-exercise-db/a859101d633a01c4a1a920d6a8ce41dabba0705f/dist/exercises.json"
+release = "a859101d633a01c4a1a920d6a8ce41dabba0705f"
+sha256 = "5bb747e3fc658f095a60dcbf6d53c96627acdcc6ffb6fffde86f7e26995d40bf"
+file = "exercises.json"

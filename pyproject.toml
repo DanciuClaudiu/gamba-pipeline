@@ -1,0 +1,30 @@
+[project]
+name = "gamba-pipeline"
+version = "0.1.0"
+description = "Builds Gamba's reference database and regional food packs."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["duckdb>=1.1"]
+
+[project.scripts]
+gamba-pipeline = "gamba_pipeline.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/gamba_pipeline"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
