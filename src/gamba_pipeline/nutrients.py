@@ -1,6 +1,6 @@
 """The eight tracked nutrients (SPEC §3.7), per 100 g. A missing value stays None, never 0."""
 
-from dataclasses import dataclass
+from dataclasses import astuple, dataclass
 
 KJ_PER_KCAL = 4.184
 
@@ -43,3 +43,48 @@ def from_usda(amounts: dict[int, float]) -> Nutrients:
     if values["kcal"] is None and USDA_ENERGY_KJ in amounts:
         values["kcal"] = amounts[USDA_ENERGY_KJ] / KJ_PER_KCAL
     return Nutrients(**values)
+
+
+# Open Food Facts nutriment names. Their per-100 values are in grams, except energy-kcal (kcal) and
+# energy-kj and energy (kJ).
+OFF_NAMES = (
+    "energy-kcal", "energy-kj", "energy", "proteins", "carbohydrates", "sugars", "fat",
+    "saturated-fat", "fiber", "sodium", "salt",
+)  # fmt: skip
+SALT_PER_SODIUM = 2.5
+
+
+def from_off(per_100: dict[str, float | None]) -> Nutrients:
+    """Nutrients from Open Food Facts per-100 values. Energy prefers kcal, then kJ ÷ 4.184; sodium
+    comes from salt ÷ 2.5 when missing. Values are rounded to 3 decimals, which removes the float32
+    noise in the Parquet export (10.600000381 → 10.6)."""
+
+    def value(name: str) -> float | None:
+        return per_100.get(name)
+
+    kcal = value("energy-kcal")
+    if kcal is None:
+        kj = value("energy-kj") if value("energy-kj") is not None else value("energy")
+        kcal = kj / KJ_PER_KCAL if kj is not None else None
+    sodium_g = value("sodium")
+    if sodium_g is None and value("salt") is not None:
+        sodium_g = value("salt") / SALT_PER_SODIUM
+    return Nutrients(
+        kcal=_rounded(kcal),
+        protein_g=_rounded(value("proteins")),
+        carbs_g=_rounded(value("carbohydrates")),
+        sugars_g=_rounded(value("sugars")),
+        fat_g=_rounded(value("fat")),
+        sat_fat_g=_rounded(value("saturated-fat")),
+        fiber_g=_rounded(value("fiber")),
+        sodium_mg=_rounded(sodium_g * 1000 if sodium_g is not None else None),
+    )
+
+
+def _rounded(value: float | None) -> float | None:
+    return round(value, 3) if value is not None else None
+
+
+def count(nutrients: Nutrients) -> int:
+    """How many of the eight nutrients are present; the US merge keeps the higher count."""
+    return sum(value is not None for value in astuple(nutrients))
