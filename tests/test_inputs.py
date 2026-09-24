@@ -23,7 +23,7 @@ def pinned(tmp_path: Path, content: bytes, sha256: str | None = None) -> inputs.
 
 def test_every_pinned_input_has_a_checksum():
     pins = inputs.load(ROOT / "inputs.toml")
-    assert set(pins) == {"foundation", "sr_legacy", "exercises"}
+    assert set(pins) == {"foundation", "sr_legacy", "exercises", "off", "branded"}
     for item in pins.values():
         assert len(item.sha256) == 64
         assert item.url.startswith("https://")
