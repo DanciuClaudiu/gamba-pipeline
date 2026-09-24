@@ -1,0 +1,30 @@
+{
+  "about": "Barcode to GTIN-14 vectors, shared with the pipeline (plan P18). A null symbology means typed; a null gtin14 means rejected.",
+  "vectors": [
+    { "input": "4006381333931", "symbology": "ean13", "gtin14": "04006381333931" },
+    { "input": "4006381333931", "symbology": null, "gtin14": "04006381333931" },
+    { "input": " 4006381333931\n", "symbology": null, "gtin14": "04006381333931" },
+    { "input": "036000291452", "symbology": "upcA", "gtin14": "00036000291452" },
+    { "input": "0036000291452", "symbology": "ean13", "gtin14": "00036000291452" },
+    { "input": "036000291452", "symbology": null, "gtin14": "00036000291452" },
+    { "input": "96385074", "symbology": "ean8", "gtin14": "00000096385074" },
+    { "input": "96385074", "symbology": null, "gtin14": "00000096385074" },
+    { "input": "04252614", "symbology": "upcE", "gtin14": "00042100005264" },
+    { "input": "04252614", "symbology": null, "gtin14": "00042100005264" },
+    { "input": "01234531", "symbology": "upcE", "gtin14": "00012300000451" },
+    { "input": "01234543", "symbology": "upcE", "gtin14": "00012340000053" },
+    { "input": "06543208", "symbology": "upcE", "gtin14": "00065000004328" },
+    { "input": "01234572", "symbology": "upcE", "gtin14": "00012345000072" },
+    { "input": "01234572", "symbology": null, "gtin14": "00000001234572" },
+    { "input": "00012345000072", "symbology": null, "gtin14": "00012345000072" },
+    { "input": "4006381333932", "symbology": "ean13", "gtin14": null },
+    { "input": "96385075", "symbology": "ean8", "gtin14": null },
+    { "input": "04252615", "symbology": "upcE", "gtin14": null },
+    { "input": "24252614", "symbology": "upcE", "gtin14": null },
+    { "input": "4006381333931", "symbology": "ean8", "gtin14": null },
+    { "input": "40063813339a1", "symbology": null, "gtin14": null },
+    { "input": "1234567", "symbology": null, "gtin14": null },
+    { "input": "123456789012345", "symbology": null, "gtin14": null },
+    { "input": "", "symbology": null, "gtin14": null }
+  ]
+}
