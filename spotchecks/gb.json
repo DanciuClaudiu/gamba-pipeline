@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05025125000006",
+  "name": "White Ciabattin",
+  "query": "white ciabattin",
+  "source": "off",
+  "source_ref": "5025125000006",
+  "expected": {
+   "kcal": 230.0,
+   "proteinG": 10.1,
+   "carbsG": 44.1,
+   "sugarsG": 2.4,
+   "fatG": 0.8,
+   "satFatG": 0.1,
+   "fiberG": 2.9,
+   "sodiumMg": 362.0
+  }
+ },
+ {
+  "gtin14": "05025125000037",
+  "name": "Sourdough Grains & Seeds",
+  "query": "sourdough grains seeds",
+  "source": "off",
+  "source_ref": "5025125000037",
+  "expected": {
+   "kcal": 237.0,
+   "proteinG": 10.7,
+   "carbsG": 40.2,
+   "sugarsG": 1.4,
+   "fatG": 2.7,
+   "satFatG": 0.3,
+   "fiberG": 4.7,
+   "sodiumMg": 336.0
+  }
+ },
+ {
+  "gtin14": "05025125000112",
+  "name": "Proper Sourdough",
+  "query": "proper sourdough",
+  "source": "off",
+  "source_ref": "5025125000112",
+  "expected": {
+   "kcal": 237.778,
+   "proteinG": 9.7,
+   "carbsG": 46.4,
+   "sugarsG": 2.1,
+   "fatG": 0.7,
+   "satFatG": 0.1,
+   "fiberG": 3.0,
+   "sodiumMg": 315.0
+  }
+ },
+ {
+  "gtin14": "07622210584724",
+  "name": "Dark chocolate",
+  "query": "dark chocolate",
+  "source": "off",
+  "source_ref": "7622210584724",
+  "expected": {
+   "kcal": 600.17,
+   "proteinG": 10.0,
+   "carbsG": 24.0,
+   "sugarsG": 14.0,
+   "fatG": 50.0,
+   "satFatG": 30.0,
+   "fiberG": 13.0,
+   "sodiumMg": 51.0
+  }
+ },
+ {
+  "gtin14": "07622210578464",
+  "name": "Organic 70% Dark Chocolate Bar",
+  "query": "organic 70 dark",
+  "source": "off",
+  "source_ref": "7622210578464",
+  "expected": {
+   "kcal": 580.0,
+   "proteinG": 9.1,
+   "carbsG": 36.0,
+   "sugarsG": 29.0,
+   "fatG": 42.0,
+   "satFatG": 25.0,
+   "fiberG": 10.0,
+   "sodiumMg": 0.01
+  }
+ },
+ {
+  "gtin14": "05740900404465",
+  "name": "Spreadable",
+  "query": "spreadable",
+  "source": "off",
+  "source_ref": "5740900404465",
+  "expected": {
+   "kcal": 679.0,
+   "proteinG": 0.5,
+   "carbsG": 0.6,
+   "sugarsG": 0.6,
+   "fatG": 75.0,
+   "satFatG": 35.0,
+   "fiberG": null,
+   "sodiumMg": 354.0
+  }
+ },
+ {
+  "gtin14": "05010029000016",
+  "name": "Weetabix",
+  "query": "weetabix",
+  "source": "off",
+  "source_ref": "5010029000016",
+  "expected": {
+   "kcal": 354.0,
+   "proteinG": 11.0,
+   "carbsG": 68.0,
+   "sugarsG": 4.2,
+   "fatG": 2.0,
+   "satFatG": 0.6,
+   "fiberG": 10.0,
+   "sodiumMg": 110.0
+  }
+ },
+ {
+  "gtin14": "04088600246291",
+  "name": "Seeded Sourdough Bread",
+  "query": "seeded sourdough bread",
+  "source": "off",
+  "source_ref": "4088600246291",
+  "expected": {
+   "kcal": 244.828,
+   "proteinG": 8.621,
+   "carbsG": 42.931,
+   "sugarsG": 0.517,
+   "fatG": 3.793,
+   "satFatG": 0.517,
+   "fiberG": 5.517,
+   "sodiumMg": 0.862
+  }
+ },
+ {
+  "gtin14": "05000157024671",
+  "name": "Beanz in a rich tomato sauce",
+  "query": "beanz in a",
+  "source": "off",
+  "source_ref": "5000157024671",
+  "expected": {
+   "kcal": 79.0,
+   "proteinG": 4.7,
+   "carbsG": 12.9,
+   "sugarsG": 5.0,
+   "fatG": 0.2,
+   "satFatG": 0.1,
+   "fiberG": 3.7,
+   "sodiumMg": 240.0
+  }
+ },
+ {
+  "gtin14": "00000050457236",
+  "name": "Tomato Ketchup",
+  "query": "tomato ketchup",
+  "source": "off",
+  "source_ref": "50457236",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.8,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "05025125000129",
+  "name": "JASON'S SOURDOUGH",
+  "query": "jason s sourdough",
+  "source": "off",
+  "source_ref": "5025125000129",
+  "expected": {
+   "kcal": 116.667,
+   "proteinG": 9.334,
+   "carbsG": 44.804,
+   "sugarsG": 2.645,
+   "fatG": 1.089,
+   "satFatG": 0.156,
+   "fiberG": 3.578,
+   "sodiumMg": 192.439
+  }
+ },
+ {
+  "gtin14": "05025125000150",
+  "name": "Everyday White Rolls",
+  "query": "everyday white rolls",
+  "source": "off",
+  "source_ref": "5025125000150",
+  "expected": {
+   "kcal": 245.0,
+   "proteinG": 10.0,
+   "carbsG": 48.8,
+   "sugarsG": 3.4,
+   "fatG": 0.7,
+   "satFatG": 0.1,
+   "fiberG": 1.8,
+   "sodiumMg": 307.0
+  }
+ },
+ {
+  "gtin14": "07394376616228",
+  "name": "The original oat-ly barista edition oat drink",
+  "query": "the original oat",
+  "source": "off",
+  "source_ref": "7394376616228",
+  "expected": {
+   "kcal": 61.0,
+   "proteinG": 1.1,
+   "carbsG": 7.1,
+   "sugarsG": 3.4,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 0.8,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "05034467000216",
+  "name": "NAKED ORGANIC TOFU",
+  "query": "naked organic tofu",
+  "source": "off",
+  "source_ref": "5034467000216",
+  "expected": {
+   "kcal": 145.714,
+   "proteinG": 16.5,
+   "carbsG": 1.1,
+   "sugarsG": 0.1,
+   "fatG": 7.8,
+   "satFatG": 1.2,
+   "fiberG": 1.9,
+   "sodiumMg": 0.06
+  }
+ },
+ {
+  "gtin14": "08719200269743",
+  "name": "BUTTERY",
+  "query": "buttery",
+  "source": "off",
+  "source_ref": "8719200269743",
+  "expected": {
+   "kcal": 677.0,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 75.0,
+   "satFatG": 28.0,
+   "fiberG": null,
+   "sodiumMg": 511.0
+  }
+ },
+ {
+  "gtin14": "05010003064744",
+  "name": "Seed Sensations Seven Seeds",
+  "query": "seed sensations seven",
+  "source": "off",
+  "source_ref": "5010003064744",
+  "expected": {
+   "kcal": 277.273,
+   "proteinG": 10.0,
+   "carbsG": 42.0,
+   "sugarsG": 3.8,
+   "fatG": 6.6,
+   "satFatG": 0.6,
+   "fiberG": 5.3,
+   "sodiumMg": 0.88
+  }
+ },
+ {
+  "gtin14": "05010044000701",
+  "name": "Original Crumpets",
+  "query": "original crumpets",
+  "source": "off",
+  "source_ref": "5010044000701",
+  "expected": {
+   "kcal": 176.0,
+   "proteinG": 6.0,
+   "carbsG": 35.3,
+   "sugarsG": 2.0,
+   "fatG": 0.8,
+   "satFatG": 0.2,
+   "fiberG": 2.0,
+   "sodiumMg": 582.0
+  }
+ },
+ {
+  "gtin14": "04056489148739",
+  "name": "Creamy Greek Style Natural Yogurt",
+  "query": "creamy greek style",
+  "source": "off",
+  "source_ref": "4056489148739",
+  "expected": {
+   "kcal": 126.4,
+   "proteinG": 4.1,
+   "carbsG": 4.6,
+   "sugarsG": 4.1,
+   "fatG": 10.0,
+   "satFatG": 6.7,
+   "fiberG": 0.5,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "07622201693916",
+  "name": "Full fat soft cheese",
+  "query": "full fat soft",
+  "source": "off",
+  "source_ref": "7622201693916",
+  "expected": {
+   "kcal": 226.667,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 300.0
+  }
+ },
+ {
+  "gtin14": "05010029000801",
+  "name": "Weetabix",
+  "query": "weetabix",
+  "source": "off",
+  "source_ref": "5010029000801",
+  "expected": {
+   "kcal": 354.667,
+   "proteinG": 11.0,
+   "carbsG": 68.0,
+   "sugarsG": 4.2,
+   "fatG": 2.0,
+   "satFatG": 0.6,
+   "fiberG": 10.0,
+   "sodiumMg": 112.0
+  }
+ }
+]

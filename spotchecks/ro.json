@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "04056489143833",
+  "name": "Крема сирене",
+  "query": "крема сирене",
+  "source": "off",
+  "source_ref": "4056489143833",
+  "expected": {
+   "kcal": 243.0,
+   "proteinG": 6.3,
+   "carbsG": 2.8,
+   "sugarsG": 2.7,
+   "fatG": 23.0,
+   "satFatG": 16.1,
+   "fiberG": 0.0,
+   "sodiumMg": 256.0
+  }
+ },
+ {
+  "gtin14": "05942219115845",
+  "name": "Apă minerală naturală, natural carbogazoasă",
+  "query": "apă minerală naturală",
+  "source": "off",
+  "source_ref": "5942219115845",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05941486000434",
+  "name": "Tomi Ketchup Dulce",
+  "query": "tomi ketchup dulce",
+  "source": "off",
+  "source_ref": "5941486000434",
+  "expected": {
+   "kcal": 88.0,
+   "proteinG": 1.0,
+   "carbsG": 21.0,
+   "sugarsG": 17.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 1.904,
+   "sodiumMg": 880.0
+  }
+ },
+ {
+  "gtin14": "00000059493518",
+  "name": "Apa",
+  "query": "apa",
+  "source": "off",
+  "source_ref": "59493518",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.712
+  }
+ },
+ {
+  "gtin14": "05942321000060",
+  "name": "Coca-Cola Gust Original",
+  "query": "coca cola gust",
+  "source": "off",
+  "source_ref": "5942321000060",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00000059492573",
+  "name": "Coca-Cola Original 0.5",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "59492573",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00000020790981",
+  "name": "IAURT CREMOS în stil GRECESC",
+  "query": "iaurt cremos în",
+  "source": "off",
+  "source_ref": "20790981",
+  "expected": {
+   "kcal": 123.0,
+   "proteinG": 3.7,
+   "carbsG": 4.5,
+   "sugarsG": 4.5,
+   "fatG": 10.0,
+   "satFatG": 6.7,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "00000020724696",
+  "name": "Amandes décortiquées",
+  "query": "amandes décortiquées",
+  "source": "off",
+  "source_ref": "20724696",
+  "expected": {
+   "kcal": 621.0,
+   "proteinG": 24.5,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 53.3,
+   "satFatG": 4.3,
+   "fiberG": 12.1,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "00000059032823",
+  "name": "nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "59032823",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.5,
+   "sodiumMg": 42.8
+  }
+ },
+ {
+  "gtin14": "04014400400007",
+  "name": "Toffifee 15er",
+  "query": "toffifee 15er",
+  "source": "off",
+  "source_ref": "4014400400007",
+  "expected": {
+   "kcal": 521.0,
+   "proteinG": 6.0,
+   "carbsG": 58.9,
+   "sugarsG": 48.8,
+   "fatG": 29.0,
+   "satFatG": 12.7,
+   "fiberG": 16.0,
+   "sodiumMg": 0.11
+  }
+ },
+ {
+  "gtin14": "00000020150907",
+  "name": "Cranberries",
+  "query": "cranberries",
+  "source": "off",
+  "source_ref": "20150907",
+  "expected": {
+   "kcal": 330.0,
+   "proteinG": 0.5,
+   "carbsG": 76.2,
+   "sugarsG": 67.8,
+   "fatG": 0.9,
+   "satFatG": 0.1,
+   "fiberG": 6.4,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "00000080135876",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80135876",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 0.0,
+   "sodiumMg": 43.0
+  }
+ },
+ {
+  "gtin14": "04056489216162",
+  "name": "High Protein Chocolate Flavour Pudding",
+  "query": "high protein chocolate",
+  "source": "off",
+  "source_ref": "4056489216162",
+  "expected": {
+   "kcal": 76.0,
+   "proteinG": 10.0,
+   "carbsG": 5.2,
+   "sugarsG": 4.0,
+   "fatG": 1.5,
+   "satFatG": 1.0,
+   "fiberG": 0.9,
+   "sodiumMg": 96.0
+  }
+ },
+ {
+  "gtin14": "08000500023976",
+  "name": "Candies Raffaello",
+  "query": "candies raffaello",
+  "source": "off",
+  "source_ref": "8000500023976",
+  "expected": {
+   "kcal": 470.0,
+   "proteinG": 7.0,
+   "carbsG": 38.6,
+   "sugarsG": 33.6,
+   "fatG": 44.0,
+   "satFatG": 29.5,
+   "fiberG": null,
+   "sodiumMg": 106.8
+  }
+ },
+ {
+  "gtin14": "04056489356042",
+  "name": "Digestive",
+  "query": "digestive",
+  "source": "off",
+  "source_ref": "4056489356042",
+  "expected": {
+   "kcal": 461.538,
+   "proteinG": 6.0,
+   "carbsG": 70.0,
+   "sugarsG": 17.0,
+   "fatG": 17.0,
+   "satFatG": 2.0,
+   "fiberG": 3.6,
+   "sodiumMg": 641.0
+  }
+ },
+ {
+  "gtin14": "04056489195917",
+  "name": "Jemné ovesné vločky",
+  "query": "jemné ovesné vločky",
+  "source": "off",
+  "source_ref": "4056489195917",
+  "expected": {
+   "kcal": 372.0,
+   "proteinG": 12.0,
+   "carbsG": 62.0,
+   "sugarsG": 0.7,
+   "fatG": 5.7,
+   "satFatG": 1.0,
+   "fiberG": 8.5,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04056489041320",
+  "name": "Bio napitak od zobi",
+  "query": "bio napitak od",
+  "source": "off",
+  "source_ref": "4056489041320",
+  "expected": {
+   "kcal": 37.0,
+   "proteinG": 0.4,
+   "carbsG": 5.6,
+   "sugarsG": 4.4,
+   "fatG": 1.2,
+   "satFatG": 0.1,
+   "fiberG": 1.007,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "04056489849742",
+  "name": "Irische Butter",
+  "query": "irische butter",
+  "source": "off",
+  "source_ref": "4056489849742",
+  "expected": {
+   "kcal": 746.0,
+   "proteinG": 0.6,
+   "carbsG": 0.7,
+   "sugarsG": 0.7,
+   "fatG": 82.3,
+   "satFatG": 55.0,
+   "fiberG": 0.0,
+   "sodiumMg": 12.0
+  }
+ },
+ {
+  "gtin14": "05410041435702",
+  "name": "TUC Original",
+  "query": "tuc original",
+  "source": "off",
+  "source_ref": "5410041435702",
+  "expected": {
+   "kcal": 480.0,
+   "proteinG": 8.3,
+   "carbsG": 67.0,
+   "sugarsG": 7.1,
+   "fatG": 19.0,
+   "satFatG": 9.0,
+   "fiberG": 2.4,
+   "sodiumMg": 680.0
+  }
+ },
+ {
+  "gtin14": "05941868200087",
+  "name": "pufuleti",
+  "query": "pufuleti",
+  "source": "off",
+  "source_ref": "5941868200087",
+  "expected": {
+   "kcal": 426.667,
+   "proteinG": 6.0,
+   "carbsG": 67.0,
+   "sugarsG": 1.0,
+   "fatG": 20.0,
+   "satFatG": 4.5,
+   "fiberG": 2.3,
+   "sodiumMg": 240.0
+  }
+ }
+]

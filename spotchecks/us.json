@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "00013764027053",
+  "name": "Organic Bread 21 Whole Grains and Seeds",
+  "query": "organic bread 21",
+  "source": "off",
+  "source_ref": "0013764027053",
+  "expected": {
+   "kcal": 244.0,
+   "proteinG": 13.333,
+   "carbsG": 48.889,
+   "sugarsG": 8.889,
+   "fatG": 3.33,
+   "satFatG": 0.0,
+   "fiberG": 8.889,
+   "sodiumMg": 377.78
+  }
+ },
+ {
+  "gtin14": "00013764027138",
+  "name": "Thin-sliced 21 Whole Grains And Seeds Organic Bread",
+  "query": "thin sliced 21",
+  "source": "off",
+  "source_ref": "0013764027138",
+  "expected": {
+   "kcal": 214.286,
+   "proteinG": 10.7,
+   "carbsG": 46.4,
+   "sugarsG": 10.7,
+   "fatG": 3.57,
+   "satFatG": 0.0,
+   "fiberG": 7.14,
+   "sodiumMg": 375.0
+  }
+ },
+ {
+  "gtin14": "00811620022118",
+  "name": "High Quality Protein",
+  "query": "high quality protein",
+  "source": "off",
+  "source_ref": "0811620022118",
+  "expected": {
+   "kcal": 44.0,
+   "proteinG": 8.82,
+   "carbsG": 1.18,
+   "sugarsG": 0.59,
+   "fatG": 0.74,
+   "satFatG": 0.44,
+   "fiberG": 0.29,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00078742040370",
+  "name": "Purified Drinking Water",
+  "query": "purified drinking water",
+  "source": "off",
+  "source_ref": "0078742040370",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.3
+  }
+ },
+ {
+  "gtin14": "00096619756803",
+  "name": "Purified Drinking Water",
+  "query": "purified drinking water",
+  "source": "off",
+  "source_ref": "0096619756803",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.2
+  }
+ },
+ {
+  "gtin14": "00096619483556",
+  "name": "organic GREEK YOGURT plain",
+  "query": "organic greek yogurt",
+  "source": "off",
+  "source_ref": "0096619483556",
+  "expected": {
+   "kcal": 58.824,
+   "proteinG": 10.588,
+   "carbsG": 4.118,
+   "sugarsG": 2.353,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 38.235
+  }
+ },
+ {
+  "gtin14": "00096619555505",
+  "name": "Organic Creamy Peanut Butter",
+  "query": "organic creamy peanut",
+  "source": "off",
+  "source_ref": "0096619555505",
+  "expected": {
+   "kcal": 562.5,
+   "proteinG": 12.5,
+   "carbsG": 10.94,
+   "sugarsG": 1.56,
+   "fatG": 23.44,
+   "satFatG": 3.91,
+   "fiberG": 4.69,
+   "sodiumMg": 0.203
+  }
+ },
+ {
+  "gtin14": "00016000264694",
+  "name": "Oats 'N Honey Granola Bars",
+  "query": "oats n honey",
+  "source": "off",
+  "source_ref": "0016000264694",
+  "expected": {
+   "kcal": 452.381,
+   "proteinG": 7.143,
+   "carbsG": 69.048,
+   "sugarsG": 26.19,
+   "fatG": 16.667,
+   "satFatG": 2.381,
+   "fiberG": 4.762,
+   "sodiumMg": 333.333
+  }
+ },
+ {
+  "gtin14": "00058449770565",
+  "name": "Pumpkin Seed + Flax Granola",
+  "query": "pumpkin seed flax",
+  "source": "off",
+  "source_ref": "0058449770565",
+  "expected": {
+   "kcal": 472.727,
+   "proteinG": 10.909,
+   "carbsG": 67.273,
+   "sugarsG": 18.182,
+   "fatG": 18.182,
+   "satFatG": 2.727,
+   "fiberG": 7.273,
+   "sodiumMg": 81.818
+  }
+ },
+ {
+  "gtin14": "00044000050986",
+  "name": "original made with sea salt",
+  "query": "original made with",
+  "source": "off",
+  "source_ref": "0044000050986",
+  "expected": {
+   "kcal": 428.571,
+   "proteinG": 10.714,
+   "carbsG": 71.429,
+   "sugarsG": 0.0,
+   "fatG": 12.5,
+   "satFatG": 0.0,
+   "fiberG": 10.714,
+   "sodiumMg": 607.143
+  }
+ },
+ {
+  "gtin14": "00096619194261",
+  "name": "Ancient Grains Probiotic Granola",
+  "query": "ancient grains probiotic",
+  "source": "off",
+  "source_ref": "0096619194261",
+  "expected": {
+   "kcal": 454.545,
+   "proteinG": 9.091,
+   "carbsG": 70.909,
+   "sugarsG": 16.364,
+   "fatG": 16.364,
+   "satFatG": 2.727,
+   "fiberG": 10.909,
+   "sodiumMg": 245.455
+  }
+ },
+ {
+  "gtin14": "00894700010137",
+  "name": "Greek Yogurt Nonfat Plain",
+  "query": "greek yogurt nonfat",
+  "source": "off",
+  "source_ref": "0894700010137",
+  "expected": {
+   "kcal": 52.941,
+   "proteinG": 9.5,
+   "carbsG": 4.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 35.0
+  }
+ },
+ {
+  "gtin14": "00051500255162",
+  "name": "Creamy Peanut Butter",
+  "query": "creamy peanut butter",
+  "source": "off",
+  "source_ref": "0051500255162",
+  "expected": {
+   "kcal": 575.758,
+   "proteinG": 21.212,
+   "carbsG": 24.242,
+   "sugarsG": 9.091,
+   "fatG": 48.485,
+   "satFatG": 10.606,
+   "fiberG": 6.061,
+   "sodiumMg": 424.242
+  }
+ },
+ {
+  "gtin14": "00857777004232",
+  "name": "Chocolate Sea Salt RXBAR",
+  "query": "chocolate sea salt",
+  "source": "off",
+  "source_ref": "0857777004232",
+  "expected": {
+   "kcal": 384.615,
+   "proteinG": 23.08,
+   "carbsG": 44.23,
+   "sugarsG": 26.92,
+   "fatG": 15.38,
+   "satFatG": 3.85,
+   "fiberG": 9.62,
+   "sodiumMg": 365.38
+  }
+ },
+ {
+  "gtin14": "00000006827465",
+  "name": "Pure Life",
+  "query": "pure life",
+  "source": "off",
+  "source_ref": "06827465",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00884912004710",
+  "name": "grape-nuts cereal",
+  "query": "grape nuts cereal",
+  "source": "off",
+  "source_ref": "0884912004710",
+  "expected": {
+   "kcal": 344.828,
+   "proteinG": 10.34,
+   "carbsG": 79.31,
+   "sugarsG": 8.62,
+   "fatG": 2.59,
+   "satFatG": 0.0,
+   "fiberG": 12.07,
+   "sodiumMg": 465.52
+  }
+ },
+ {
+  "gtin14": "00689544083016",
+  "name": "Total 0% Milkfat",
+  "query": "total 0 milkfat",
+  "source": "off",
+  "source_ref": "0689544083016",
+  "expected": {
+   "kcal": 52.941,
+   "proteinG": 10.588,
+   "carbsG": 2.941,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 38.235
+  }
+ },
+ {
+  "gtin14": "00810032300463",
+  "name": "Organic Sprouted Pumpkin Seeds Sea Salt",
+  "query": "organic sprouted pumpkin",
+  "source": "off",
+  "source_ref": "0810032300463",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 26.667,
+   "carbsG": 10.0,
+   "sugarsG": 0.0,
+   "fatG": 50.0,
+   "satFatG": 8.333,
+   "fiberG": 6.667,
+   "sodiumMg": 600.0
+  }
+ },
+ {
+  "gtin14": "00072250037129",
+  "name": "100% Whole Wheat Bread",
+  "query": "100 whole wheat",
+  "source": "off",
+  "source_ref": "0072250037129",
+  "expected": {
+   "kcal": 214.286,
+   "proteinG": 11.538,
+   "carbsG": 50.0,
+   "sugarsG": 3.846,
+   "fatG": 1.923,
+   "satFatG": 0.0,
+   "fiberG": 7.692,
+   "sodiumMg": 538.462
+  }
+ },
+ {
+  "gtin14": "00073472001202",
+  "name": "EZEKIEL 4:9 FLOURLESS SPROUTED GRAIN BREAD",
+  "query": "ezekiel 4 9",
+  "source": "off",
+  "source_ref": "0073472001202",
+  "expected": {
+   "kcal": 235.294,
+   "proteinG": 4.0,
+   "carbsG": 15.0,
+   "sugarsG": 0.0,
+   "fatG": 0.5,
+   "satFatG": 0.0,
+   "fiberG": 3.0,
+   "sodiumMg": 75.0
+  }
+ }
+]

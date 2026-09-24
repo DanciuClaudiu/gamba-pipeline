@@ -11,6 +11,10 @@ Builds the food and exercise data for Gamba, a calorie and gym tracker for iPhon
 uv run gamba-pipeline download    # fetch and verify every pinned input (inputs.toml)
 uv run gamba-pipeline reference   # build build/reference.sqlite
 uv run gamba-pipeline packs       # build build/packs/food-<country>/pack.sqlite for GB, RO and US
+uv run gamba-pipeline package     # package each pack for Background Assets (needs Xcode 27)
+uv run gamba-pipeline survey      # count each country's products (for the pack threshold)
+uv run gamba-pipeline spotcheck   # check the packs against spotchecks/<country>.json
+uv run gamba-pipeline report      # write build/REPORT.md, and the full lists to build/report/
 uv run pytest -q
 ```
 
