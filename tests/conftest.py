@@ -17,6 +17,8 @@ OFF_COLUMNS = {
     "serving_quantity": "VARCHAR",
     "last_modified_t": "BIGINT",
     "nutriments": 'STRUCT("name" VARCHAR, "100g" FLOAT)[]',
+    "unique_scans_n": "INTEGER",
+    "popularity_tags": "VARCHAR[]",
 }
 
 
