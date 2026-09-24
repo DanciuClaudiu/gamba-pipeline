@@ -1,5 +1,7 @@
+from dataclasses import replace
+
 from gamba_pipeline.nutrients import Nutrients
-from gamba_pipeline.validate import Verdict, check
+from gamba_pipeline.validate import Verdict, adjust, check
 
 
 def test_accepts_a_consistent_food():
@@ -40,3 +42,15 @@ def test_allows_20_kcal_or_20_percent_of_difference():
 
 def test_does_not_compare_energy_when_a_macro_is_missing():
     assert check(Nutrients(kcal=300, protein_g=1)) == Verdict()
+
+
+def test_sets_carbs_just_below_zero_to_zero():
+    chicken = Nutrients(kcal=132.8, protein_g=21.4, carbs_g=-0.43, fat_g=4.78)
+    assert adjust(chicken) == (replace(chicken, carbs_g=0.0), "carbs -0.43 g set to 0 g")
+
+
+def test_leaves_other_values_alone():
+    assert adjust(Nutrients(kcal=100, carbs_g=-1.5)) == (Nutrients(kcal=100, carbs_g=-1.5), None)
+    assert adjust(Nutrients(kcal=100, fat_g=-0.2)) == (Nutrients(kcal=100, fat_g=-0.2), None)
+    butter = Nutrients(kcal=717, carbs_g=0.06)
+    assert adjust(butter) == (butter, None)

@@ -46,6 +46,6 @@ def main(argv: list[str] | None = None) -> int:
     print(f"size {report.size_bytes / 1_000_000:.1f} MB")
     print(
         f"rejected {len(report.rejected)}, duplicate names {len(report.duplicates)}, "
-        f"flagged {len(report.flagged)}"
+        f"flagged {len(report.flagged)}, adjusted {len(report.adjusted)}"
     )
     return 0

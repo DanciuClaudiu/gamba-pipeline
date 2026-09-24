@@ -15,7 +15,7 @@ def by_id(foods):
 
 def test_reads_only_foundation_foods():
     foods = read_foods(USDA / "foundation", "foundation")
-    assert [food.fdc_id for food in foods] == [100, 101, 103, 104]
+    assert [food.fdc_id for food in foods] == [100, 101, 103, 104, 105]
     assert {food.source for food in foods} == {"foundation"}
 
 

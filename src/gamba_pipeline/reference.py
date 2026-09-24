@@ -1,7 +1,7 @@
 """Builds reference.sqlite: USDA generic foods and the exercise library (SPEC §3.10, §4.1, §10)."""
 
 import json
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 from gamba_pipeline import exercises as exercise_library
@@ -16,6 +16,7 @@ class ReferenceReport:
     size_bytes: int = 0
     rejected: list[tuple[GenericFood, str]] = field(default_factory=list)
     flagged: list[tuple[GenericFood, str]] = field(default_factory=list)
+    adjusted: list[tuple[GenericFood, str]] = field(default_factory=list)
     duplicates: list[GenericFood] = field(default_factory=list)
 
 
@@ -26,8 +27,10 @@ def select_foods(
     rejected Foundation food doesn't claim its name."""
     kept: list[GenericFood] = []
     names: set[str] = set()
-    for food in [*foundation, *sr_legacy]:
-        verdict = validate.check(food.nutrients)
+    for original in [*foundation, *sr_legacy]:
+        nutrients, adjustment = validate.adjust(original.nutrients)
+        food = replace(original, nutrients=nutrients)
+        verdict = validate.check(nutrients)
         if verdict.rejected:
             report.rejected.append((food, verdict.rejected))
             continue
@@ -38,6 +41,8 @@ def select_foods(
         names.add(key)
         if verdict.flagged:
             report.flagged.append((food, verdict.flagged))
+        if adjustment:
+            report.adjusted.append((food, adjustment))
         kept.append(food)
     return kept
 

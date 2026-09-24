@@ -28,6 +28,7 @@ def test_builds_the_golden_fixture(tmp_path):
         (100, "Hummus, commercial", "foundation", 229.0),
         (101, "Crème fraîche", "foundation", 393.0),
         (103, "Broccoli, raw", "foundation", 39.0),
+        (105, "Chicken, breast, meat and skin, raw", "foundation", 132.8),
         (200, "Butter, salted", "sr_legacy", 717.0),
         (202, "Lard", "sr_legacy", 902.0),
         (203, "Alcoholic beverage, rice (sake)", "sr_legacy", 134.0),
@@ -52,8 +53,17 @@ def test_builds_the_golden_fixture(tmp_path):
         "buildDate": "2026-09-23",
         "usdaFoundation": "2026-04-30",
     }
-    assert (report.foods, report.exercises) == (6, 6)
+    assert (report.foods, report.exercises) == (7, 6)
     assert report.size_bytes > 0
+
+
+def test_stores_adjusted_carbs(tmp_path):
+    report = build(tmp_path)
+    with sqlite3.connect(tmp_path / "reference.sqlite") as db:
+        assert db.execute("SELECT carbsG FROM food WHERE fdcId = 105").fetchone() == (0.0,)
+    assert [(food.fdc_id, note) for food, note in report.adjusted] == [
+        (105, "carbs -0.43 g set to 0 g"),
+    ]
 
 
 def test_reports_rejected_duplicate_and_flagged_foods(tmp_path):
