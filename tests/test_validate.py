@@ -54,3 +54,16 @@ def test_leaves_other_values_alone():
     assert adjust(Nutrients(kcal=100, fat_g=-0.2)) == (Nutrients(kcal=100, fat_g=-0.2), None)
     butter = Nutrients(kcal=717, carbs_g=0.06)
     assert adjust(butter) == (butter, None)
+
+
+def test_label_values_allow_rounded_fats_up_to_935_kcal():
+    oil = Nutrients(kcal=929, protein_g=0, carbs_g=0, fat_g=100)
+    assert check(oil, label_values=True) == Verdict()
+    assert check(oil).rejected == "energy 929 kcal over 905 kcal"
+
+
+def test_label_values_still_reject_energy_that_does_not_match_the_macros():
+    sauce = Nutrients(kcal=933, protein_g=1, carbs_g=5, fat_g=20)
+    assert check(sauce, label_values=True).rejected == "energy 933 kcal over 905 kcal"
+    too_much = Nutrients(kcal=940, protein_g=0, carbs_g=0, fat_g=100)
+    assert check(too_much, label_values=True).rejected == "energy 940 kcal over 935 kcal"

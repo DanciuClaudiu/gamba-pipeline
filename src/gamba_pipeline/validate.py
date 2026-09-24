@@ -9,6 +9,9 @@ from gamba_pipeline.nutrients import Nutrients
 MAX_MACROS_G = 105.0
 # Pure fats are 902 kcal per 100 g with USDA's 9.02 kcal/g factor (lard, tallow, fish oils).
 MAX_KCAL = 905.0
+# Package labels round per serving, so pure fats come out above 905: 130 kcal per 14 g tablespoon
+# of oil is 929 kcal per 100 g. Packs allow up to this when the energy matches the macros.
+MAX_LABEL_KCAL = 935.0
 ENERGY_TOLERANCE_KCAL = 20.0
 ENERGY_TOLERANCE_SHARE = 0.20
 # USDA computes carbohydrate by difference (100 g minus water, protein, fat and ash), so a food
@@ -22,7 +25,9 @@ class Verdict:
     flagged: str | None = None
 
 
-def check(nutrients: Nutrients) -> Verdict:
+def check(nutrients: Nutrients, *, label_values: bool = False) -> Verdict:
+    """`label_values` is for products whose values come from package labels (the packs): energy up
+    to 935 kcal passes when it matches the macros."""
     n = nutrients
     if n.kcal is None:
         return Verdict(rejected="no energy value")
@@ -31,12 +36,15 @@ def check(nutrients: Nutrients) -> Verdict:
     macros = sum(value or 0 for value in (n.protein_g, n.carbs_g, n.fat_g))
     if macros > MAX_MACROS_G:
         return Verdict(rejected=f"protein + carbs + fat {macros:.1f} g over {MAX_MACROS_G:.0f} g")
-    if n.kcal > MAX_KCAL:
-        return Verdict(rejected=f"energy {n.kcal:.0f} kcal over {MAX_KCAL:.0f} kcal")
-    if n.protein_g is None or n.carbs_g is None or n.fat_g is None:
-        return Verdict()
-    computed = 4 * n.protein_g + 4 * n.carbs_g + 9 * n.fat_g
-    if abs(n.kcal - computed) > max(ENERGY_TOLERANCE_KCAL, ENERGY_TOLERANCE_SHARE * n.kcal):
+    computed = None
+    if n.protein_g is not None and n.carbs_g is not None and n.fat_g is not None:
+        computed = 4 * n.protein_g + 4 * n.carbs_g + 9 * n.fat_g
+    tolerance = max(ENERGY_TOLERANCE_KCAL, ENERGY_TOLERANCE_SHARE * n.kcal)
+    matches = computed is not None and abs(n.kcal - computed) <= tolerance
+    limit = MAX_LABEL_KCAL if label_values and matches else MAX_KCAL
+    if n.kcal > limit:
+        return Verdict(rejected=f"energy {n.kcal:.0f} kcal over {limit:.0f} kcal")
+    if computed is not None and not matches:
         return Verdict(flagged=f"energy {n.kcal:.0f} kcal, macros give {computed:.0f} kcal")
     return Verdict()
 
