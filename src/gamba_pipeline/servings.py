@@ -1,5 +1,6 @@
 """Named servings (SPEC §3.7): a label and the grams in one of it."""
 
+import re
 from dataclasses import dataclass
 
 # Weight units the app converts itself, so a serving named after one adds nothing.
@@ -45,3 +46,24 @@ def dedupe(servings: list[Serving]) -> list[Serving]:
             seen.add(key)
             kept.append(serving)
     return kept
+
+
+# "30 g", "250ml", "1.5 oz": a label that is only a weight or volume says nothing a serving name
+# should, so it becomes "serving".
+PLAIN_QUANTITY = re.compile(
+    r"^\d+(?:[.,]\d+)?\s*(?:g|gr|grams?|kg|mg|ml|cl|dl|l|oz|onz|fl\.?\s?oz|oza)\.?$", re.IGNORECASE
+)
+# USDA Branded writes some units as UN/CEFACT codes.
+USDA_UNIT_CODES = {"ONZ": "oz", "OZA": "fl oz"}
+
+
+def label_serving(text: str | None, amount: float | None) -> Serving | None:
+    """A pack serving: the label text before any "(" ("1 pot (150 g)" → "1 pot") and the amount in
+    the product's base unit. Plain quantities and "Amount per serving" become "serving"."""
+    if not amount or amount <= 0:
+        return None
+    label = " ".join((text or "").split("(")[0].split())
+    label = " ".join(USDA_UNIT_CODES.get(word, word) for word in label.split(" "))
+    if not label or PLAIN_QUANTITY.match(label) or label.lower() == "amount per serving":
+        label = "serving"
+    return Serving(label=label, grams=round(amount, 2))

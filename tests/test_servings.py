@@ -1,6 +1,6 @@
 import pytest
 
-from gamba_pipeline.servings import Serving, dedupe, usda_serving
+from gamba_pipeline.servings import Serving, dedupe, label_serving, usda_serving
 
 
 def test_foundation_portions_are_per_one_unit():
@@ -37,3 +37,28 @@ def test_skips_what_isnt_a_usable_serving(amount, unit, modifier, grams):
 def test_keeps_the_first_serving_for_each_label():
     servings = [Serving("cup", 91.0), Serving("slice", 20.0), Serving("Cup", 88.0)]
     assert dedupe(servings) == [Serving("cup", 91.0), Serving("slice", 20.0)]
+
+
+@pytest.mark.parametrize(
+    ("text", "amount", "serving"),
+    [
+        ("1 pot (150 g)", 150.0, Serving("1 pot", 150.0)),
+        ("0.5 cup (64 g)", 64.0, Serving("0.5 cup", 64.0)),
+        ("half a can (207g)", 207.0, Serving("half a can", 207.0)),
+        ("2 FRIED LINKS", 40.0, Serving("2 FRIED LINKS", 40.0)),
+        ("30 g", 30.0, Serving("serving", 30.0)),
+        ("250ml", 250.0, Serving("serving", 250.0)),
+        ("112.00000000000001g", 112.00000000000001, Serving("serving", 112.0)),
+        ("1 ONZ", 28.0, Serving("serving", 28.0)),  # USDA's code for ounce
+        ("8 OZA", 240.0, Serving("serving", 240.0)),  # and for fluid ounce
+        ("Amount per serving", 240.0, Serving("serving", 240.0)),
+        (None, 45.0, Serving("serving", 45.0)),
+    ],
+)
+def test_label_servings(text, amount, serving):
+    assert label_serving(text, amount) == serving
+
+
+def test_a_label_serving_needs_an_amount():
+    assert label_serving("1 pot (150 g)", None) is None
+    assert label_serving("1 pot (150 g)", 0.0) is None
