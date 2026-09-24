@@ -8,6 +8,7 @@ from pathlib import Path
 
 from gamba_pipeline import (
     branded,
+    fixtures,
     inputs,
     off,
     package,
@@ -37,9 +38,18 @@ def main(argv: list[str] | None = None) -> int:
     check.add_argument(
         "--refresh", action="store_true", help="choose the products and read their values again"
     )
+    make_fixtures = commands.add_parser(
+        "fixtures", help="build small test databases for the app's FoodDatabase tests"
+    )
+    make_fixtures.add_argument("output", type=Path)
     build_report = commands.add_parser("report", help="write build/REPORT.md")
     build_report.add_argument("--build-date", default=date.today().isoformat())
     args = parser.parse_args(argv)
+
+    if args.command == "fixtures":
+        for path in fixtures.build(args.output):
+            print(path)
+        return 0
 
     pinned = inputs.load(ROOT / "inputs.toml")
     downloads = ROOT / "build" / "inputs"
