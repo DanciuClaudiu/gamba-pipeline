@@ -1,3 +1,4 @@
+import json
 import sqlite3
 from pathlib import Path
 
@@ -75,4 +76,26 @@ def test_reports_rejected_duplicate_and_flagged_foods(tmp_path):
     assert [(food.fdc_id, food.name) for food in report.duplicates] == [(201, "Broccoli, raw")]
     assert [(food.name, reason) for food, reason in report.flagged] == [
         ("Alcoholic beverage, rice (sake)", "energy 134 kcal, macros give 22 kcal"),
+    ]
+
+
+def test_writes_the_report(tmp_path):
+    report = build(tmp_path)
+    reference.write_report(report, tmp_path / "reference.report.json")
+    data = json.loads((tmp_path / "reference.report.json").read_text(encoding="utf-8"))
+    assert (data["foods"], data["exercises"]) == (7, 6)
+    assert data["rejected"][0] == {
+        "fdcId": 104,
+        "name": "Mystery powder",
+        "source": "foundation",
+        "reason": "no energy value",
+    }
+    assert data["duplicates"] == [{"fdcId": 201, "name": "Broccoli, raw", "source": "sr_legacy"}]
+    assert data["adjusted"] == [
+        {
+            "fdcId": 105,
+            "name": "Chicken, breast, meat and skin, raw",
+            "source": "foundation",
+            "note": "carbs -0.43 g set to 0 g",
+        }
     ]

@@ -71,3 +71,23 @@ def build(
     report.exercises = len(exercises)
     report.size_bytes = output.stat().st_size
     return report
+
+
+def write_report(report: ReferenceReport, path: Path) -> None:
+    """The build's counts and every rejected, duplicate, flagged and adjusted food, for
+    build/REPORT.md."""
+
+    def food(item: GenericFood, **extra: str) -> dict:
+        return {"fdcId": item.fdc_id, "name": item.name, "source": item.source, **extra}
+
+    data = {
+        "foods": report.foods,
+        "exercises": report.exercises,
+        "sizeBytes": report.size_bytes,
+        "rejected": [food(item, reason=reason) for item, reason in report.rejected],
+        "duplicates": [food(item) for item in report.duplicates],
+        "flagged": [food(item, reason=reason) for item, reason in report.flagged],
+        "adjusted": [food(item, note=note) for item, note in report.adjusted],
+    }
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
