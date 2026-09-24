@@ -1,0 +1,10 @@
+[
+  {"id": "Barbell_Squat_To_A_Bench", "name": "Barbell Squat To A Bench", "category": "strength", "equipment": "barbell", "force": "push", "level": "beginner", "mechanic": "compound", "primaryMuscles": ["quadriceps"], "secondaryMuscles": ["glutes", "hamstrings"], "images": ["Barbell_Squat_To_A_Bench/0.jpg", "Barbell_Squat_To_A_Bench/1.jpg"]},
+  {"id": "Plank", "name": "Plank", "category": "strength", "equipment": "body only", "force": "static", "level": "beginner", "mechanic": "isolation", "primaryMuscles": ["abdominals"], "secondaryMuscles": [], "images": ["Plank/0.jpg"]},
+  {"id": "Band_Assisted_Pull-Up", "name": "Band Assisted Pull-Up", "category": "strength", "equipment": "other", "force": null, "level": "beginner", "mechanic": null, "primaryMuscles": ["lats"], "secondaryMuscles": [], "images": []},
+  {"id": "Pullups", "name": "Pullups", "category": "strength", "equipment": "body only", "force": "pull", "level": "beginner", "mechanic": "compound", "primaryMuscles": ["lats"], "secondaryMuscles": ["biceps"], "images": []},
+  {"id": "Chest_Push_multiple_response", "name": "Chest Push (multiple response)", "category": "plyometrics", "equipment": "medicine ball", "force": "push", "level": "beginner", "mechanic": "compound", "primaryMuscles": ["chest"], "secondaryMuscles": [], "images": []},
+  {"id": "Back_Flyes_-_With_Bands", "name": "Back Flyes - With Bands", "category": "strength", "equipment": "bands", "force": "pull", "level": "beginner", "mechanic": "isolation", "primaryMuscles": ["shoulders"], "secondaryMuscles": [], "images": []},
+  {"id": "Running_Treadmill", "name": "Running, Treadmill", "category": "cardio", "equipment": "machine", "force": null, "level": "beginner", "mechanic": null, "primaryMuscles": ["quadriceps"], "secondaryMuscles": [], "images": []},
+  {"id": "Hamstring_Stretch", "name": "Hamstring Stretch", "category": "stretching", "equipment": "body only", "force": "static", "level": "beginner", "mechanic": null, "primaryMuscles": ["hamstrings"], "secondaryMuscles": [], "images": []}
+]
