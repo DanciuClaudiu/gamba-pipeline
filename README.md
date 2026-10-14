@@ -36,14 +36,16 @@ The code is [MIT](LICENSE). The packs are ODbL, with Open Food Facts' contents u
 
 ### Reference database
 
-`uv run gamba-pipeline reference --build-date 2026-09-24` (inputs pinned in `inputs.toml`):
+`uv run gamba-pipeline reference --build-date 2026-10-14` (inputs pinned in `inputs.toml`; schema 1.1):
 
 | | |
 |---|---|
 | Foods | 8,032 (Foundation 329, SR Legacy 7,703) |
 | Rejected / duplicate names / flagged / carbs set to 0 g | 91 / 139 / 142 / 10 |
-| Exercises | 739 (weightReps 605, bodyweightReps 123, duration 10, assisted 1) |
+| Exercises | 739 (weightReps 605, bodyweightReps 123, duration 10, assisted 1); 66 short names differ from the name |
 | Size | 2.5 MB; two builds are byte-identical |
+
+Exercise names are in Apple's title case, and each has a short name for tight spaces such as the Live Activity: without a leading “Barbell”, the variant after “ - ” and anything in parentheses (a “With Bands” variant becomes “Band” in front). `overrides/exercise_overrides.json` corrects the exceptions by exercise ID, with `name`, `trackingType` and `shortName`; `build/reference.report.json` lists every short name that differs.
 
 ### Packs
 

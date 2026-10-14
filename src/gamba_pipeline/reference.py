@@ -18,6 +18,8 @@ class ReferenceReport:
     flagged: list[tuple[GenericFood, str]] = field(default_factory=list)
     adjusted: list[tuple[GenericFood, str]] = field(default_factory=list)
     duplicates: list[GenericFood] = field(default_factory=list)
+    # (name, short name) for each exercise whose short name differs, for review (Q31).
+    short_names: list[tuple[str, str]] = field(default_factory=list)
 
 
 def select_foods(
@@ -69,13 +71,14 @@ def build(
     sqlite_writer.write(output, foods, exercises, meta)
     report.foods = len(foods)
     report.exercises = len(exercises)
+    report.short_names = [(e.name, e.short_name) for e in exercises if e.short_name != e.name]
     report.size_bytes = output.stat().st_size
     return report
 
 
 def write_report(report: ReferenceReport, path: Path) -> None:
-    """The build's counts and every rejected, duplicate, flagged and adjusted food, for
-    build/REPORT.md."""
+    """The build's counts, every rejected, duplicate, flagged and adjusted food, for
+    build/REPORT.md, and the exercises' short names that differ from their names."""
 
     def food(item: GenericFood, **extra: str) -> dict:
         return {"fdcId": item.fdc_id, "name": item.name, "source": item.source, **extra}
@@ -88,6 +91,7 @@ def write_report(report: ReferenceReport, path: Path) -> None:
         "duplicates": [food(item) for item in report.duplicates],
         "flagged": [food(item, reason=reason) for item, reason in report.flagged],
         "adjusted": [food(item, note=note) for item, note in report.adjusted],
+        "shortNames": [{"name": name, "shortName": short} for name, short in report.short_names],
     }
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

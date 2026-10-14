@@ -24,6 +24,7 @@ EXERCISES = [
     Exercise(
         id="Plank",
         name="Plank",
+        short_name="Plank Hold",
         category="strength",
         equipment="body only",
         force="static",
@@ -48,7 +49,7 @@ def db(tmp_path):
 
 def test_writes_meta(db):
     assert dict(db.execute("SELECT key, value FROM meta")) == {
-        "schemaVersion": "1.0",
+        "schemaVersion": "1.1",
         "buildDate": "2026-09-23",
     }
 
@@ -69,10 +70,12 @@ def test_writes_servings_in_order(db):
 
 def test_writes_exercises(db):
     row = db.execute("SELECT * FROM exercise").fetchone()
-    assert row[:7] == ("Plank", "Plank", "strength", "body only", "static", "beginner", "isolation")
-    assert json.loads(row[7]) == ["abdominals"]
-    assert json.loads(row[8]) == []
-    assert row[9:] == ("duration", "Plank/0.jpg")
+    assert row[:8] == (
+        "Plank", "Plank", "Plank Hold", "strength", "body only", "static", "beginner", "isolation"
+    )  # fmt: skip
+    assert json.loads(row[8]) == ["abdominals"]
+    assert json.loads(row[9]) == []
+    assert row[10:] == ("duration", "Plank/0.jpg")
 
 
 def food_search(db, query):

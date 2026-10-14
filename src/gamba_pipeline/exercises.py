@@ -18,13 +18,14 @@ SMALL_WORDS = frozenset(
 )  # fmt: skip
 # Done without external weight: reps, with optional added weight.
 BODYWEIGHT_EQUIPMENT = frozenset({None, "body only", "bands", "exercise ball", "foam roll"})
-OVERRIDE_FIELDS = frozenset({"name", "trackingType"})
+OVERRIDE_FIELDS = frozenset({"name", "trackingType", "shortName"})
 
 
 @dataclass(frozen=True)
 class Exercise:
     id: str
     name: str
+    short_name: str
     category: str
     equipment: str | None
     force: str | None
@@ -65,6 +66,19 @@ def _capitalize_first_letter(word: str) -> str:
     return word
 
 
+def short_name(name: str) -> str:
+    """The name for tight spaces such as the Live Activity (SPEC §4.1, Q31): without a leading
+    "Barbell" (the default bar), the variant after " - " and anything in parentheses; a "With
+    Bands" variant becomes "Band" in front. "Barbell Bench Press - Medium Grip" is "Bench Press".
+    The overrides file corrects the exceptions."""
+    base, _, variant = name.partition(" - ")
+    base = re.sub(r"\s*\([^)]*\)", "", base).strip()
+    base = base.removeprefix("Barbell ")
+    if variant.strip().lower() == "with bands":
+        base = f"Band {base}"
+    return base or name
+
+
 def tracking_type(raw: dict) -> str:
     """Rules first; the overrides file corrects the exceptions (SPEC §4.1)."""
     if raw.get("force") == "static":
@@ -86,10 +100,12 @@ def build(raw_exercises: list[dict], overrides: dict[str, dict]) -> list[Exercis
             continue
         override = overrides.get(raw["id"], {})
         images = raw.get("images") or []
+        name = override.get("name") or title_case(raw["name"].strip())
         exercises.append(
             Exercise(
                 id=raw["id"],
-                name=override.get("name") or title_case(raw["name"].strip()),
+                name=name,
+                short_name=override.get("shortName") or short_name(name),
                 category=raw["category"],
                 equipment=raw.get("equipment"),
                 force=raw.get("force"),

@@ -9,7 +9,8 @@ from pathlib import Path
 from gamba_pipeline.exercises import Exercise
 from gamba_pipeline.usda import GenericFood
 
-SCHEMA_VERSION = "1.0"
+# 1.1: exercise.shortName (SPEC §4.1). The app reads any 1.x.
+SCHEMA_VERSION = "1.1"
 # The same search options as the regional packs (SPEC §3.10).
 FTS_OPTIONS = "tokenize = 'unicode61 remove_diacritics 2', prefix = '2 3'"
 
@@ -46,6 +47,7 @@ CREATE VIRTUAL TABLE foodFts USING fts5(
 CREATE TABLE exercise (
     id TEXT PRIMARY KEY NOT NULL,
     name TEXT NOT NULL,
+    shortName TEXT NOT NULL,
     category TEXT NOT NULL,
     equipment TEXT,
     force TEXT,
@@ -103,11 +105,12 @@ def write(
         )
         db.execute("INSERT INTO foodFts (foodFts) VALUES ('rebuild')")
         db.executemany(
-            "INSERT INTO exercise VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            "INSERT INTO exercise VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
             [
                 (
                     exercise.id,
                     exercise.name,
+                    exercise.short_name,
                     exercise.category,
                     exercise.equipment,
                     exercise.force,

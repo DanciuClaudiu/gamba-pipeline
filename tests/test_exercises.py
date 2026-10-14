@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pytest
 
-from gamba_pipeline.exercises import build, title_case, tracking_type
+from gamba_pipeline.exercises import build, short_name, title_case, tracking_type
 
 FIXTURES = Path(__file__).parent / "fixtures"
 RAW = json.loads((FIXTURES / "exercises.json").read_text())
@@ -43,6 +43,43 @@ def test_title_case(raw, cased):
 def test_tracking_type_rules(exercise_id, expected):
     raw = next(raw for raw in RAW if raw["id"] == exercise_id)
     assert tracking_type(raw) == expected
+
+
+@pytest.mark.parametrize(
+    ("name", "short"),
+    [
+        ("Barbell Bench Press - Medium Grip", "Bench Press"),
+        ("Barbell Squat", "Squat"),
+        ("Barbell Ab Rollout - On Knees", "Ab Rollout"),
+        ("Shoulder Press - With Bands", "Band Shoulder Press"),
+        ("Back Flyes - With Bands", "Band Back Flyes"),
+        ("Chest Push (Multiple Response)", "Chest Push"),
+        ("Machine Shoulder (Military) Press", "Machine Shoulder Press"),
+        ("Bent Over Barbell Row", "Bent Over Barbell Row"),
+        ("Barbell", "Barbell"),
+        ("Pull-Ups", "Pull-Ups"),
+        ("Plank", "Plank"),
+    ],
+)
+def test_short_name(name, short):
+    assert short_name(name) == short
+
+
+def test_gives_each_exercise_its_short_name():
+    short_names = {exercise.id: exercise.short_name for exercise in build(RAW, OVERRIDES)}
+    assert short_names == {
+        "Back_Flyes_-_With_Bands": "Band Back Flyes",
+        "Band_Assisted_Pull-Up": "Band Assisted Pull-Up",
+        "Barbell_Squat_To_A_Bench": "Squat to a Bench",
+        "Chest_Push_multiple_response": "Chest Push",
+        "Plank": "Plank",
+        "Pullups": "Pull-Ups",
+    }
+
+
+def test_overrides_can_set_the_short_name():
+    exercises = build(RAW, {"Plank": {"shortName": "Hold"}})
+    assert next(e for e in exercises if e.id == "Plank").short_name == "Hold"
 
 
 def test_builds_the_included_categories_sorted_by_name():

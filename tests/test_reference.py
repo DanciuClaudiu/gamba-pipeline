@@ -50,12 +50,27 @@ def test_builds_the_golden_fixture(tmp_path):
         "Pull-Ups",
     ]
     assert meta == {
-        "schemaVersion": "1.0",
+        "schemaVersion": "1.1",
         "buildDate": "2026-09-23",
         "usdaFoundation": "2026-04-30",
     }
     assert (report.foods, report.exercises) == (7, 6)
     assert report.size_bytes > 0
+
+
+def test_reports_the_short_names_that_differ(tmp_path):
+    report = build(tmp_path)
+    assert report.short_names == [
+        ("Back Flyes - With Bands", "Band Back Flyes"),
+        ("Barbell Squat to a Bench", "Squat to a Bench"),
+        ("Chest Push (Multiple Response)", "Chest Push"),
+    ]
+    reference.write_report(report, tmp_path / "reference.report.json")
+    data = json.loads((tmp_path / "reference.report.json").read_text(encoding="utf-8"))
+    assert data["shortNames"][0] == {
+        "name": "Back Flyes - With Bands",
+        "shortName": "Band Back Flyes",
+    }
 
 
 def test_stores_adjusted_carbs(tmp_path):
