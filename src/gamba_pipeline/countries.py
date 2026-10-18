@@ -26,7 +26,7 @@ class Country:
 
 # National official languages (Q34), without those in which fewer than 0.1% of the country's
 # products have a name (export 3dc10b5): Irish (0.03%), Māori (0.01%), Romansh, Nynorsk (0.03%),
-# Tamil, Tamazight, Welsh (0.03%), Scottish Gaelic (0.01%) and ten of South Africa's (Zulu 0.02%,
+# Tamil, Tamazight, Welsh (0.03%), Scottish Gaelic (0.01%) and nine of South Africa's (Zulu 0.02%,
 # the rest none). Regional languages (Catalan, Frisian) aren't official nationally; nor is Arabic
 # in Israel since 2018.
 COUNTRIES = {
