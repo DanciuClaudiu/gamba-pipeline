@@ -69,10 +69,23 @@ def test_writes_the_report(build):
     assert any(line.startswith("| food-us | 6 | 6 | ") for line in lines)
     assert "| food-ro | 9 | 1 | 1 | 1 |" in lines  # read, without energy, invalid, duplicate
     assert "| food-us | 12 | 1 | 1 | 1 |" in lines
-    assert "| protein + carbs + fat over 105 g | 1 | 0 |" in lines
+    assert "| Pack | protein + carbs + fat over 105 g |" in lines
+    assert "| food-ro | 1 |" in lines and "| food-us | 0 |" in lines
+    assert any(line.startswith("| Total | 10 | 10 | ") for line in lines)
     assert "| food-us | 3 | 2 | 1 |" in lines  # in both, USDA nutrients kept, USDA only
     assert "| food-ro | 3 | 3 | 3 | 3 | 3 |" in lines  # spot checks
     assert "| 5,000 | 0 | 0 | 0.0 MB |" in lines
+    assert "**Threshold:** 5,000 products (Q5): 0 countries over it." in lines
+    assert "Packs under the threshold, kept: food-ro (5), food-us (5)." in lines
+
+
+def test_threshold_changes():
+    survey = {"en:france": 9_000, "en:world": 8_000, "en:chile": 6_000, "en:romania": 4_999}
+    countries = [COUNTRIES["fr"], COUNTRIES["ro"], COUNTRIES["gb"]]
+    assert report.threshold_changes(survey, countries, 5_000) == (
+        [("en:chile", 6_000)],
+        [("food-gb", 0), ("food-ro", 4_999)],
+    )
 
 
 def test_writes_the_complete_lists(build):

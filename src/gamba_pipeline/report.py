@@ -5,14 +5,15 @@ are rebuilt every time and not committed."""
 import csv
 import json
 import sqlite3
+from collections.abc import Iterable
 from pathlib import Path
 
+from gamba_pipeline.countries import COUNTRIES, THRESHOLD, Country
 from gamba_pipeline.inputs import Input, sha256_of
 
 THRESHOLDS = (1_000, 2_000, 5_000, 10_000, 20_000)
-PROPOSED_THRESHOLD = 5_000  # SPEC §3.10's starting point
 NOT_COUNTRIES = frozenset({"en:world"})
-EXAMPLES = 5
+EXAMPLES = 2
 
 
 def reason_group(reason: str) -> str:
@@ -135,14 +136,14 @@ def _packs_section(build: Path, lists: Path) -> list[str]:
         rows.append(
             [
                 pack_id,
-                f"{data['products']:,}",
-                f"{complete:,}",
-                megabytes(data["sizeBytes"]),
-                megabytes(archive.stat().st_size) if archive.exists() else "not packaged",
-                f"{len(data['rejected']):,}",
-                f"{len(data['flagged']):,}",
-                f"{stats.get('named by brand', 0):,}",
-                f"{stats.get('no name or brand', 0):,}",
+                data["products"],
+                complete,
+                data["sizeBytes"],
+                archive.stat().st_size if archive.exists() else None,
+                len(data["rejected"]),
+                len(data["flagged"]),
+                stats.get("named by brand", 0),
+                stats.get("no name or brand", 0),
             ]
         )
         read.append(
@@ -187,6 +188,7 @@ def _packs_section(build: Path, lists: Path) -> list[str]:
             [[f["gtin14"], f["name"], f["reason"]] for f in data["flagged"]],
         )
     pack_ids = [path.name.removesuffix(".report.json") for path in packs]
+    groups = sorted(reasons)
     lines = [
         "",
         "## Packs",
@@ -203,7 +205,7 @@ def _packs_section(build: Path, lists: Path) -> list[str]:
                 "Named by brand",
                 "Left out (no name or brand)",
             ],
-            rows,
+            [_pack_row(row) for row in [*rows, _total(rows)]],
         ),  # fmt: skip
         "",
         "### What was read",
@@ -216,10 +218,10 @@ def _packs_section(build: Path, lists: Path) -> list[str]:
         "### Why rows were rejected",
         "",
         *_table(
-            ["Reason", *pack_ids],
+            ["Pack", *groups],
             [
-                [group, *(f"{counts.get(pack_id, 0):,}" for pack_id in pack_ids)]
-                for group, counts in sorted(reasons.items())
+                [pack_id, *(f"{reasons[group].get(pack_id, 0):,}" for group in groups)]
+                for pack_id in pack_ids
             ],
         ),
     ]
@@ -240,6 +242,31 @@ def _packs_section(build: Path, lists: Path) -> list[str]:
         *_table(["Pack", "GTIN-14", "Name", "Why"], examples),
     ]
     return lines
+
+
+def _total(rows: list[list]) -> list:
+    """The Packs table's last row: every column added up, the download only when every pack is
+    packaged."""
+    columns = [[row[i] for row in rows] for i in range(1, 9)]
+    download = columns[3]
+    return [
+        "Total",
+        *(sum(column) for column in columns[:3]),
+        sum(download) if download and None not in download else None,
+        *(sum(column) for column in columns[4:]),
+    ]
+
+
+def _pack_row(row: list) -> list[str]:
+    pack_id, products, complete, size, download, *counts = row
+    return [
+        pack_id,
+        f"{products:,}",
+        f"{complete:,}",
+        megabytes(size),
+        megabytes(download) if download is not None else "not packaged",
+        *(f"{count:,}" for count in counts),
+    ]
 
 
 def _spotcheck_section(build: Path) -> list[str]:
@@ -306,8 +333,12 @@ def _threshold_section(build: Path) -> list[str]:
                 megabytes(int(sum(counts) * per_product)),
             ]
         )
-    proposed = [(tag, count) for tag, count in survey.items() if count >= PROPOSED_THRESHOLD]
-    return [
+    over = sum(count >= THRESHOLD for count in survey.values())
+    countries = [
+        COUNTRIES[code] for pack_id in built if (code := pack_id.removeprefix("food-")) in COUNTRIES
+    ]
+    missing, under = threshold_changes(survey, countries, THRESHOLD)
+    lines = [
         "",
         "## Pack threshold (Q5)",
         "",
@@ -317,14 +348,45 @@ def _threshold_section(build: Path) -> list[str]:
         "",
         *_table(["At least", "Countries", "Products", "Estimated size"], rows),
         "",
-        f"**Proposal:** keep {PROPOSED_THRESHOLD:,} products, the SPEC's starting point: "
-        f"{len(proposed)} packs, well inside Apple's 200 asset packs per app. Countries:",
+        f"**Threshold:** {THRESHOLD:,} products (Q5): {over} "
+        f"{'country' if over == 1 else 'countries'} over it.",
         "",
-        *_table(
-            ["Country", "Products", "Estimated size"],
-            [
-                [country_name(tag), f"{count:,}", megabytes(int(count * per_product))]
-                for tag, count in proposed
-            ],
-        ),
     ]
+    if missing:
+        lines += [
+            "Over the threshold without a pack (add them to `countries.py`, with their languages):",
+            "",
+            *_table(
+                ["Country", "Open Food Facts tag", "Products"],
+                [[country_name(tag), f"`{tag}`", f"{count:,}"] for tag, count in missing],
+            ),
+        ]
+    else:
+        lines.append("Over the threshold without a pack: none.")
+    if under:
+        listed = ", ".join(f"{pack_id} ({count:,})" for pack_id, count in under)
+        lines += ["", f"Packs under the threshold, kept: {listed}."]
+    return lines
+
+
+def threshold_changes(
+    survey: dict[str, int], countries: Iterable[Country], threshold: int
+) -> tuple[list[tuple[str, int]], list[tuple[str, int]]]:
+    """Open Food Facts tags over the threshold that none of `countries` has, most products first;
+    and the packs of `countries` under it, by ID, with their count (0 when the survey lacks it)."""
+    countries = list(countries)
+    tags = {country.off_tag for country in countries}
+    missing = sorted(
+        (
+            (tag, count)
+            for tag, count in survey.items()
+            if count >= threshold and tag not in tags and tag not in NOT_COUNTRIES
+        ),
+        key=lambda item: (-item[1], item[0]),
+    )
+    under = sorted(
+        (country.pack_id, survey.get(country.off_tag, 0))
+        for country in countries
+        if survey.get(country.off_tag, 0) < threshold
+    )
+    return missing, under
