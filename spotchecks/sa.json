@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "06281035000034",
+  "name": "Nova water 40x330ml",
+  "query": "nova water 40x330ml",
+  "source": "off",
+  "source_ref": "6281035000034",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 1.7
+  }
+ },
+ {
+  "gtin14": "06281007040655",
+  "name": "زبادي المراعي",
+  "query": "زبادي المراعي",
+  "source": "off",
+  "source_ref": "6281007040655",
+  "expected": {
+   "kcal": 70.58,
+   "proteinG": 4.11,
+   "carbsG": 6.17,
+   "sugarsG": 3.633,
+   "fatG": 3.23,
+   "satFatG": 1.315,
+   "fiberG": 0.311,
+   "sodiumMg": 39.79
+  }
+ },
+ {
+  "gtin14": "06281039701012",
+  "name": "TOMATO PASTE",
+  "query": "tomato paste",
+  "source": "off",
+  "source_ref": "6281039701012",
+  "expected": {
+   "kcal": 80.0,
+   "proteinG": 4.3,
+   "carbsG": 13.9,
+   "sugarsG": 8.7,
+   "fatG": 0.2,
+   "satFatG": 0.0,
+   "fiberG": 2.3,
+   "sodiumMg": 271.0
+  }
+ },
+ {
+  "gtin14": "05000108478119",
+  "name": "Quaker White Oats",
+  "query": "quaker white oats",
+  "source": "off",
+  "source_ref": "5000108478119",
+  "expected": {
+   "kcal": 374.0,
+   "proteinG": 11.0,
+   "carbsG": 60.0,
+   "sugarsG": 1.1,
+   "fatG": 8.0,
+   "satFatG": 1.5,
+   "fiberG": 9.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06281007032261",
+  "name": "Almarai milk full fat",
+  "query": "almarai milk full",
+  "source": "off",
+  "source_ref": "6281007032261",
+  "expected": {
+   "kcal": 62.0,
+   "proteinG": 3.04,
+   "carbsG": 5.12,
+   "sugarsG": 5.08,
+   "fatG": 3.28,
+   "satFatG": 2.04,
+   "fiberG": null,
+   "sodiumMg": 50.0
+  }
+ },
+ {
+  "gtin14": "05760466738040",
+  "name": "Puck spreadable processed cream cheese analogue 500g",
+  "query": "puck spreadable processed",
+  "source": "off",
+  "source_ref": "5760466738040",
+  "expected": {
+   "kcal": 324.0,
+   "proteinG": 8.8,
+   "carbsG": 1.5,
+   "sugarsG": 1.5,
+   "fatG": 31.0,
+   "satFatG": 18.0,
+   "fiberG": null,
+   "sodiumMg": 1023.0
+  }
+ },
+ {
+  "gtin14": "06281007110402",
+  "name": "المراعي لبن",
+  "query": "المراعي لبن",
+  "source": "off",
+  "source_ref": "6281007110402",
+  "expected": {
+   "kcal": 62.4,
+   "proteinG": 3.2,
+   "carbsG": 4.64,
+   "sugarsG": 4.64,
+   "fatG": 3.44,
+   "satFatG": 2.04,
+   "fiberG": 0.0,
+   "sodiumMg": 50.4
+  }
+ },
+ {
+  "gtin14": "00012000014383",
+  "name": "هیچ امتو",
+  "query": "هیچ امتو",
+  "source": "off",
+  "source_ref": "0012000014383",
+  "expected": {
+   "kcal": 1.0,
+   "proteinG": 2.0,
+   "carbsG": 2.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06281101220762",
+  "name": "Berain Water",
+  "query": "berain water",
+  "source": "off",
+  "source_ref": "6281101220762",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "07891000361917",
+  "name": "NESCAFÉ CLASSIC",
+  "query": "nescafé classic",
+  "source": "off",
+  "source_ref": "7891000361917",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06281012033178",
+  "name": "Suntop orange 125ml",
+  "query": "suntop orange 125ml",
+  "source": "off",
+  "source_ref": "6281012033178",
+  "expected": {
+   "kcal": 58.0,
+   "proteinG": 0.0,
+   "carbsG": 14.0,
+   "sugarsG": 14.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06281014110020",
+  "name": "Peanut butter",
+  "query": "peanut butter",
+  "source": "off",
+  "source_ref": "6281014110020",
+  "expected": {
+   "kcal": 205.0,
+   "proteinG": 8.7,
+   "carbsG": 3.8,
+   "sugarsG": 3.8,
+   "fatG": 17.4,
+   "satFatG": 2.1,
+   "fiberG": 2.1,
+   "sodiumMg": 120.0
+  }
+ },
+ {
+  "gtin14": "00000054493506",
+  "name": "Arwa Drinking Water",
+  "query": "arwa drinking water",
+  "source": "off",
+  "source_ref": "54493506",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "03850102323036",
+  "name": "kras Wafers",
+  "query": "kras wafers",
+  "source": "off",
+  "source_ref": "3850102323036",
+  "expected": {
+   "kcal": 526.316,
+   "proteinG": 5.263,
+   "carbsG": 57.895,
+   "sugarsG": 36.842,
+   "fatG": 28.947,
+   "satFatG": 13.158,
+   "fiberG": 2.632,
+   "sodiumMg": 36.842
+  }
+ },
+ {
+  "gtin14": "05711953163906",
+  "name": "Puck original spread cheese analogue 900g",
+  "query": "puck original spread",
+  "source": "off",
+  "source_ref": "5711953163906",
+  "expected": {
+   "kcal": 287.0,
+   "proteinG": 9.3,
+   "carbsG": 2.0,
+   "sugarsG": 1.0,
+   "fatG": 27.0,
+   "satFatG": 15.2,
+   "fiberG": 0.0,
+   "sodiumMg": 799.0
+  }
+ },
+ {
+  "gtin14": "07613287431943",
+  "name": "Nesquik Cocoa",
+  "query": "nesquik cocoa",
+  "source": "off",
+  "source_ref": "7613287431943",
+  "expected": {
+   "kcal": 382.0,
+   "proteinG": 5.1,
+   "carbsG": 78.0,
+   "sugarsG": 75.0,
+   "fatG": 3.6,
+   "satFatG": 1.6,
+   "fiberG": 7.7,
+   "sodiumMg": 176.0
+  }
+ },
+ {
+  "gtin14": "00089686120714",
+  "name": "Instant Noodles Mi Goreng",
+  "query": "instant noodles mi",
+  "source": "off",
+  "source_ref": "0089686120714",
+  "expected": {
+   "kcal": 475.0,
+   "proteinG": 8.75,
+   "carbsG": 61.25,
+   "sugarsG": 10.0,
+   "fatG": 21.25,
+   "satFatG": 11.2,
+   "fiberG": 5.0,
+   "sodiumMg": 1300.0
+  }
+ },
+ {
+  "gtin14": "06281057010011",
+  "name": "نادك حليب 1 لتر",
+  "query": "نادك حليب 1",
+  "source": "off",
+  "source_ref": "6281057010011",
+  "expected": {
+   "kcal": 58.0,
+   "proteinG": 3.1,
+   "carbsG": 4.7,
+   "sugarsG": 4.7,
+   "fatG": 3.0,
+   "satFatG": 1.8,
+   "fiberG": 0.0,
+   "sodiumMg": 50.0
+  }
+ },
+ {
+  "gtin14": "07622201765286",
+  "name": "Oreo Cookies",
+  "query": "oreo cookies",
+  "source": "off",
+  "source_ref": "7622201765286",
+  "expected": {
+   "kcal": 481.875,
+   "proteinG": 4.707,
+   "carbsG": 72.473,
+   "sugarsG": 39.864,
+   "fatG": 19.565,
+   "satFatG": 6.519,
+   "fiberG": 1.875,
+   "sodiumMg": 271.739
+  }
+ },
+ {
+  "gtin14": "00012000002090",
+  "name": "Bottled Drinking Water",
+  "query": "bottled drinking water",
+  "source": "off",
+  "source_ref": "0012000002090",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 2.4
+  }
+ }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "00068100084245",
+  "name": "Smooth Peanut Butter",
+  "query": "smooth peanut butter",
+  "source": "off",
+  "source_ref": "0068100084245",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 20.0,
+   "carbsG": 20.0,
+   "sugarsG": 6.667,
+   "fatG": 53.333,
+   "satFatG": 10.0,
+   "fiberG": 6.667,
+   "sodiumMg": 433.333
+  }
+ },
+ {
+  "gtin14": "06191509905058",
+  "name": "Huile d'olive vierge extra (Biologique)",
+  "query": "huile d olive",
+  "source": "off",
+  "source_ref": "6191509905058",
+  "expected": {
+   "kcal": 800.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 90.0,
+   "satFatG": 17.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00068100084276",
+  "name": "Smooth Peanut Butter",
+  "query": "smooth peanut butter",
+  "source": "off",
+  "source_ref": "0068100084276",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 0.0,
+   "carbsG": 26.667,
+   "sugarsG": 6.667,
+   "fatG": 53.333,
+   "satFatG": 10.0,
+   "fiberG": 6.667,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "00096619450008",
+  "name": "Peanut Butter creamy natural",
+  "query": "peanut butter creamy",
+  "source": "off",
+  "source_ref": "0096619450008",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 4.0,
+   "carbsG": 4.0,
+   "sugarsG": 1.0,
+   "fatG": 7.0,
+   "satFatG": 1.0,
+   "fiberG": 1.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00096619859696",
+  "name": "Beurre D’amandes Crémeux",
+  "query": "beurre d amandes",
+  "source": "off",
+  "source_ref": "0096619859696",
+  "expected": {
+   "kcal": 666.667,
+   "proteinG": 20.0,
+   "carbsG": 20.0,
+   "sugarsG": 6.667,
+   "fatG": 53.333,
+   "satFatG": 3.333,
+   "fiberG": 6.667,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00068100084665",
+  "name": "PEANUT BUTTER",
+  "query": "peanut butter",
+  "source": "off",
+  "source_ref": "0068100084665",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 26.667,
+   "carbsG": 20.0,
+   "sugarsG": 6.667,
+   "fatG": 46.667,
+   "satFatG": 6.667,
+   "fiberG": 6.667,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00062020000842",
+  "name": "HAZELNUT SPREAD WITH COCOA",
+  "query": "hazelnut spread with",
+  "source": "off",
+  "source_ref": "0062020000842",
+  "expected": {
+   "kcal": 578.947,
+   "proteinG": 5.263,
+   "carbsG": 58.62,
+   "sugarsG": 57.895,
+   "fatG": 31.579,
+   "satFatG": 10.526,
+   "fiberG": 5.263,
+   "sodiumMg": 52.632
+  }
+ },
+ {
+  "gtin14": "00068400662600",
+  "name": "Mayonnaise",
+  "query": "mayonnaise",
+  "source": "off",
+  "source_ref": "0068400662600",
+  "expected": {
+   "kcal": 666.667,
+   "proteinG": 0.667,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 66.667,
+   "satFatG": 6.667,
+   "fiberG": 0.0,
+   "sodiumMg": 633.333
+  }
+ },
+ {
+  "gtin14": "00058449251002",
+  "name": "Flocons de son d'avoine",
+  "query": "flocons de son",
+  "source": "off",
+  "source_ref": "0058449251002",
+  "expected": {
+   "kcal": 368.421,
+   "proteinG": 10.526,
+   "carbsG": 80.702,
+   "sugarsG": 14.035,
+   "fatG": 3.509,
+   "satFatG": 0.0,
+   "fiberG": 17.544,
+   "sodiumMg": 368.421
+  }
+ },
+ {
+  "gtin14": "00057000002992",
+  "name": "Tomato Ketchup",
+  "query": "tomato ketchup",
+  "source": "off",
+  "source_ref": "0057000002992",
+  "expected": {
+   "kcal": 133.333,
+   "proteinG": 1.333,
+   "carbsG": 33.333,
+   "sugarsG": 26.667,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 948.267
+  }
+ },
+ {
+  "gtin14": "00096619194261",
+  "name": "Ancient Grains Probiotic Granola",
+  "query": "ancient grains probiotic",
+  "source": "off",
+  "source_ref": "0096619194261",
+  "expected": {
+   "kcal": 454.545,
+   "proteinG": 9.091,
+   "carbsG": 70.909,
+   "sugarsG": 16.364,
+   "fatG": 16.364,
+   "satFatG": 2.727,
+   "fiberG": 10.909,
+   "sodiumMg": 245.455
+  }
+ },
+ {
+  "gtin14": "00096619885718",
+  "name": "UNSALTED MIXED NUTS",
+  "query": "unsalted mixed nuts",
+  "source": "off",
+  "source_ref": "0096619885718",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 17.857,
+   "carbsG": 25.0,
+   "sugarsG": 7.143,
+   "fatG": 53.571,
+   "satFatG": 7.143,
+   "fiberG": 7.143,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00055828910017",
+  "name": "Organic Honey",
+  "query": "organic honey",
+  "source": "off",
+  "source_ref": "0055828910017",
+  "expected": {
+   "kcal": 300.0,
+   "proteinG": 0.0,
+   "carbsG": 85.0,
+   "sugarsG": 80.0,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00096619225798",
+  "name": "beurre de noix mélangées avec graines",
+  "query": "beurre de noix",
+  "source": "off",
+  "source_ref": "0096619225798",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 20.0,
+   "carbsG": 26.667,
+   "sugarsG": 0.0,
+   "fatG": 46.667,
+   "satFatG": 13.333,
+   "fiberG": 13.333,
+   "sodiumMg": 6.667
+  }
+ },
+ {
+  "gtin14": "00096619331130",
+  "name": "Tartinade de noisette",
+  "query": "tartinade de noisette",
+  "source": "off",
+  "source_ref": "0096619331130",
+  "expected": {
+   "kcal": 550.0,
+   "proteinG": 5.0,
+   "carbsG": 55.0,
+   "sugarsG": 50.0,
+   "fatG": 30.0,
+   "satFatG": 5.0,
+   "fiberG": 5.0,
+   "sodiumMg": 50.0
+  }
+ },
+ {
+  "gtin14": "00064100271913",
+  "name": "All Bran Buds",
+  "query": "all bran buds",
+  "source": "off",
+  "source_ref": "0064100271913",
+  "expected": {
+   "kcal": 258.065,
+   "proteinG": 10.0,
+   "carbsG": 80.0,
+   "sugarsG": 26.667,
+   "fatG": 3.333,
+   "satFatG": 0.0,
+   "fiberG": 36.667,
+   "sodiumMg": 633.333
+  }
+ },
+ {
+  "gtin14": "00671785501008",
+  "name": "Eska - Eau de source naturelle",
+  "query": "eska eau de",
+  "source": "off",
+  "source_ref": "0671785501008",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00096619321841",
+  "name": "Natural spring water",
+  "query": "natural spring water",
+  "source": "off",
+  "source_ref": "0096619321841",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 0.172
+  }
+ },
+ {
+  "gtin14": "00628154011323",
+  "name": "Shredded Wheat & Bran",
+  "query": "shredded wheat bran",
+  "source": "off",
+  "source_ref": "0628154011323",
+  "expected": {
+   "kcal": 586.207,
+   "proteinG": 10.638,
+   "carbsG": null,
+   "sugarsG": 0.0,
+   "fatG": 2.128,
+   "satFatG": 0.426,
+   "fiberG": 14.894,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00677210091823",
+  "name": "Granola Sans Céréales Keto Grain Free Granola",
+  "query": "granola sans céréales",
+  "source": "off",
+  "source_ref": "0677210091823",
+  "expected": {
+   "kcal": 596.0,
+   "proteinG": 12.3,
+   "carbsG": 30.7,
+   "sugarsG": 2.8,
+   "fatG": 49.5,
+   "satFatG": 27.1,
+   "fiberG": 17.3,
+   "sodiumMg": 77.0
+  }
+ }
+]

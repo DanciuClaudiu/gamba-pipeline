@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "08691381000486",
+  "name": "Beypazarı Doğal Maden Suyu",
+  "query": "beypazarı doğal maden",
+  "source": "off",
+  "source_ref": "8691381000486",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 53.6
+  }
+ },
+ {
+  "gtin14": "08690526069500",
+  "name": "Yulaf Ezmesi",
+  "query": "yulaf ezmesi",
+  "source": "off",
+  "source_ref": "8690526069500",
+  "expected": {
+   "kcal": 344.0,
+   "proteinG": 14.0,
+   "carbsG": 66.0,
+   "sugarsG": 1.333,
+   "fatG": 7.667,
+   "satFatG": 1.667,
+   "fiberG": 13.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08690504011521",
+  "name": "Altınbaşak tahıl cipsi",
+  "query": "altınbaşak tahıl cipsi",
+  "source": "off",
+  "source_ref": "8690504011521",
+  "expected": {
+   "kcal": 445.0,
+   "proteinG": 8.2,
+   "carbsG": 60.0,
+   "sugarsG": 4.6,
+   "fatG": 18.0,
+   "satFatG": 9.0,
+   "fiberG": 6.2,
+   "sodiumMg": 920.0
+  }
+ },
+ {
+  "gtin14": "08690504135913",
+  "name": "ülker çikolata",
+  "query": "ülker çikolata",
+  "source": "off",
+  "source_ref": "8690504135913",
+  "expected": {
+   "kcal": 543.0,
+   "proteinG": 6.5,
+   "carbsG": 58.0,
+   "sugarsG": 38.0,
+   "fatG": 31.0,
+   "satFatG": 14.0,
+   "fiberG": 2.4,
+   "sodiumMg": 104.0
+  }
+ },
+ {
+  "gtin14": "00189000002112",
+  "name": "Kuru İncir",
+  "query": "kuru i̇ncir",
+  "source": "off",
+  "source_ref": "18921102",
+  "expected": {
+   "kcal": 597.0,
+   "proteinG": 27.2,
+   "carbsG": 8.3,
+   "sugarsG": 3.1,
+   "fatG": 51.5,
+   "satFatG": 8.7,
+   "fiberG": 4.5,
+   "sodiumMg": 2360.0
+  }
+ },
+ {
+  "gtin14": "08692813005574",
+  "name": "DOĞAL MADEN SUYU",
+  "query": "doğal maden suyu",
+  "source": "off",
+  "source_ref": "8692813005574",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08690766009205",
+  "name": "Çizi Peynirli Kraker",
+  "query": "çizi peynirli kraker",
+  "source": "off",
+  "source_ref": "8690766009205",
+  "expected": {
+   "kcal": 456.0,
+   "proteinG": 7.7,
+   "carbsG": 61.0,
+   "sugarsG": 7.3,
+   "fatG": 20.0,
+   "satFatG": 9.6,
+   "fiberG": 1.8,
+   "sodiumMg": 1200.0
+  }
+ },
+ {
+  "gtin14": "08690526095417",
+  "name": "Ети Карам",
+  "query": "ети карам",
+  "source": "off",
+  "source_ref": "8690526095417",
+  "expected": {
+   "kcal": 517.0,
+   "proteinG": 5.5,
+   "carbsG": 58.0,
+   "sugarsG": 35.0,
+   "fatG": 28.0,
+   "satFatG": 16.0,
+   "fiberG": 4.6,
+   "sodiumMg": 200.0
+  }
+ },
+ {
+  "gtin14": "00000080176800",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80176800",
+  "expected": {
+   "kcal": 533.33,
+   "proteinG": 6.0,
+   "carbsG": 57.33,
+   "sugarsG": 56.0,
+   "fatG": 30.67,
+   "satFatG": 10.67,
+   "fiberG": 0.0,
+   "sodiumMg": 428.0
+  }
+ },
+ {
+  "gtin14": "00000059032823",
+  "name": "nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "59032823",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.5,
+   "sodiumMg": 42.8
+  }
+ },
+ {
+  "gtin14": "00000080135876",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80135876",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 0.0,
+   "sodiumMg": 43.0
+  }
+ },
+ {
+  "gtin14": "00000090454752",
+  "name": "Redbull",
+  "query": "redbull",
+  "source": "off",
+  "source_ref": "90454752",
+  "expected": {
+   "kcal": 46.0,
+   "proteinG": 0.0,
+   "carbsG": 11.0,
+   "sugarsG": 11.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 79.0
+  }
+ },
+ {
+  "gtin14": "08696362804718",
+  "name": "ketchup",
+  "query": "ketchup",
+  "source": "off",
+  "source_ref": "8696362804718",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.8,
+   "fatG": 0.1,
+   "satFatG": 0.1,
+   "fiberG": null,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "05000112672039",
+  "name": "Coca cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5000112672039",
+  "expected": {
+   "kcal": 30.0,
+   "proteinG": 0.0,
+   "carbsG": 7.5,
+   "sugarsG": 7.5,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 7.5,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08690526039503",
+  "name": "Eti Lifalif Fine-Ground Oat Flakes 350 g",
+  "query": "eti lifalif fine",
+  "source": "off",
+  "source_ref": "8690526039503",
+  "expected": {
+   "kcal": 360.0,
+   "proteinG": 14.0,
+   "carbsG": 53.0,
+   "sugarsG": 1.3,
+   "fatG": 7.5,
+   "satFatG": 1.8,
+   "fiberG": 13.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08692813005598",
+  "name": "Maden Suyu",
+  "query": "maden suyu",
+  "source": "off",
+  "source_ref": "8692813005598",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "08695077102010",
+  "name": "Dost Tam Yağlı Süt",
+  "query": "dost tam yağlı",
+  "source": "off",
+  "source_ref": "8695077102010",
+  "expected": {
+   "kcal": 59.2,
+   "proteinG": 3.0,
+   "carbsG": 4.72,
+   "sugarsG": 4.72,
+   "fatG": 3.12,
+   "satFatG": 2.12,
+   "fiberG": 0.0,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "08682214707047",
+  "name": "Full Fat Milk",
+  "query": "full fat milk",
+  "source": "off",
+  "source_ref": "8682214707047",
+  "expected": {
+   "kcal": 59.0,
+   "proteinG": 3.0,
+   "carbsG": 4.7,
+   "sugarsG": 4.7,
+   "fatG": 3.1,
+   "satFatG": 2.0,
+   "fiberG": null,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "08690766086473",
+  "name": "Rulokat",
+  "query": "rulokat",
+  "source": "off",
+  "source_ref": "8690766086473",
+  "expected": {
+   "kcal": 499.0,
+   "proteinG": 6.8,
+   "carbsG": 63.0,
+   "sugarsG": 42.0,
+   "fatG": 24.0,
+   "satFatG": 12.0,
+   "fiberG": 2.8,
+   "sodiumMg": 152.0
+  }
+ },
+ {
+  "gtin14": "05000112664478",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5000112664478",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 35.0,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ }
+]

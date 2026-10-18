@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "09300658228537",
+  "name": "Greek Style Yoghurt",
+  "query": "greek style yoghurt",
+  "source": "off",
+  "source_ref": "9300658228537",
+  "expected": {
+   "kcal": 119.0,
+   "proteinG": 4.24,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 9.44,
+   "satFatG": 6.24,
+   "fiberG": null,
+   "sodiumMg": 0.057
+  }
+ },
+ {
+  "gtin14": "08997240600041",
+  "name": "12000992 OATSIDE Oat Milk",
+  "query": "12000992 oatside oat",
+  "source": "off",
+  "source_ref": "8997240600041",
+  "expected": {
+   "kcal": 65.0,
+   "proteinG": 0.6,
+   "carbsG": 7.9,
+   "sugarsG": 2.8,
+   "fatG": 3.2,
+   "satFatG": 0.3,
+   "fiberG": 1.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "08888077103389",
+  "name": "Meiji Plain Crackers",
+  "query": "meiji plain crackers",
+  "source": "off",
+  "source_ref": "8888077103389",
+  "expected": {
+   "kcal": 446.154,
+   "proteinG": 10.385,
+   "carbsG": 73.846,
+   "sugarsG": 1.538,
+   "fatG": 12.308,
+   "satFatG": 6.154,
+   "fiberG": 1.154,
+   "sodiumMg": 519.231
+  }
+ },
+ {
+  "gtin14": "08888470010208",
+  "name": "Pasteurized Fresh Milk",
+  "query": "pasteurized fresh milk",
+  "source": "off",
+  "source_ref": "8888470010208",
+  "expected": {
+   "kcal": 66.0,
+   "proteinG": 3.0,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 3.9,
+   "satFatG": 2.4,
+   "fiberG": 0.0,
+   "sodiumMg": 42.0
+  }
+ },
+ {
+  "gtin14": "09555805800320",
+  "name": "Super Berry Granola",
+  "query": "super berry granola",
+  "source": "off",
+  "source_ref": "9555805800320",
+  "expected": {
+   "kcal": 460.0,
+   "proteinG": 9.0,
+   "carbsG": 70.5,
+   "sugarsG": 23.0,
+   "fatG": 15.75,
+   "satFatG": 7.0,
+   "fiberG": 4.75,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "08888200702816",
+  "name": "Ice Mountain Pure drinking water",
+  "query": "ice mountain pure",
+  "source": "off",
+  "source_ref": "8888200702816",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 1.22
+  }
+ },
+ {
+  "gtin14": "08888247111138",
+  "name": "Fine Grain Wholemeal Bread",
+  "query": "fine grain wholemeal",
+  "source": "off",
+  "source_ref": "8888247111138",
+  "expected": {
+   "kcal": 231.667,
+   "proteinG": 13.0,
+   "carbsG": 39.0,
+   "sugarsG": 4.0,
+   "fatG": 2.9,
+   "satFatG": 1.4,
+   "fiberG": 7.5,
+   "sodiumMg": 323.0
+  }
+ },
+ {
+  "gtin14": "00084380957444",
+  "name": "Strawberry Fruit Spread",
+  "query": "strawberry fruit spread",
+  "source": "off",
+  "source_ref": "0084380957444",
+  "expected": {
+   "kcal": 202.0,
+   "proteinG": 0.0,
+   "carbsG": 50.0,
+   "sugarsG": 48.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 1.1,
+   "sodiumMg": 20.0
+  }
+ },
+ {
+  "gtin14": "08850025000026",
+  "name": "Refresh Eau de Noix de Coco",
+  "query": "refresh eau de",
+  "source": "off",
+  "source_ref": "8850025000026",
+  "expected": {
+   "kcal": 22.6,
+   "proteinG": 0.0,
+   "carbsG": 5.52,
+   "sugarsG": 4.45,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.5,
+   "sodiumMg": 22.9
+  }
+ },
+ {
+  "gtin14": "00884912116505",
+  "name": "BANANA NUT CRUNCH CEREAL",
+  "query": "banana nut crunch",
+  "source": "off",
+  "source_ref": "0884912116505",
+  "expected": {
+   "kcal": 396.552,
+   "proteinG": 10.169,
+   "carbsG": 76.271,
+   "sugarsG": 16.949,
+   "fatG": 7.627,
+   "satFatG": 0.847,
+   "fiberG": 8.475,
+   "sodiumMg": 406.78
+  }
+ },
+ {
+  "gtin14": "08888247111114",
+  "name": "ENRICHED WHITE BREAD",
+  "query": "enriched white bread",
+  "source": "off",
+  "source_ref": "8888247111114",
+  "expected": {
+   "kcal": 254.386,
+   "proteinG": 10.702,
+   "carbsG": 47.719,
+   "sugarsG": 3.684,
+   "fatG": 2.105,
+   "satFatG": 0.877,
+   "fiberG": 2.456,
+   "sodiumMg": 438.947
+  }
+ },
+ {
+  "gtin14": "09310036065098",
+  "name": "Natural Set Yogurt",
+  "query": "natural set yogurt",
+  "source": "off",
+  "source_ref": "9310036065098",
+  "expected": {
+   "kcal": 56.0,
+   "proteinG": 4.0,
+   "carbsG": 6.5,
+   "sugarsG": 5.2,
+   "fatG": 1.6,
+   "satFatG": 0.9,
+   "fiberG": null,
+   "sodiumMg": 60.0
+  }
+ },
+ {
+  "gtin14": "06922877700194",
+  "name": "Chunky Peanut Butter",
+  "query": "chunky peanut butter",
+  "source": "off",
+  "source_ref": "6922877700194",
+  "expected": {
+   "kcal": 658.333,
+   "proteinG": 24.722,
+   "carbsG": 17.222,
+   "sugarsG": null,
+   "fatG": 54.444,
+   "satFatG": null,
+   "fiberG": 6.389,
+   "sodiumMg": 0.425
+  }
+ },
+ {
+  "gtin14": "08888010110276",
+  "name": "Brioche Butter Loaf",
+  "query": "brioche butter loaf",
+  "source": "off",
+  "source_ref": "8888010110276",
+  "expected": {
+   "kcal": 304.0,
+   "proteinG": 8.9,
+   "carbsG": 50.9,
+   "sugarsG": null,
+   "fatG": 7.3,
+   "satFatG": null,
+   "fiberG": 2.6,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "08888030314487",
+  "name": "Creamy Peanut Butter No Sugar Or Salt",
+  "query": "creamy peanut butter",
+  "source": "off",
+  "source_ref": "8888030314487",
+  "expected": {
+   "kcal": 631.0,
+   "proteinG": 24.1,
+   "carbsG": 5.63,
+   "sugarsG": 5.31,
+   "fatG": 55.3,
+   "satFatG": 12.8,
+   "fiberG": 12.2,
+   "sodiumMg": 15.6
+  }
+ },
+ {
+  "gtin14": "08888247134151",
+  "name": "Wholemeal Banana Walnut Loaf",
+  "query": "wholemeal banana walnut",
+  "source": "off",
+  "source_ref": "8888247134151",
+  "expected": {
+   "kcal": 270.0,
+   "proteinG": 13.9,
+   "carbsG": 43.8,
+   "sugarsG": 17.1,
+   "fatG": 4.3,
+   "satFatG": 1.1,
+   "fiberG": 4.3,
+   "sodiumMg": 386.0
+  }
+ },
+ {
+  "gtin14": "08888247134335",
+  "name": "California Raisin Loaf",
+  "query": "california raisin loaf",
+  "source": "off",
+  "source_ref": "8888247134335",
+  "expected": {
+   "kcal": 280.0,
+   "proteinG": 11.5,
+   "carbsG": 48.5,
+   "sugarsG": 34.6,
+   "fatG": 3.5,
+   "satFatG": 1.75,
+   "fiberG": 3.5,
+   "sodiumMg": 387.5
+  }
+ },
+ {
+  "gtin14": "09555865600014",
+  "name": "Blueberry goji coconut",
+  "query": "blueberry goji coconut",
+  "source": "off",
+  "source_ref": "9555865600014",
+  "expected": {
+   "kcal": 470.0,
+   "proteinG": 10.2,
+   "carbsG": 70.0,
+   "sugarsG": 19.8,
+   "fatG": 16.6,
+   "satFatG": 4.0,
+   "fiberG": 8.2,
+   "sodiumMg": 170.0
+  }
+ },
+ {
+  "gtin14": "09556001110077",
+  "name": "Cocoa Malt Beverage",
+  "query": "cocoa malt beverage",
+  "source": "off",
+  "source_ref": "9556001110077",
+  "expected": {
+   "kcal": 62.0,
+   "proteinG": 1.8,
+   "carbsG": 9.5,
+   "sugarsG": 7.5,
+   "fatG": 1.8,
+   "satFatG": 0.9,
+   "fiberG": null,
+   "sodiumMg": 33.0
+  }
+ },
+ {
+  "gtin14": "09300662874973",
+  "name": "Natural Greek Style Yoghurt",
+  "query": "natural greek style",
+  "source": "off",
+  "source_ref": "9300662874973",
+  "expected": {
+   "kcal": 107.131,
+   "proteinG": 0.647,
+   "carbsG": 5.588,
+   "sugarsG": 3.118,
+   "fatG": 9.412,
+   "satFatG": 6.118,
+   "fiberG": 0.0,
+   "sodiumMg": 47.059
+  }
+ }
+]

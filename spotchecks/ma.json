@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "06111246721261",
+  "name": "Fromage Blanc Nature",
+  "query": "fromage blanc nature",
+  "source": "off",
+  "source_ref": "6111246721261",
+  "expected": {
+   "kcal": 80.6,
+   "proteinG": 7.3,
+   "carbsG": 6.1,
+   "sugarsG": 4.0,
+   "fatG": 12.0,
+   "satFatG": 7.15,
+   "fiberG": null,
+   "sodiumMg": 100.0
+  }
+ },
+ {
+  "gtin14": "06111035000430",
+  "name": "Sidi Ali",
+  "query": "sidi ali",
+  "source": "off",
+  "source_ref": "6111035000430",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111242100992",
+  "name": "Perly",
+  "query": "perly",
+  "source": "off",
+  "source_ref": "6111242100992",
+  "expected": {
+   "kcal": 97.0,
+   "proteinG": 8.0,
+   "carbsG": 9.4,
+   "sugarsG": 9.4,
+   "fatG": 3.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111266962187",
+  "name": "Lait frais naturel demi écrémé",
+  "query": "lait frais naturel",
+  "source": "off",
+  "source_ref": "6111266962187",
+  "expected": {
+   "kcal": 45.0,
+   "proteinG": 3.1,
+   "carbsG": 4.9,
+   "sugarsG": 0.0,
+   "fatG": 1.5,
+   "satFatG": 1.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111242106949",
+  "name": "Jben",
+  "query": "jben",
+  "source": "off",
+  "source_ref": "6111242106949",
+  "expected": {
+   "kcal": 235.0,
+   "proteinG": 8.0,
+   "carbsG": 3.5,
+   "sugarsG": 0.0,
+   "fatG": 21.0,
+   "satFatG": 15.0,
+   "fiberG": 0.0,
+   "sodiumMg": 184.0
+  }
+ },
+ {
+  "gtin14": "06111242101180",
+  "name": "uht jaouda 1L",
+  "query": "uht jaouda 1l",
+  "source": "off",
+  "source_ref": "6111242101180",
+  "expected": {
+   "kcal": 58.0,
+   "proteinG": 3.0,
+   "carbsG": 4.8,
+   "sugarsG": 0.0,
+   "fatG": 3.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111128000071",
+  "name": "Ain Saïss",
+  "query": "ain saïss",
+  "source": "off",
+  "source_ref": "6111128000071",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111242100985",
+  "name": "Fromage frais nature",
+  "query": "fromage frais nature",
+  "source": "off",
+  "source_ref": "6111242100985",
+  "expected": {
+   "kcal": 101.0,
+   "proteinG": 7.6,
+   "carbsG": 4.2,
+   "sugarsG": 0.0,
+   "fatG": 6.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111252421568",
+  "name": "اكوافينا",
+  "query": "اكوافينا",
+  "source": "off",
+  "source_ref": "6111252421568",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.203
+  }
+ },
+ {
+  "gtin14": "06111035000027",
+  "name": "6111035000027",
+  "query": "6111035000027",
+  "source": "off",
+  "source_ref": "6111035000027",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 2.6
+  }
+ },
+ {
+  "gtin14": "06111246721278",
+  "name": "Cream cheese",
+  "query": "cream cheese",
+  "source": "off",
+  "source_ref": "6111246721278",
+  "expected": {
+   "kcal": 257.0,
+   "proteinG": 10.0,
+   "carbsG": 3.1,
+   "sugarsG": 0.0,
+   "fatG": 18.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111035502828",
+  "name": "Eau minéral naturelle",
+  "query": "eau minéral naturelle",
+  "source": "off",
+  "source_ref": "6111035502828",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 48.0
+  }
+ },
+ {
+  "gtin14": "05449000054227",
+  "name": "Coca-Cola Original Taste",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5449000054227",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111032009665",
+  "name": "Salim Lait Frais Demi-Écrémé",
+  "query": "salim lait frais",
+  "source": "off",
+  "source_ref": "6111032009665",
+  "expected": {
+   "kcal": 45.0,
+   "proteinG": 3.0,
+   "carbsG": 4.8,
+   "sugarsG": 0.0,
+   "fatG": 1.5,
+   "satFatG": 1.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111242100206",
+  "name": "Le nature",
+  "query": "le nature",
+  "source": "off",
+  "source_ref": "6111242100206",
+  "expected": {
+   "kcal": 78.5,
+   "proteinG": 4.2,
+   "carbsG": 8.0,
+   "sugarsG": 0.0,
+   "fatG": 3.3,
+   "satFatG": 2.4,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111203006653",
+  "name": "La Hollandaise Cheddar",
+  "query": "la hollandaise cheddar",
+  "source": "off",
+  "source_ref": "6111203006653",
+  "expected": {
+   "kcal": 270.0,
+   "proteinG": 9.0,
+   "carbsG": 6.0,
+   "sugarsG": 6.0,
+   "fatG": 21.0,
+   "satFatG": 12.0,
+   "fiberG": null,
+   "sodiumMg": 600.0
+  }
+ },
+ {
+  "gtin14": "06111031005064",
+  "name": "Tonik",
+  "query": "tonik",
+  "source": "off",
+  "source_ref": "6111031005064",
+  "expected": {
+   "kcal": 504.0,
+   "proteinG": 4.3,
+   "carbsG": 72.0,
+   "sugarsG": 40.0,
+   "fatG": 22.0,
+   "satFatG": 11.0,
+   "fiberG": 0.4,
+   "sodiumMg": 88.0
+  }
+ },
+ {
+  "gtin14": "05449000147417",
+  "name": "Cappy PULPY",
+  "query": "cappy pulpy",
+  "source": "off",
+  "source_ref": "5449000147417",
+  "expected": {
+   "kcal": 21.0,
+   "proteinG": 0.0,
+   "carbsG": 4.7,
+   "sugarsG": 4.4,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 16.0
+  }
+ },
+ {
+  "gtin14": "06111180000231",
+  "name": "levure pâtisserie",
+  "query": "levure pâtisserie",
+  "source": "off",
+  "source_ref": "6111180000231",
+  "expected": {
+   "kcal": 183.0,
+   "proteinG": 0.0,
+   "carbsG": 43.4,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06111259092495",
+  "name": "Goldium crémeux",
+  "query": "goldium crémeux",
+  "source": "off",
+  "source_ref": "6111259092495",
+  "expected": {
+   "kcal": 225.0,
+   "proteinG": 5.0,
+   "carbsG": 3.0,
+   "sugarsG": 3.0,
+   "fatG": 24.0,
+   "satFatG": 14.0,
+   "fiberG": 0.1,
+   "sodiumMg": 128.0
+  }
+ }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "00000080176800",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80176800",
+  "expected": {
+   "kcal": 533.33,
+   "proteinG": 6.0,
+   "carbsG": 57.33,
+   "sugarsG": 56.0,
+   "fatG": 30.67,
+   "satFatG": 10.67,
+   "fiberG": 0.0,
+   "sodiumMg": 428.0
+  }
+ },
+ {
+  "gtin14": "08000500082379",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "8000500082379",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.0,
+   "sodiumMg": 44.0
+  }
+ },
+ {
+  "gtin14": "05410013100003",
+  "name": "Spa reine",
+  "query": "spa reine",
+  "source": "off",
+  "source_ref": "5410013100003",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.3
+  }
+ },
+ {
+  "gtin14": "05000112638745",
+  "name": "Coca cola zero sugar",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5000112638745",
+  "expected": {
+   "kcal": 0.3,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "08710100426588",
+  "name": "Flocons d'avoine - Source de fibres",
+  "query": "flocons d avoine",
+  "source": "off",
+  "source_ref": "8710100426588",
+  "expected": {
+   "kcal": 375.0,
+   "proteinG": 11.0,
+   "carbsG": 60.0,
+   "sugarsG": 1.1,
+   "fatG": 8.0,
+   "satFatG": 1.5,
+   "fiberG": 9.0,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "08719200265608",
+  "name": "Becel proactiv original 250g",
+  "query": "becel proactiv original",
+  "source": "off",
+  "source_ref": "8719200265608",
+  "expected": {
+   "kcal": 309.273,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 35.0,
+   "satFatG": 17.0,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "08052575090384",
+  "name": "Nocciolata",
+  "query": "nocciolata",
+  "source": "off",
+  "source_ref": "8052575090384",
+  "expected": {
+   "kcal": 544.0,
+   "proteinG": 8.1,
+   "carbsG": 54.0,
+   "sugarsG": 51.0,
+   "fatG": 32.0,
+   "satFatG": 5.7,
+   "fiberG": 3.6,
+   "sodiumMg": 50.0
+  }
+ },
+ {
+  "gtin14": "03268840001008",
+  "name": "CRISTALINE Eau De Source 0.5L",
+  "query": "cristaline eau de",
+  "source": "off",
+  "source_ref": "3268840001008",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 1.904
+  }
+ },
+ {
+  "gtin14": "08000500426494",
+  "name": "Nutella Plant-Based",
+  "query": "nutella plant based",
+  "source": "off",
+  "source_ref": "8000500426494",
+  "expected": {
+   "kcal": 534.0,
+   "proteinG": 6.8,
+   "carbsG": 53.4,
+   "sugarsG": 45.4,
+   "fatG": 31.8,
+   "satFatG": 11.0,
+   "fiberG": 4.558,
+   "sodiumMg": 28.0
+  }
+ },
+ {
+  "gtin14": "00000054491472",
+  "name": "Cola 500 Ml",
+  "query": "cola 500 ml",
+  "source": "off",
+  "source_ref": "54491472",
+  "expected": {
+   "kcal": 44.0,
+   "proteinG": 0.0,
+   "carbsG": 10.9,
+   "sugarsG": 10.9,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "03068320120256",
+  "name": "Eau minérale naturelle",
+  "query": "eau minérale naturelle",
+  "source": "off",
+  "source_ref": "3068320120256",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.66
+  }
+ },
+ {
+  "gtin14": "04056489471264",
+  "name": "Edelbitter Mild 90%",
+  "query": "edelbitter mild 90",
+  "source": "off",
+  "source_ref": "4056489471264",
+  "expected": {
+   "kcal": 593.0,
+   "proteinG": 11.5,
+   "carbsG": 16.6,
+   "sugarsG": 7.4,
+   "fatG": 50.0,
+   "satFatG": 30.2,
+   "fiberG": 15.3,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05411188115472",
+  "name": "Soyamilch",
+  "query": "soyamilch",
+  "source": "off",
+  "source_ref": "5411188115472",
+  "expected": {
+   "kcal": 39.0,
+   "proteinG": 3.0,
+   "carbsG": 2.5,
+   "sugarsG": 2.5,
+   "fatG": 1.8,
+   "satFatG": 0.3,
+   "fiberG": 0.5,
+   "sodiumMg": 36.0
+  }
+ },
+ {
+  "gtin14": "07622210869616",
+  "name": "Chocolat Bio noir 85%",
+  "query": "chocolat bio noir",
+  "source": "off",
+  "source_ref": "7622210869616",
+  "expected": {
+   "kcal": 607.0,
+   "proteinG": 10.0,
+   "carbsG": 24.0,
+   "sugarsG": 14.0,
+   "fatG": 50.0,
+   "satFatG": 30.0,
+   "fiberG": 13.0,
+   "sodiumMg": 52.0
+  }
+ },
+ {
+  "gtin14": "03161710000128",
+  "name": "Caprice des Dieux",
+  "query": "caprice des dieux",
+  "source": "off",
+  "source_ref": "3161710000128",
+  "expected": {
+   "kcal": 333.0,
+   "proteinG": 15.0,
+   "carbsG": 0.8,
+   "sugarsG": 0.5,
+   "fatG": 30.0,
+   "satFatG": 21.0,
+   "fiberG": 1.671,
+   "sodiumMg": 560.0
+  }
+ },
+ {
+  "gtin14": "04008169304508",
+  "name": "Luikse Siroop",
+  "query": "luikse siroop",
+  "source": "off",
+  "source_ref": "4008169304508",
+  "expected": {
+   "kcal": 285.0,
+   "proteinG": 0.7,
+   "carbsG": 68.0,
+   "sugarsG": 61.0,
+   "fatG": 0.4,
+   "satFatG": 0.3,
+   "fiberG": 2.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05000112638769",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5000112638769",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08052575090414",
+  "name": "Nocciolata intense sans lait",
+  "query": "nocciolata intense sans",
+  "source": "off",
+  "source_ref": "8052575090414",
+  "expected": {
+   "kcal": 545.0,
+   "proteinG": 5.4,
+   "carbsG": 55.0,
+   "sugarsG": 53.0,
+   "fatG": 33.0,
+   "satFatG": 5.5,
+   "fiberG": 4.8,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08719200273771",
+  "name": "Becel original 250g",
+  "query": "becel original 250g",
+  "source": "off",
+  "source_ref": "8719200273771",
+  "expected": {
+   "kcal": 378.0,
+   "proteinG": 0.25,
+   "carbsG": 0.25,
+   "sugarsG": 0.25,
+   "fatG": 42.0,
+   "satFatG": 9.7,
+   "fiberG": 0.0,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "07622210955449",
+  "name": "Original Philadelphia XL",
+  "query": "original philadelphia xl",
+  "source": "off",
+  "source_ref": "7622210955449",
+  "expected": {
+   "kcal": 226.0,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 300.0
+  }
+ }
+]

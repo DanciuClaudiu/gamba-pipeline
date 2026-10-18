@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "04014400400007",
+  "name": "Toffifee 15er",
+  "query": "toffifee 15er",
+  "source": "off",
+  "source_ref": "4014400400007",
+  "expected": {
+   "kcal": 521.0,
+   "proteinG": 6.0,
+   "carbsG": 58.9,
+   "sugarsG": 48.8,
+   "fatG": 29.0,
+   "satFatG": 12.7,
+   "fiberG": 16.0,
+   "sodiumMg": 0.11
+  }
+ },
+ {
+  "gtin14": "08000500082379",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "8000500082379",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.0,
+   "sodiumMg": 44.0
+  }
+ },
+ {
+  "gtin14": "08584004040108",
+  "name": "Horalky Vanille",
+  "query": "horalky vanille",
+  "source": "off",
+  "source_ref": "8584004040108",
+  "expected": {
+   "kcal": 541.0,
+   "proteinG": 8.0,
+   "carbsG": 51.0,
+   "sugarsG": 33.0,
+   "fatG": 33.0,
+   "satFatG": 19.0,
+   "fiberG": 4.0,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "08584004030000",
+  "name": "Mila",
+  "query": "mila",
+  "source": "off",
+  "source_ref": "8584004030000",
+  "expected": {
+   "kcal": 547.0,
+   "proteinG": 8.0,
+   "carbsG": 47.0,
+   "sugarsG": 34.0,
+   "fatG": 36.0,
+   "satFatG": 25.0,
+   "fiberG": 3.0,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "08594001170012",
+  "name": "Selský jogurt bílý s kulturou BiFi",
+  "query": "selský jogurt bílý",
+  "source": "off",
+  "source_ref": "8594001170012",
+  "expected": {
+   "kcal": 67.0,
+   "proteinG": 3.9,
+   "carbsG": 4.4,
+   "sugarsG": 4.4,
+   "fatG": 3.7,
+   "satFatG": 2.6,
+   "fiberG": 0.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "08594001021734",
+  "name": "Mineralwasser Mit Magnesium",
+  "query": "mineralwasser mit magnesium",
+  "source": "off",
+  "source_ref": "8594001021734",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 5.2
+  }
+ },
+ {
+  "gtin14": "08593803421216",
+  "name": "Jihočeské Máslo",
+  "query": "jihočeské máslo",
+  "source": "off",
+  "source_ref": "8593803421216",
+  "expected": {
+   "kcal": 744.0,
+   "proteinG": 0.8,
+   "carbsG": 0.8,
+   "sugarsG": 0.8,
+   "fatG": 82.0,
+   "satFatG": 54.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08594003849602",
+  "name": "Limonáda Kofola original",
+  "query": "limonáda kofola original",
+  "source": "off",
+  "source_ref": "8594003849602",
+  "expected": {
+   "kcal": 32.0,
+   "proteinG": 0.5,
+   "carbsG": 8.0,
+   "sugarsG": 8.0,
+   "fatG": 0.5,
+   "satFatG": 0.1,
+   "fiberG": null,
+   "sodiumMg": 20.0
+  }
+ },
+ {
+  "gtin14": "08594052745047",
+  "name": "Máslo",
+  "query": "máslo",
+  "source": "off",
+  "source_ref": "8594052745047",
+  "expected": {
+   "kcal": 744.0,
+   "proteinG": 0.7,
+   "carbsG": 0.7,
+   "sugarsG": 0.7,
+   "fatG": 82.0,
+   "satFatG": 55.0,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "00000020724696",
+  "name": "Amandes décortiquées",
+  "query": "amandes décortiquées",
+  "source": "off",
+  "source_ref": "20724696",
+  "expected": {
+   "kcal": 621.0,
+   "proteinG": 24.5,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 53.3,
+   "satFatG": 4.3,
+   "fiberG": 12.1,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "05449000000996",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000996",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05449000000439",
+  "name": "Coca Cola Original taste",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5449000000439",
+  "expected": {
+   "kcal": 45.0,
+   "proteinG": 0.0,
+   "carbsG": 11.2,
+   "sugarsG": 11.2,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05410126716016",
+  "name": "Biscoff",
+  "query": "biscoff",
+  "source": "off",
+  "source_ref": "5410126716016",
+  "expected": {
+   "kcal": 483.0,
+   "proteinG": 5.0,
+   "carbsG": 73.0,
+   "sugarsG": 38.0,
+   "fatG": 19.0,
+   "satFatG": 8.0,
+   "fiberG": 1.0,
+   "sodiumMg": 29.0
+  }
+ },
+ {
+  "gtin14": "04056489195917",
+  "name": "Jemné ovesné vločky",
+  "query": "jemné ovesné vločky",
+  "source": "off",
+  "source_ref": "4056489195917",
+  "expected": {
+   "kcal": 372.0,
+   "proteinG": 12.0,
+   "carbsG": 62.0,
+   "sugarsG": 0.7,
+   "fatG": 5.7,
+   "satFatG": 1.0,
+   "fiberG": 8.5,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05900617038289",
+  "name": "Peanut Butter - Smooth",
+  "query": "peanut butter smooth",
+  "source": "off",
+  "source_ref": "5900617038289",
+  "expected": {
+   "kcal": 603.0,
+   "proteinG": 27.0,
+   "carbsG": 12.0,
+   "sugarsG": 6.7,
+   "fatG": 48.0,
+   "satFatG": 6.4,
+   "fiberG": 7.6,
+   "sodiumMg": 16.0
+  }
+ },
+ {
+  "gtin14": "00000085955790",
+  "name": "Řecký jogurt bílý 0%",
+  "query": "řecký jogurt bílý",
+  "source": "off",
+  "source_ref": "85955790",
+  "expected": {
+   "kcal": 57.0,
+   "proteinG": 10.0,
+   "carbsG": 3.5,
+   "sugarsG": 3.5,
+   "fatG": 0.3,
+   "satFatG": 0.2,
+   "fiberG": null,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "08711200398492",
+  "name": "Jemný kečup",
+  "query": "jemný kečup",
+  "source": "off",
+  "source_ref": "8711200398492",
+  "expected": {
+   "kcal": 107.0,
+   "proteinG": 1.2,
+   "carbsG": 24.0,
+   "sugarsG": 21.0,
+   "fatG": 0.5,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "08720182085139",
+  "name": "originál majonéza",
+  "query": "originál majonéza",
+  "source": "off",
+  "source_ref": "8720182085139",
+  "expected": {
+   "kcal": 671.0,
+   "proteinG": 0.6,
+   "carbsG": 2.9,
+   "sugarsG": 2.9,
+   "fatG": 73.0,
+   "satFatG": 5.6,
+   "fiberG": 0.0,
+   "sodiumMg": 372.0
+  }
+ },
+ {
+  "gtin14": "08593893788381",
+  "name": "Margot",
+  "query": "margot",
+  "source": "off",
+  "source_ref": "8593893788381",
+  "expected": {
+   "kcal": 453.0,
+   "proteinG": 7.8,
+   "carbsG": 58.3,
+   "sugarsG": 52.2,
+   "fatG": 19.2,
+   "satFatG": 9.9,
+   "fiberG": 3.8,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "04005500043867",
+  "name": "Caro",
+  "query": "caro",
+  "source": "off",
+  "source_ref": "4005500043867",
+  "expected": {
+   "kcal": 366.0,
+   "proteinG": 5.1,
+   "carbsG": 81.4,
+   "sugarsG": 4.4,
+   "fatG": 0.5,
+   "satFatG": 0.2,
+   "fiberG": 8.0,
+   "sodiumMg": 90.0
+  }
+ }
+]

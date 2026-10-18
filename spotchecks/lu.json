@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "08720182556738",
+  "name": "Maille Moutarde Fine de Dijon L'Originale Bocal 360g",
+  "query": "maille moutarde fine",
+  "source": "off",
+  "source_ref": "8720182556738",
+  "expected": {
+   "kcal": 144.0,
+   "proteinG": 7.6,
+   "carbsG": 2.6,
+   "sugarsG": 2.0,
+   "fatG": 10.0,
+   "satFatG": 0.7,
+   "fiberG": 3.8,
+   "sodiumMg": 1960.0
+  }
+ },
+ {
+  "gtin14": "03228857000166",
+  "name": "100% mie complet",
+  "query": "100 mie complet",
+  "source": "off",
+  "source_ref": "3228857000166",
+  "expected": {
+   "kcal": 250.0,
+   "proteinG": 7.5,
+   "carbsG": 42.0,
+   "sugarsG": 5.5,
+   "fatG": 4.3,
+   "satFatG": 0.4,
+   "fiberG": 6.5,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "05411188115366",
+  "name": "Alpro smooth subtle creamy oat",
+  "query": "alpro smooth subtle",
+  "source": "off",
+  "source_ref": "5411188115366",
+  "expected": {
+   "kcal": 46.0,
+   "proteinG": 0.8,
+   "carbsG": 6.6,
+   "sugarsG": 3.1,
+   "fatG": 1.5,
+   "satFatG": 0.2,
+   "fiberG": 0.7,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "03033491588136",
+  "name": "Yaourt protéiné Hipro Vanille 0%mg - 2x160g",
+  "query": "yaourt protéiné hipro",
+  "source": "off",
+  "source_ref": "3033491588136",
+  "expected": {
+   "kcal": 53.125,
+   "proteinG": 9.4,
+   "carbsG": 3.6,
+   "sugarsG": 3.1,
+   "fatG": 0.1,
+   "satFatG": 0.1,
+   "fiberG": null,
+   "sodiumMg": 36.0
+  }
+ },
+ {
+  "gtin14": "04056489021445",
+  "name": "SKYR ICELANDIC STYLE NATURAL",
+  "query": "skyr icelandic style",
+  "source": "off",
+  "source_ref": "4056489021445",
+  "expected": {
+   "kcal": 62.4,
+   "proteinG": 11.0,
+   "carbsG": 4.0,
+   "sugarsG": 4.0,
+   "fatG": 0.2,
+   "satFatG": 0.1,
+   "fiberG": 0.0,
+   "sodiumMg": 51.0
+  }
+ },
+ {
+  "gtin14": "05450168562158",
+  "name": "Cottage cheese",
+  "query": "cottage cheese",
+  "source": "off",
+  "source_ref": "5450168562158",
+  "expected": {
+   "kcal": 137.0,
+   "proteinG": 15.0,
+   "carbsG": 2.4,
+   "sugarsG": 2.4,
+   "fatG": 7.5,
+   "satFatG": 5.3,
+   "fiberG": null,
+   "sodiumMg": 200.0
+  }
+ },
+ {
+  "gtin14": "05450068095046",
+  "name": "Mayonnaise de Luxembourg",
+  "query": "mayonnaise de luxembourg",
+  "source": "off",
+  "source_ref": "5450068095046",
+  "expected": {
+   "kcal": 748.0,
+   "proteinG": 1.4,
+   "carbsG": 0.7,
+   "sugarsG": 0.7,
+   "fatG": 82.3,
+   "satFatG": 13.0,
+   "fiberG": 0.039,
+   "sodiumMg": 412.0
+  }
+ },
+ {
+  "gtin14": "03168930010265",
+  "name": "cruesly mélange de noix",
+  "query": "cruesly mélange de",
+  "source": "off",
+  "source_ref": "3168930010265",
+  "expected": {
+   "kcal": 462.0,
+   "proteinG": 8.5,
+   "carbsG": 57.0,
+   "sugarsG": 12.0,
+   "fatG": 19.0,
+   "satFatG": 2.0,
+   "fiberG": 10.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07613036669146",
+  "name": "NESTLE CHOCAPIC BIO Céréales - Boite de 375g",
+  "query": "nestle chocapic bio",
+  "source": "off",
+  "source_ref": "7613036669146",
+  "expected": {
+   "kcal": 390.0,
+   "proteinG": 9.1,
+   "carbsG": 71.7,
+   "sugarsG": 19.9,
+   "fatG": 5.6,
+   "satFatG": 1.6,
+   "fiberG": 8.2,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "03228857002245",
+  "name": "Pain de mie seigle Sandwich Harrys sans sucres ajoutés",
+  "query": "pain de mie",
+  "source": "off",
+  "source_ref": "3228857002245",
+  "expected": {
+   "kcal": 293.0,
+   "proteinG": 11.0,
+   "carbsG": 40.0,
+   "sugarsG": 3.0,
+   "fatG": 8.0,
+   "satFatG": 0.8,
+   "fiberG": 8.7,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "03073781131888",
+  "name": "verse smeltkaas",
+  "query": "verse smeltkaas",
+  "source": "off",
+  "source_ref": "3073781131888",
+  "expected": {
+   "kcal": 303.0,
+   "proteinG": 9.0,
+   "carbsG": 2.0,
+   "sugarsG": 2.0,
+   "fatG": 29.0,
+   "satFatG": 19.5,
+   "fiberG": null,
+   "sodiumMg": 520.0
+  }
+ },
+ {
+  "gtin14": "03380380048432",
+  "name": "pain des fleurs sarrasin",
+  "query": "pain des fleurs",
+  "source": "off",
+  "source_ref": "3380380048432",
+  "expected": {
+   "kcal": 385.0,
+   "proteinG": 13.0,
+   "carbsG": 74.8,
+   "sugarsG": 2.6,
+   "fatG": 2.8,
+   "satFatG": 0.6,
+   "fiberG": 4.4,
+   "sodiumMg": 272.0
+  }
+ },
+ {
+  "gtin14": "03159470001424",
+  "name": "Céréales All Bran Kellogg's Fibre Plus",
+  "query": "céréales all bran",
+  "source": "off",
+  "source_ref": "3159470001424",
+  "expected": {
+   "kcal": 334.0,
+   "proteinG": 14.0,
+   "carbsG": 48.0,
+   "sugarsG": 18.0,
+   "fatG": 3.5,
+   "satFatG": 0.7,
+   "fiberG": 27.0,
+   "sodiumMg": 380.0
+  }
+ },
+ {
+  "gtin14": "03033491922466",
+  "name": "Cottage Cheese",
+  "query": "cottage cheese",
+  "source": "off",
+  "source_ref": "3033491922466",
+  "expected": {
+   "kcal": 87.954,
+   "proteinG": 12.0,
+   "carbsG": 1.4,
+   "sugarsG": 1.6,
+   "fatG": 3.3,
+   "satFatG": 2.4,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04056489340607",
+  "name": "pindakaas met stukjes noot",
+  "query": "pindakaas met stukjes",
+  "source": "off",
+  "source_ref": "4056489340607",
+  "expected": {
+   "kcal": 640.0,
+   "proteinG": 27.0,
+   "carbsG": 10.0,
+   "sugarsG": 5.0,
+   "fatG": 53.0,
+   "satFatG": 7.0,
+   "fiberG": 7.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04008258065013",
+  "name": "Mandeln",
+  "query": "mandeln",
+  "source": "off",
+  "source_ref": "4008258065013",
+  "expected": {
+   "kcal": 619.0,
+   "proteinG": 24.0,
+   "carbsG": 5.7,
+   "sugarsG": 3.4,
+   "fatG": 53.0,
+   "satFatG": 4.1,
+   "fiberG": 11.2,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "04056489695332",
+  "name": "Lait d'amande",
+  "query": "lait d amande",
+  "source": "off",
+  "source_ref": "4056489695332",
+  "expected": {
+   "kcal": 16.0,
+   "proteinG": 0.5,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 1.5,
+   "satFatG": 0.1,
+   "fiberG": 0.2,
+   "sodiumMg": 60.0
+  }
+ },
+ {
+  "gtin14": "05450168551701",
+  "name": "Kefir",
+  "query": "kefir",
+  "source": "off",
+  "source_ref": "5450168551701",
+  "expected": {
+   "kcal": 45.0,
+   "proteinG": 3.7,
+   "carbsG": 3.9,
+   "sugarsG": 3.9,
+   "fatG": 1.6,
+   "satFatG": 1.1,
+   "fiberG": 0.0,
+   "sodiumMg": 48.0
+  }
+ },
+ {
+  "gtin14": "04012359110107",
+  "name": "Tofu natur",
+  "query": "tofu natur",
+  "source": "off",
+  "source_ref": "4012359110107",
+  "expected": {
+   "kcal": 131.0,
+   "proteinG": 15.0,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 7.6,
+   "satFatG": 1.4,
+   "fiberG": 7.085,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "04104420056343",
+  "name": "Dinkel Zwieback",
+  "query": "dinkel zwieback",
+  "source": "off",
+  "source_ref": "4104420056343",
+  "expected": {
+   "kcal": 402.0,
+   "proteinG": 13.0,
+   "carbsG": 70.0,
+   "sugarsG": 2.2,
+   "fatG": 6.8,
+   "satFatG": 0.7,
+   "fiberG": 4.3,
+   "sodiumMg": 392.0
+  }
+ }
+]

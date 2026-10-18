@@ -49,12 +49,14 @@ Exercise names are in Apple's title case, and each has a short name for tight sp
 
 ### Packs
 
-`uv run gamba-pipeline packs --build-date 2026-09-24` (Open Food Facts export `3dc10b5`, USDA Branded 2026-04-30):
+`uv run gamba-pipeline packs --build-date 2026-10-18` (Open Food Facts export `3dc10b5`, USDA Branded 2026-04-30) builds a pack for each of the 44 countries with at least 5,000 products (`countries.py`), with names in each country's official languages plus English:
 
-| Pack | Products | Size | Rejected | Flagged |
-|---|---|---|---|---|
-| food-gb | 149,156 | 35.1 MB | 359 | 5,178 |
-| food-ro | 13,047 | 3.2 MB | 55 | 355 |
-| food-us | 849,773 (USDA nutrients for 109,682) | 215.6 MB | 21,520 | 39,416 |
+| | |
+|---|---|
+| Packs | 44, from food-fr (883,730 products, 193.8 MB) and food-us (849,773, 215.6 MB, USDA nutrients for 109,682) down to food-ua (5,104, 1.4 MB) |
+| Products | 3,456,741 (rejected 26,695, flagged 148,951) |
+| Size | 802.7 MB; 296.2 MB to download, packaged |
+| Spot checks | 20 per pack, all passed |
+| Build | about 7½ minutes and 3.2 GB of memory on an M1 Pro; two builds are byte-identical |
 
-About 2 minutes for all three; two builds are byte-identical.
+Every pack is in `build/REPORT.md`. Names written without spaces (Japanese, Chinese, Thai) are one word each to the search index, so searching them finds a name by its start only.

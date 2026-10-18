@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05449000131836",
+  "name": "Coca-Cola Zero 500ml",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000131836",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 20.0
+  }
+ },
+ {
+  "gtin14": "05745000657322",
+  "name": "Cookie Dough",
+  "query": "cookie dough",
+  "source": "off",
+  "source_ref": "5745000657322",
+  "expected": {
+   "kcal": 339.0,
+   "proteinG": 3.0,
+   "carbsG": 69.0,
+   "sugarsG": 67.0,
+   "fatG": 3.0,
+   "satFatG": 0.0,
+   "fiberG": 11.0,
+   "sodiumMg": 200.0
+  }
+ },
+ {
+  "gtin14": "05900512988030",
+  "name": "82% Sviests",
+  "query": "82 sviests",
+  "source": "off",
+  "source_ref": "5900512988030",
+  "expected": {
+   "kcal": 746.0,
+   "proteinG": 1.0,
+   "carbsG": 1.0,
+   "sugarsG": 1.0,
+   "fatG": 82.0,
+   "satFatG": 54.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "04740125531213",
+  "name": "Kreeka jogurt",
+  "query": "kreeka jogurt",
+  "source": "off",
+  "source_ref": "4740125531213",
+  "expected": {
+   "kcal": 78.0,
+   "proteinG": 7.0,
+   "carbsG": 4.0,
+   "sugarsG": 4.0,
+   "fatG": 4.0,
+   "satFatG": 2.5,
+   "fiberG": null,
+   "sodiumMg": 0.04
+  }
+ },
+ {
+  "gtin14": "04740113091514",
+  "name": "Farmi tais piim",
+  "query": "farmi tais piim",
+  "source": "off",
+  "source_ref": "4740113091514",
+  "expected": {
+   "kcal": 68.0,
+   "proteinG": 3.4,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 3.9,
+   "satFatG": 2.6,
+   "fiberG": null,
+   "sodiumMg": 43.0
+  }
+ },
+ {
+  "gtin14": "04740029600749",
+  "name": "Felix ketchup",
+  "query": "felix ketchup",
+  "source": "off",
+  "source_ref": "4740029600749",
+  "expected": {
+   "kcal": 80.0,
+   "proteinG": 1.1,
+   "carbsG": 18.0,
+   "sugarsG": 17.0,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 865.0
+  }
+ },
+ {
+  "gtin14": "04740036014027",
+  "name": "Milk",
+  "query": "milk",
+  "source": "off",
+  "source_ref": "4740036014027",
+  "expected": {
+   "kcal": 55.0,
+   "proteinG": 3.2,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 2.5,
+   "satFatG": 1.6,
+   "fiberG": null,
+   "sodiumMg": 43.3
+  }
+ },
+ {
+  "gtin14": "04740036014287",
+  "name": "Greek style yogurt",
+  "query": "greek style yogurt",
+  "source": "off",
+  "source_ref": "4740036014287",
+  "expected": {
+   "kcal": 99.0,
+   "proteinG": 10.0,
+   "carbsG": 3.4,
+   "sugarsG": 3.4,
+   "fatG": 5.0,
+   "satFatG": 2.8,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "04740125120042",
+  "name": "piim 2.5%",
+  "query": "piim 2 5",
+  "source": "off",
+  "source_ref": "4740125120042",
+  "expected": {
+   "kcal": 55.0,
+   "proteinG": 3.2,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 2.5,
+   "satFatG": 1.7,
+   "fiberG": null,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "04740125321043",
+  "name": "Gefilus Kefir",
+  "query": "gefilus kefir",
+  "source": "off",
+  "source_ref": "4740125321043",
+  "expected": {
+   "kcal": 53.0,
+   "proteinG": 3.3,
+   "carbsG": 4.2,
+   "sugarsG": 4.2,
+   "fatG": 2.5,
+   "satFatG": 1.7,
+   "fiberG": null,
+   "sodiumMg": 0.1
+  }
+ },
+ {
+  "gtin14": "04740159000082",
+  "name": "Majonees Provonsaal",
+  "query": "majonees provonsaal",
+  "source": "off",
+  "source_ref": "4740159000082",
+  "expected": {
+   "kcal": 476.0,
+   "proteinG": 0.7,
+   "carbsG": 4.2,
+   "sugarsG": 2.9,
+   "fatG": 50.7,
+   "satFatG": 3.2,
+   "fiberG": null,
+   "sodiumMg": 1100.0
+  }
+ },
+ {
+  "gtin14": "04740294010731",
+  "name": "Hellus keefir",
+  "query": "hellus keefir",
+  "source": "off",
+  "source_ref": "4740294010731",
+  "expected": {
+   "kcal": 5.3,
+   "proteinG": 3.3,
+   "carbsG": 4.2,
+   "sugarsG": 4.2,
+   "fatG": 2.5,
+   "satFatG": 1.6,
+   "fiberG": 0.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "08715700110097",
+  "name": "Garlic sauce",
+  "query": "garlic sauce",
+  "source": "off",
+  "source_ref": "8715700110097",
+  "expected": {
+   "kcal": 366.6,
+   "proteinG": 1.9,
+   "carbsG": 11.0,
+   "sugarsG": 8.4,
+   "fatG": 35.0,
+   "satFatG": 2.9,
+   "fiberG": null,
+   "sodiumMg": 520.0
+  }
+ },
+ {
+  "gtin14": "04740098016014",
+  "name": "Limpa Limonaad",
+  "query": "limpa limonaad",
+  "source": "off",
+  "source_ref": "4740098016014",
+  "expected": {
+   "kcal": 37.0,
+   "proteinG": 0.0,
+   "carbsG": 9.2,
+   "sugarsG": 9.2,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04740113034955",
+  "name": "Lahja kohupiim vanilliiniga",
+  "query": "lahja kohupiim vanilliiniga",
+  "source": "off",
+  "source_ref": "4740113034955",
+  "expected": {
+   "kcal": 58.5,
+   "proteinG": 17.0,
+   "carbsG": 11.0,
+   "sugarsG": 11.0,
+   "fatG": 0.5,
+   "satFatG": 0.3,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04740125120226",
+  "name": "Täispiim 3,8 - 4,2%",
+  "query": "täispiim 3 8",
+  "source": "off",
+  "source_ref": "4740125120226",
+  "expected": {
+   "kcal": 68.0,
+   "proteinG": 3.2,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 4.0,
+   "satFatG": 2.7,
+   "fiberG": null,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "00000047402126",
+  "name": "Coca-Cola original taste",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "47402126",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04740500000105",
+  "name": "Merevaik sulatatud juust",
+  "query": "merevaik sulatatud juust",
+  "source": "off",
+  "source_ref": "4740500000105",
+  "expected": {
+   "kcal": 236.0,
+   "proteinG": 13.0,
+   "carbsG": 5.1,
+   "sugarsG": 5.1,
+   "fatG": 18.0,
+   "satFatG": 12.0,
+   "fiberG": 0.145,
+   "sodiumMg": 315.0
+  }
+ },
+ {
+  "gtin14": "04740500000112",
+  "name": "Sulajuust Krevettidega",
+  "query": "sulajuust krevettidega",
+  "source": "off",
+  "source_ref": "4740500000112",
+  "expected": {
+   "kcal": 240.0,
+   "proteinG": 12.0,
+   "carbsG": 5.3,
+   "sugarsG": null,
+   "fatG": 19.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "05900020038555",
+  "name": "Corn flakes",
+  "query": "corn flakes",
+  "source": "off",
+  "source_ref": "5900020038555",
+  "expected": {
+   "kcal": 386.95,
+   "proteinG": 7.4,
+   "carbsG": 82.9,
+   "sugarsG": 8.8,
+   "fatG": 1.4,
+   "satFatG": 0.5,
+   "fiberG": 4.2,
+   "sodiumMg": 523.0
+  }
+ }
+]

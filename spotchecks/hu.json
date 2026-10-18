@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "00000020724696",
+  "name": "Amandes décortiquées",
+  "query": "amandes décortiquées",
+  "source": "off",
+  "source_ref": "20724696",
+  "expected": {
+   "kcal": 621.0,
+   "proteinG": 24.5,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 53.3,
+   "satFatG": 4.3,
+   "fiberG": 12.1,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "00000080176800",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80176800",
+  "expected": {
+   "kcal": 533.33,
+   "proteinG": 6.0,
+   "carbsG": 57.33,
+   "sugarsG": 56.0,
+   "fatG": 30.67,
+   "satFatG": 10.67,
+   "fiberG": 0.0,
+   "sodiumMg": 428.0
+  }
+ },
+ {
+  "gtin14": "05900247000786",
+  "name": "Bords Eve Slightly Salted",
+  "query": "bords eve slightly",
+  "source": "off",
+  "source_ref": "5900247000786",
+  "expected": {
+   "kcal": 541.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 60.0,
+   "satFatG": 21.0,
+   "fiberG": null,
+   "sodiumMg": 1.4
+  }
+ },
+ {
+  "gtin14": "05997010302239",
+  "name": "Ketchup",
+  "query": "ketchup",
+  "source": "off",
+  "source_ref": "5997010302239",
+  "expected": {
+   "kcal": 106.0,
+   "proteinG": 1.5,
+   "carbsG": 23.0,
+   "sugarsG": 20.0,
+   "fatG": 0.3,
+   "satFatG": 0.0,
+   "fiberG": 0.7,
+   "sodiumMg": 590.0
+  }
+ },
+ {
+  "gtin14": "05993330000152",
+  "name": "Coca-Cola Zero 1.75",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5993330000152",
+  "expected": {
+   "kcal": 0.4,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05998200557682",
+  "name": "Superbrands",
+  "query": "superbrands",
+  "source": "off",
+  "source_ref": "5998200557682",
+  "expected": {
+   "kcal": 56.0,
+   "proteinG": 3.0,
+   "carbsG": 4.6,
+   "sugarsG": 4.6,
+   "fatG": 2.8,
+   "satFatG": 2.0,
+   "fiberG": null,
+   "sodiumMg": 52.0
+  }
+ },
+ {
+  "gtin14": "07622210180278",
+  "name": "Korpovit",
+  "query": "korpovit",
+  "source": "off",
+  "source_ref": "7622210180278",
+  "expected": {
+   "kcal": 437.5,
+   "proteinG": 11.806,
+   "carbsG": 65.972,
+   "sugarsG": 4.514,
+   "fatG": 12.847,
+   "satFatG": 5.903,
+   "fiberG": 8.333,
+   "sodiumMg": 409.722
+  }
+ },
+ {
+  "gtin14": "00000020267605",
+  "name": "Anacardo/Castanha-de-caju natural",
+  "query": "anacardo castanha de",
+  "source": "off",
+  "source_ref": "20267605",
+  "expected": {
+   "kcal": 600.0,
+   "proteinG": 20.5,
+   "carbsG": 19.8,
+   "sugarsG": 6.5,
+   "fatG": 47.6,
+   "satFatG": 9.0,
+   "fiberG": 5.2,
+   "sodiumMg": 0.7
+  }
+ },
+ {
+  "gtin14": "04014400400007",
+  "name": "Toffifee 15er",
+  "query": "toffifee 15er",
+  "source": "off",
+  "source_ref": "4014400400007",
+  "expected": {
+   "kcal": 521.0,
+   "proteinG": 6.0,
+   "carbsG": 58.9,
+   "sugarsG": 48.8,
+   "fatG": 29.0,
+   "satFatG": 12.7,
+   "fiberG": 16.0,
+   "sodiumMg": 0.11
+  }
+ },
+ {
+  "gtin14": "00000080135876",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80135876",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 0.0,
+   "sodiumMg": 43.0
+  }
+ },
+ {
+  "gtin14": "04056489346364",
+  "name": "Coconut And Rice Milk",
+  "query": "coconut and rice",
+  "source": "off",
+  "source_ref": "4056489346364",
+  "expected": {
+   "kcal": 19.0,
+   "proteinG": 0.0,
+   "carbsG": 2.8,
+   "sugarsG": 1.9,
+   "fatG": 0.9,
+   "satFatG": 0.9,
+   "fiberG": 0.061,
+   "sodiumMg": 118.0
+  }
+ },
+ {
+  "gtin14": "04056489018636",
+  "name": "Tortilla Wraps",
+  "query": "tortilla wraps",
+  "source": "off",
+  "source_ref": "4056489018636",
+  "expected": {
+   "kcal": 301.0,
+   "proteinG": 9.3,
+   "carbsG": 48.0,
+   "sugarsG": 2.6,
+   "fatG": 6.3,
+   "satFatG": 1.4,
+   "fiberG": 7.7,
+   "sodiumMg": 0.24
+  }
+ },
+ {
+  "gtin14": "04056489041320",
+  "name": "Bio napitak od zobi",
+  "query": "bio napitak od",
+  "source": "off",
+  "source_ref": "4056489041320",
+  "expected": {
+   "kcal": 37.0,
+   "proteinG": 0.4,
+   "carbsG": 5.6,
+   "sugarsG": 4.4,
+   "fatG": 1.2,
+   "satFatG": 0.1,
+   "fiberG": 1.007,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "00000020955427",
+  "name": "Tvarohová tyčinka Protein",
+  "query": "tvarohová tyčinka protein",
+  "source": "off",
+  "source_ref": "20955427",
+  "expected": {
+   "kcal": 310.0,
+   "proteinG": 22.0,
+   "carbsG": 16.0,
+   "sugarsG": 7.0,
+   "fatG": 19.0,
+   "satFatG": 14.0,
+   "fiberG": 0.0,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "03800233070071",
+  "name": "Brown rice cakes",
+  "query": "brown rice cakes",
+  "source": "off",
+  "source_ref": "3800233070071",
+  "expected": {
+   "kcal": 400.0,
+   "proteinG": 9.8,
+   "carbsG": 79.0,
+   "sugarsG": 0.6,
+   "fatG": 4.3,
+   "satFatG": 0.6,
+   "fiberG": 3.3,
+   "sodiumMg": 0.95
+  }
+ },
+ {
+  "gtin14": "00000020761776",
+  "name": "Krémes görögjoghurt",
+  "query": "krémes görögjoghurt",
+  "source": "off",
+  "source_ref": "20761776",
+  "expected": {
+   "kcal": 125.0,
+   "proteinG": 3.8,
+   "carbsG": 5.0,
+   "sugarsG": 5.0,
+   "fatG": 10.0,
+   "satFatG": 6.0,
+   "fiberG": 0.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "05740900400849",
+  "name": "Vaj - Enyhén sós",
+  "query": "vaj enyhén sós",
+  "source": "off",
+  "source_ref": "5740900400849",
+  "expected": {
+   "kcal": 679.0,
+   "proteinG": 0.5,
+   "carbsG": 0.6,
+   "sugarsG": 0.6,
+   "fatG": 75.0,
+   "satFatG": 35.0,
+   "fiberG": null,
+   "sodiumMg": 360.0
+  }
+ },
+ {
+  "gtin14": "05201050111042",
+  "name": "Jódozott görög tengeri só",
+  "query": "jódozott görög tengeri",
+  "source": "off",
+  "source_ref": "5201050111042",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 39599.998
+  }
+ },
+ {
+  "gtin14": "04009900412117",
+  "name": "Orbit Spearmint Bottle",
+  "query": "orbit spearmint bottle",
+  "source": "off",
+  "source_ref": "4009900412117",
+  "expected": {
+   "kcal": 149.0,
+   "proteinG": 0.0,
+   "carbsG": 62.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05993330000077",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5993330000077",
+  "expected": {
+   "kcal": 45.0,
+   "proteinG": 0.0,
+   "carbsG": 11.2,
+   "sugarsG": 11.2,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "08000500023976",
+  "name": "Candies Raffaello",
+  "query": "candies raffaello",
+  "source": "off",
+  "source_ref": "8000500023976",
+  "expected": {
+   "kcal": 470.0,
+   "proteinG": 7.0,
+   "carbsG": 38.6,
+   "sugarsG": 33.6,
+   "fatG": 44.0,
+   "satFatG": 29.5,
+   "fiberG": null,
+   "sodiumMg": 106.8
+  }
+ },
+ {
+  "gtin14": "05449000009067",
+  "name": "Coca-Cola Sabor Original",
+  "query": "coca cola sabor",
+  "source": "off",
+  "source_ref": "5449000009067",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05449000130389",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000130389",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05449000028921",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000028921",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04823077614675",
+  "name": "Печиво цукрове «До кави», з ароматом пряженого молока",
+  "query": "печиво цукрове до",
+  "source": "off",
+  "source_ref": "4823077614675",
+  "expected": {
+   "kcal": 453.0,
+   "proteinG": 7.1,
+   "carbsG": 65.9,
+   "sugarsG": 20.7,
+   "fatG": 17.3,
+   "satFatG": 8.0,
+   "fiberG": 3.03,
+   "sodiumMg": 284.0
+  }
+ },
+ {
+  "gtin14": "04820017000024",
+  "name": "Morshynska Natural mineral water",
+  "query": "morshynska natural mineral",
+  "source": "off",
+  "source_ref": "4820017000024",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 7.0
+  }
+ },
+ {
+  "gtin14": "07622210653031",
+  "name": "Cookies with cocoa and vanilla flavored cream filling Oreo Original",
+  "query": "cookies with cocoa",
+  "source": "off",
+  "source_ref": "7622210653031",
+  "expected": {
+   "kcal": 491.0,
+   "proteinG": 4.7,
+   "carbsG": 68.0,
+   "sugarsG": 38.0,
+   "fatG": 21.0,
+   "satFatG": 9.2,
+   "fiberG": 2.4,
+   "sodiumMg": 393.0
+  }
+ },
+ {
+  "gtin14": "04823063126335",
+  "name": "Пепсі-кола 1,75л",
+  "query": "пепсі кола 1",
+  "source": "off",
+  "source_ref": "4823063126335",
+  "expected": {
+   "kcal": 28.0,
+   "proteinG": 0.0,
+   "carbsG": 7.0,
+   "sugarsG": 7.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "05449000000996",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000996",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04014400400007",
+  "name": "Toffifee 15er",
+  "query": "toffifee 15er",
+  "source": "off",
+  "source_ref": "4014400400007",
+  "expected": {
+   "kcal": 521.0,
+   "proteinG": 6.0,
+   "carbsG": 58.9,
+   "sugarsG": 48.8,
+   "fatG": 29.0,
+   "satFatG": 12.7,
+   "fiberG": 16.0,
+   "sodiumMg": 0.11
+  }
+ },
+ {
+  "gtin14": "06410500090014",
+  "name": "Knäckebrot mit Roggensauerteig",
+  "query": "knäckebrot mit roggensauerteig",
+  "source": "off",
+  "source_ref": "6410500090014",
+  "expected": {
+   "kcal": 350.0,
+   "proteinG": 10.0,
+   "carbsG": 61.0,
+   "sugarsG": 1.6,
+   "fatG": 2.6,
+   "satFatG": 0.5,
+   "fiberG": 20.0,
+   "sodiumMg": 560.0
+  }
+ },
+ {
+  "gtin14": "08410376043686",
+  "name": "Classico integrale con fiocchi di avena Cuor di Cereale",
+  "query": "classico integrale con",
+  "source": "off",
+  "source_ref": "8410376043686",
+  "expected": {
+   "kcal": 446.0,
+   "proteinG": 7.8,
+   "carbsG": 54.0,
+   "sugarsG": 1.0,
+   "fatG": 14.0,
+   "satFatG": 2.0,
+   "fiberG": 14.0,
+   "sodiumMg": 260.0
+  }
+ },
+ {
+  "gtin14": "08887290101004",
+  "name": "The Original Coffee Mix",
+  "query": "the original coffee",
+  "source": "off",
+  "source_ref": "8887290101004",
+  "expected": {
+   "kcal": 423.0,
+   "proteinG": 0.0,
+   "carbsG": 90.0,
+   "sugarsG": 65.0,
+   "fatG": 7.5,
+   "satFatG": 6.5,
+   "fiberG": 0.0,
+   "sodiumMg": 800.0
+  }
+ },
+ {
+  "gtin14": "04820001316100",
+  "name": "Кетчуп пастеризований &quot;До шашлику&quot; Торчин",
+  "query": "кетчуп пастеризований quot",
+  "source": "off",
+  "source_ref": "4820001316100",
+  "expected": {
+   "kcal": 99.0,
+   "proteinG": 1.1,
+   "carbsG": 23.0,
+   "sugarsG": 19.0,
+   "fatG": 0.2,
+   "satFatG": 0.0,
+   "fiberG": 0.5,
+   "sodiumMg": 1000.0
+  }
+ },
+ {
+  "gtin14": "04820241520930",
+  "name": "Майонез 67%",
+  "query": "майонез 67",
+  "source": "off",
+  "source_ref": "4820241520930",
+  "expected": {
+   "kcal": 616.0,
+   "proteinG": 0.1,
+   "carbsG": 3.2,
+   "sugarsG": 2.0,
+   "fatG": 67.0,
+   "satFatG": 9.5,
+   "fiberG": 0.0,
+   "sodiumMg": 384.0
+  }
+ },
+ {
+  "gtin14": "04820001316063",
+  "name": "Кетчуп лагідний",
+  "query": "кетчуп лагідний",
+  "source": "off",
+  "source_ref": "4820001316063",
+  "expected": {
+   "kcal": 98.0,
+   "proteinG": 1.1,
+   "carbsG": 22.0,
+   "sugarsG": 19.0,
+   "fatG": 0.2,
+   "satFatG": 0.0,
+   "fiberG": 0.5,
+   "sodiumMg": 1000.0
+  }
+ },
+ {
+  "gtin14": "04820001316384",
+  "name": "Кетчуп лагідний",
+  "query": "кетчуп лагідний",
+  "source": "off",
+  "source_ref": "4820001316384",
+  "expected": {
+   "kcal": 98.0,
+   "proteinG": 1.1,
+   "carbsG": 22.0,
+   "sugarsG": 19.0,
+   "fatG": 0.2,
+   "satFatG": 0.0,
+   "fiberG": 0.5,
+   "sodiumMg": 983.0
+  }
+ },
+ {
+  "gtin14": "04823063126250",
+  "name": "Напій &quot;Пепсі-кола&quot; безалкогольний, сильногазований, на ароматизаторах, з цукром та підсолоджувачами",
+  "query": "напій quot пепсі",
+  "source": "off",
+  "source_ref": "4823063126250",
+  "expected": {
+   "kcal": 28.0,
+   "proteinG": 0.0,
+   "carbsG": 7.0,
+   "sugarsG": 7.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "05449000030245",
+  "name": "Original Taste Coca Cola",
+  "query": "original taste coca",
+  "source": "off",
+  "source_ref": "5449000030245",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05900951311710",
+  "name": "Snickers",
+  "query": "snickers",
+  "source": "off",
+  "source_ref": "5900951311710",
+  "expected": {
+   "kcal": 489.0,
+   "proteinG": 8.7,
+   "carbsG": 60.0,
+   "sugarsG": 51.0,
+   "fatG": 23.0,
+   "satFatG": 7.7,
+   "fiberG": null,
+   "sodiumMg": 79.0
+  }
+ }
+]

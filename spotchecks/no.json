@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "04000339697908",
+  "name": "Philadelphia naturell",
+  "query": "philadelphia naturell",
+  "source": "off",
+  "source_ref": "4000339697908",
+  "expected": {
+   "kcal": 226.0,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 295.0
+  }
+ },
+ {
+  "gtin14": "07036110008844",
+  "name": "Mills Peanut Butter",
+  "query": "mills peanut butter",
+  "source": "off",
+  "source_ref": "7036110008844",
+  "expected": {
+   "kcal": 610.0,
+   "proteinG": 24.0,
+   "carbsG": 14.0,
+   "sugarsG": 9.0,
+   "fatG": 49.0,
+   "satFatG": 8.0,
+   "fiberG": 8.0,
+   "sodiumMg": 236.0
+  }
+ },
+ {
+  "gtin14": "07039010081320",
+  "name": "Tomatketchup",
+  "query": "tomatketchup",
+  "source": "off",
+  "source_ref": "7039010081320",
+  "expected": {
+   "kcal": 95.0,
+   "proteinG": 1.7,
+   "carbsG": 21.0,
+   "sugarsG": 18.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 1.974,
+   "sodiumMg": 629.0
+  }
+ },
+ {
+  "gtin14": "07038010010187",
+  "name": "Meierismør",
+  "query": "meierismør",
+  "source": "off",
+  "source_ref": "7038010010187",
+  "expected": {
+   "kcal": 742.0,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 82.0,
+   "satFatG": 53.0,
+   "fiberG": 0.0,
+   "sodiumMg": 393.0
+  }
+ },
+ {
+  "gtin14": "07038010000980",
+  "name": "Lettmelk 1,0 % fett",
+  "query": "lettmelk 1 0",
+  "source": "off",
+  "source_ref": "7038010000980",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 3.7,
+   "carbsG": 4.7,
+   "sugarsG": 4.7,
+   "fatG": 1.0,
+   "satFatG": 0.6,
+   "fiberG": 0.0,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "07039010181341",
+  "name": "Tomatketchup",
+  "query": "tomatketchup",
+  "source": "off",
+  "source_ref": "7039010181341",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 1.7,
+   "carbsG": 8.0,
+   "sugarsG": 4.7,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 1600.0
+  }
+ },
+ {
+  "gtin14": "07026450051051",
+  "name": "Honningcentralen Akasiehonning",
+  "query": "honningcentralen akasiehonning",
+  "source": "off",
+  "source_ref": "7026450051051",
+  "expected": {
+   "kcal": 95.429,
+   "proteinG": 1.0,
+   "carbsG": 80.0,
+   "sugarsG": 80.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07038010054471",
+  "name": "Cottage Cheese Original 4,3% fett",
+  "query": "cottage cheese original",
+  "source": "off",
+  "source_ref": "7038010054471",
+  "expected": {
+   "kcal": 96.0,
+   "proteinG": 13.0,
+   "carbsG": 1.5,
+   "sugarsG": null,
+   "fatG": 4.3,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "07044416013141",
+  "name": "Lettkokte Havregryn",
+  "query": "lettkokte havregryn",
+  "source": "off",
+  "source_ref": "7044416013141",
+  "expected": {
+   "kcal": 367.0,
+   "proteinG": 13.0,
+   "carbsG": 58.0,
+   "sugarsG": 1.1,
+   "fatG": 6.8,
+   "satFatG": 1.3,
+   "fiberG": 10.0,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "07033330013245",
+  "name": "Original",
+  "query": "original",
+  "source": "off",
+  "source_ref": "7033330013245",
+  "expected": {
+   "kcal": 723.0,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 80.0,
+   "satFatG": 34.0,
+   "fiberG": null,
+   "sodiumMg": 393.0
+  }
+ },
+ {
+  "gtin14": "07350028543762",
+  "name": "CHIAFRÖ & HAVSSALT",
+  "query": "chiafrö havssalt",
+  "source": "off",
+  "source_ref": "7350028543762",
+  "expected": {
+   "kcal": 383.0,
+   "proteinG": 8.5,
+   "carbsG": 76.0,
+   "sugarsG": 2.2,
+   "fatG": 3.2,
+   "satFatG": 0.5,
+   "fiberG": 8.1,
+   "sodiumMg": 348.0
+  }
+ },
+ {
+  "gtin14": "07090046311683",
+  "name": "Dried Mango Golden Mango",
+  "query": "dried mango golden",
+  "source": "off",
+  "source_ref": "7090046311683",
+  "expected": {
+   "kcal": 341.0,
+   "proteinG": 1.8,
+   "carbsG": 80.0,
+   "sugarsG": 70.0,
+   "fatG": 0.6,
+   "satFatG": 0.005,
+   "fiberG": 4.4,
+   "sodiumMg": 118.0
+  }
+ },
+ {
+  "gtin14": "05700419083360",
+  "name": "Philadelphia Light",
+  "query": "philadelphia light",
+  "source": "off",
+  "source_ref": "5700419083360",
+  "expected": {
+   "kcal": 145.0,
+   "proteinG": 7.2,
+   "carbsG": 5.1,
+   "sugarsG": 5.1,
+   "fatG": 10.0,
+   "satFatG": 6.9,
+   "fiberG": 0.3,
+   "sodiumMg": 275.0
+  }
+ },
+ {
+  "gtin14": "05010029000160",
+  "name": "Weetabix",
+  "query": "weetabix",
+  "source": "off",
+  "source_ref": "5010029000160",
+  "expected": {
+   "kcal": 362.0,
+   "proteinG": 12.0,
+   "carbsG": 69.0,
+   "sugarsG": 4.2,
+   "fatG": 2.0,
+   "satFatG": 0.6,
+   "fiberG": 10.0,
+   "sodiumMg": 0.112
+  }
+ },
+ {
+  "gtin14": "07039317007412",
+  "name": "Bixit havrekjeks original",
+  "query": "bixit havrekjeks original",
+  "source": "off",
+  "source_ref": "7039317007412",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07038010054488",
+  "name": "Cottage Cheese Mager 2% fett",
+  "query": "cottage cheese mager",
+  "source": "off",
+  "source_ref": "7038010054488",
+  "expected": {
+   "kcal": 79.0,
+   "proteinG": 13.0,
+   "carbsG": 2.1,
+   "sugarsG": 2.1,
+   "fatG": 2.0,
+   "satFatG": 1.3,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07021010001057",
+  "name": "Nugatti",
+  "query": "nugatti",
+  "source": "off",
+  "source_ref": "7021010001057",
+  "expected": {
+   "kcal": 526.667,
+   "proteinG": 4.6,
+   "carbsG": 62.0,
+   "sugarsG": 60.0,
+   "fatG": 28.0,
+   "satFatG": 3.4,
+   "fiberG": 2.288,
+   "sodiumMg": 75.0
+  }
+ },
+ {
+  "gtin14": "07039010132435",
+  "name": "Stabburet Leverpostei",
+  "query": "stabburet leverpostei",
+  "source": "off",
+  "source_ref": "7039010132435",
+  "expected": {
+   "kcal": 225.0,
+   "proteinG": 10.0,
+   "carbsG": 3.6,
+   "sugarsG": 1.4,
+   "fatG": 19.0,
+   "satFatG": 5.5,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05701038033248",
+  "name": "Peanut butter Crunchy",
+  "query": "peanut butter crunchy",
+  "source": "off",
+  "source_ref": "5701038033248",
+  "expected": {
+   "kcal": 592.0,
+   "proteinG": 26.0,
+   "carbsG": 7.6,
+   "sugarsG": 4.7,
+   "fatG": 49.0,
+   "satFatG": 11.0,
+   "fiberG": 8.5,
+   "sodiumMg": 169.0
+  }
+ },
+ {
+  "gtin14": "05000112637380",
+  "name": "Coke Original Taste",
+  "query": "coke original taste",
+  "source": "off",
+  "source_ref": "5000112637380",
+  "expected": {
+   "kcal": 42.4,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ }
+]

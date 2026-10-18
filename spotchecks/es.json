@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "08436547770137",
+  "name": "Kéfir natural sabor suave",
+  "query": "kéfir natural sabor",
+  "source": "off",
+  "source_ref": "8436547770137",
+  "expected": {
+   "kcal": 74.0,
+   "proteinG": 3.9,
+   "carbsG": 5.1,
+   "sugarsG": 2.3,
+   "fatG": 4.2,
+   "satFatG": 2.9,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04008713713411",
+  "name": "Copos de Avena extra suaves",
+  "query": "copos de avena",
+  "source": "off",
+  "source_ref": "4008713713411",
+  "expected": {
+   "kcal": 375.0,
+   "proteinG": 14.0,
+   "carbsG": 59.0,
+   "sugarsG": 0.7,
+   "fatG": 7.0,
+   "satFatG": 1.3,
+   "fiberG": 10.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08480000168832",
+  "name": "Crema de cacahuetes 100%",
+  "query": "crema de cacahuetes",
+  "source": "off",
+  "source_ref": "8480000168832",
+  "expected": {
+   "kcal": 606.667,
+   "proteinG": 30.0,
+   "carbsG": 12.0,
+   "sugarsG": 5.333,
+   "fatG": 46.667,
+   "satFatG": 6.667,
+   "fiberG": 8.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08410109121551",
+  "name": "Cacao puro desgrasado en polvo",
+  "query": "cacao puro desgrasado",
+  "source": "off",
+  "source_ref": "8410109121551",
+  "expected": {
+   "kcal": 375.0,
+   "proteinG": 25.5,
+   "carbsG": 16.3,
+   "sugarsG": 0.7,
+   "fatG": 16.0,
+   "satFatG": 10.2,
+   "fiberG": 31.7,
+   "sodiumMg": 12.0
+  }
+ },
+ {
+  "gtin14": "08480000038524",
+  "name": "Guacamole",
+  "query": "guacamole",
+  "source": "off",
+  "source_ref": "8480000038524",
+  "expected": {
+   "kcal": 149.0,
+   "proteinG": 1.9,
+   "carbsG": 2.0,
+   "sugarsG": 1.4,
+   "fatG": 13.7,
+   "satFatG": 3.8,
+   "fiberG": 5.0,
+   "sodiumMg": 600.0
+  }
+ },
+ {
+  "gtin14": "08402001010873",
+  "name": "Muesli Crunchy",
+  "query": "muesli crunchy",
+  "source": "off",
+  "source_ref": "8402001010873",
+  "expected": {
+   "kcal": 401.0,
+   "proteinG": 8.8,
+   "carbsG": 52.0,
+   "sugarsG": 3.2,
+   "fatG": 12.0,
+   "satFatG": 1.4,
+   "fiberG": 23.0,
+   "sodiumMg": 32.0
+  }
+ },
+ {
+  "gtin14": "08480000093691",
+  "name": "Pan de molde 100% integral",
+  "query": "pan de molde",
+  "source": "off",
+  "source_ref": "8480000093691",
+  "expected": {
+   "kcal": 250.0,
+   "proteinG": 11.3,
+   "carbsG": 36.0,
+   "sugarsG": 2.6,
+   "fatG": 4.8,
+   "satFatG": 0.8,
+   "fiberG": 8.3,
+   "sodiumMg": 366.67
+  }
+ },
+ {
+  "gtin14": "08710445020878",
+  "name": "FIBRA & SÉSAMO",
+  "query": "fibra sésamo",
+  "source": "off",
+  "source_ref": "8710445020878",
+  "expected": {
+   "kcal": 395.833,
+   "proteinG": 13.0,
+   "carbsG": 60.1,
+   "sugarsG": 3.0,
+   "fatG": 7.6,
+   "satFatG": 1.1,
+   "fiberG": 24.7,
+   "sodiumMg": 452.0
+  }
+ },
+ {
+  "gtin14": "08480000142139",
+  "name": "Digestive Avena",
+  "query": "digestive avena",
+  "source": "off",
+  "source_ref": "8480000142139",
+  "expected": {
+   "kcal": 477.0,
+   "proteinG": 7.5,
+   "carbsG": 61.0,
+   "sugarsG": 18.0,
+   "fatG": 21.0,
+   "satFatG": 2.3,
+   "fiberG": 6.8,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "08480000057105",
+  "name": "Pechuga de Pavo Cocida 92%",
+  "query": "pechuga de pavo",
+  "source": "off",
+  "source_ref": "8480000057105",
+  "expected": {
+   "kcal": 89.0,
+   "proteinG": 19.5,
+   "carbsG": 0.9,
+   "sugarsG": 0.9,
+   "fatG": 1.3,
+   "satFatG": 0.5,
+   "fiberG": null,
+   "sodiumMg": 747.0
+  }
+ },
+ {
+  "gtin14": "05449000000996",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000996",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05449000131805",
+  "name": "Coca-Cola Zero Azúcar",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000131805",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08410376026962",
+  "name": "Digestive Avena Choco",
+  "query": "digestive avena choco",
+  "source": "off",
+  "source_ref": "8410376026962",
+  "expected": {
+   "kcal": 478.571,
+   "proteinG": 7.483,
+   "carbsG": 61.224,
+   "sugarsG": 21.769,
+   "fatG": 21.088,
+   "satFatG": 14.286,
+   "fiberG": 6.803,
+   "sodiumMg": 393.197
+  }
+ },
+ {
+  "gtin14": "08480000512031",
+  "name": "Queso crema suave",
+  "query": "queso crema suave",
+  "source": "off",
+  "source_ref": "8480000512031",
+  "expected": {
+   "kcal": 244.0,
+   "proteinG": 4.2,
+   "carbsG": 3.7,
+   "sugarsG": 2.5,
+   "fatG": 23.0,
+   "satFatG": 16.0,
+   "fiberG": null,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "08480000095367",
+  "name": "Muesli con quinoa, chía y chocolate negro",
+  "query": "muesli con quinoa",
+  "source": "off",
+  "source_ref": "8480000095367",
+  "expected": {
+   "kcal": 416.0,
+   "proteinG": 9.8,
+   "carbsG": 60.0,
+   "sugarsG": 18.0,
+   "fatG": 13.0,
+   "satFatG": 4.3,
+   "fiberG": 10.0,
+   "sodiumMg": 43.0
+  }
+ },
+ {
+  "gtin14": "08480000609632",
+  "name": "Queso fresco cottage",
+  "query": "queso fresco cottage",
+  "source": "off",
+  "source_ref": "8480000609632",
+  "expected": {
+   "kcal": 93.0,
+   "proteinG": 13.0,
+   "carbsG": 1.6,
+   "sugarsG": 1.6,
+   "fatG": 4.0,
+   "satFatG": 2.6,
+   "fiberG": 0.0,
+   "sodiumMg": 328.0
+  }
+ },
+ {
+  "gtin14": "08710482532303",
+  "name": "Trigo Espelta Crackers",
+  "query": "trigo espelta crackers",
+  "source": "off",
+  "source_ref": "8710482532303",
+  "expected": {
+   "kcal": 440.0,
+   "proteinG": 15.0,
+   "carbsG": 56.0,
+   "sugarsG": 3.8,
+   "fatG": 14.0,
+   "satFatG": 1.4,
+   "fiberG": 14.0,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "08480000156112",
+  "name": "Avena crunchy",
+  "query": "avena crunchy",
+  "source": "off",
+  "source_ref": "8480000156112",
+  "expected": {
+   "kcal": 387.0,
+   "proteinG": 13.0,
+   "carbsG": 66.0,
+   "sugarsG": 4.6,
+   "fatG": 5.8,
+   "satFatG": 1.0,
+   "fiberG": 11.0,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "08480000809421",
+  "name": "Tortillas de trigo integrales",
+  "query": "tortillas de trigo",
+  "source": "off",
+  "source_ref": "8480000809421",
+  "expected": {
+   "kcal": 269.444,
+   "proteinG": 9.3,
+   "carbsG": 41.0,
+   "sugarsG": 2.1,
+   "fatG": 5.8,
+   "satFatG": 1.9,
+   "fiberG": 8.5,
+   "sodiumMg": 600.0
+  }
+ },
+ {
+  "gtin14": "08480000171320",
+  "name": "Tomate frito",
+  "query": "tomate frito",
+  "source": "off",
+  "source_ref": "8480000171320",
+  "expected": {
+   "kcal": 81.0,
+   "proteinG": 1.4,
+   "carbsG": 11.6,
+   "sugarsG": 7.2,
+   "fatG": 3.0,
+   "satFatG": 0.4,
+   "fiberG": 0.0,
+   "sodiumMg": 393000.0
+  }
+ }
+]

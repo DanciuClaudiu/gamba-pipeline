@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "09310072014753",
+  "name": "Vita-Weat 9 Grains",
+  "query": "vita weat 9",
+  "source": "off",
+  "source_ref": "9310072014753",
+  "expected": {
+   "kcal": 410.728,
+   "proteinG": 11.765,
+   "carbsG": 62.605,
+   "sugarsG": 1.681,
+   "fatG": 9.244,
+   "satFatG": 1.261,
+   "fiberG": 13.445,
+   "sodiumMg": 424.37
+  }
+ },
+ {
+  "gtin14": "09352042000328",
+  "name": "Vegemite",
+  "query": "vegemite",
+  "source": "off",
+  "source_ref": "9352042000328",
+  "expected": {
+   "kcal": 100.382,
+   "proteinG": 25.9,
+   "carbsG": 11.1,
+   "sugarsG": 2.4,
+   "fatG": 1.0,
+   "satFatG": 1.0,
+   "fiberG": 8.4,
+   "sodiumMg": 3300.0
+  }
+ },
+ {
+  "gtin14": "09300652803495",
+  "name": "Almond Milk Unsweetened",
+  "query": "almond milk unsweetened",
+  "source": "off",
+  "source_ref": "9300652803495",
+  "expected": {
+   "kcal": 103.0,
+   "proteinG": 3.5,
+   "carbsG": 2.0,
+   "sugarsG": 0.8,
+   "fatG": 8.8,
+   "satFatG": 0.8,
+   "fiberG": 2.0,
+   "sodiumMg": 225.0
+  }
+ },
+ {
+  "gtin14": "09300652809985",
+  "name": "Oat",
+  "query": "oat",
+  "source": "off",
+  "source_ref": "9300652809985",
+  "expected": {
+   "kcal": 46.0,
+   "proteinG": 0.8,
+   "carbsG": 6.3,
+   "sugarsG": 2.0,
+   "fatG": 1.9,
+   "satFatG": 0.2,
+   "fiberG": 0.4,
+   "sodiumMg": 45.0
+  }
+ },
+ {
+  "gtin14": "09414942110252",
+  "name": "Marmite",
+  "query": "marmite",
+  "source": "off",
+  "source_ref": "9414942110252",
+  "expected": {
+   "kcal": 560.0,
+   "proteinG": 17.4,
+   "carbsG": 16.8,
+   "sugarsG": 11.2,
+   "fatG": 1.0,
+   "satFatG": 0.1,
+   "fiberG": 9.3,
+   "sodiumMg": 1320.0
+  }
+ },
+ {
+  "gtin14": "09414942805653",
+  "name": "Weet-Bix",
+  "query": "weet bix",
+  "source": "off",
+  "source_ref": "9414942805653",
+  "expected": {
+   "kcal": 353.439,
+   "proteinG": 12.0,
+   "carbsG": 67.0,
+   "sugarsG": 2.8,
+   "fatG": 1.4,
+   "satFatG": 0.3,
+   "fiberG": 10.1,
+   "sodiumMg": 270.0
+  }
+ },
+ {
+  "gtin14": "09421901881160",
+  "name": "Peanut Butter - Smooth",
+  "query": "peanut butter smooth",
+  "source": "off",
+  "source_ref": "9421901881160",
+  "expected": {
+   "kcal": 603.888,
+   "proteinG": 26.333,
+   "carbsG": 11.333,
+   "sugarsG": 3.667,
+   "fatG": 49.0,
+   "satFatG": 7.0,
+   "fiberG": 6.667,
+   "sodiumMg": 180.0
+  }
+ },
+ {
+  "gtin14": "09415559040017",
+  "name": "Real Mayonnaise",
+  "query": "real mayonnaise",
+  "source": "off",
+  "source_ref": "9415559040017",
+  "expected": {
+   "kcal": 707.143,
+   "proteinG": 1.429,
+   "carbsG": 1.429,
+   "sugarsG": 0.714,
+   "fatG": 78.571,
+   "satFatG": 5.714,
+   "fiberG": null,
+   "sodiumMg": 607.143
+  }
+ },
+ {
+  "gtin14": "09415522002738",
+  "name": "AUTHENTIC GREEK YOGHURT Natural",
+  "query": "authentic greek yoghurt",
+  "source": "off",
+  "source_ref": "9415522002738",
+  "expected": {
+   "kcal": 74.689,
+   "proteinG": 9.5,
+   "carbsG": 2.688,
+   "sugarsG": 2.688,
+   "fatG": 2.813,
+   "satFatG": 1.875,
+   "fiberG": 0.0,
+   "sodiumMg": 34.375
+  }
+ },
+ {
+  "gtin14": "09414942010750",
+  "name": "Weet-Bix",
+  "query": "weet bix",
+  "source": "off",
+  "source_ref": "9414942010750",
+  "expected": {
+   "kcal": 353.728,
+   "proteinG": 12.0,
+   "carbsG": 67.0,
+   "sugarsG": 2.8,
+   "fatG": 1.4,
+   "satFatG": 0.3,
+   "fiberG": 10.1,
+   "sodiumMg": 270.0
+  }
+ },
+ {
+  "gtin14": "09300617065920",
+  "name": "OLD GOLD DARK CHOCOLATE",
+  "query": "old gold dark",
+  "source": "off",
+  "source_ref": "9300617065920",
+  "expected": {
+   "kcal": 555.449,
+   "proteinG": 9.6,
+   "carbsG": 36.4,
+   "sugarsG": 28.8,
+   "fatG": 39.2,
+   "satFatG": 24.0,
+   "fiberG": null,
+   "sodiumMg": 12.0
+  }
+ },
+ {
+  "gtin14": "09421901881009",
+  "name": "Peanut Butter Crunchy",
+  "query": "peanut butter crunchy",
+  "source": "off",
+  "source_ref": "9421901881009",
+  "expected": {
+   "kcal": 603.888,
+   "proteinG": 26.333,
+   "carbsG": 11.333,
+   "sugarsG": 3.667,
+   "fatG": 49.0,
+   "satFatG": 7.0,
+   "fiberG": 9.0,
+   "sodiumMg": 180.0
+  }
+ },
+ {
+  "gtin14": "09300652801286",
+  "name": "Weet-Bix Bites Wild Berry",
+  "query": "weet bix bites",
+  "source": "off",
+  "source_ref": "9300652801286",
+  "expected": {
+   "kcal": 318.182,
+   "proteinG": 10.0,
+   "carbsG": 71.111,
+   "sugarsG": 21.778,
+   "fatG": 0.8,
+   "satFatG": 0.2,
+   "fiberG": 8.444,
+   "sodiumMg": 291.112
+  }
+ },
+ {
+  "gtin14": "09341650001728",
+  "name": "Unsweetened oat milk",
+  "query": "unsweetened oat milk",
+  "source": "off",
+  "source_ref": "9341650001728",
+  "expected": {
+   "kcal": 48.279,
+   "proteinG": 0.6,
+   "carbsG": 6.2,
+   "sugarsG": 1.2,
+   "fatG": 2.2,
+   "satFatG": 0.3,
+   "fiberG": 0.72,
+   "sodiumMg": 50.0
+  }
+ },
+ {
+  "gtin14": "09310072026312",
+  "name": "Shapes Originals Chicken Crimpy",
+  "query": "shapes originals chicken",
+  "source": "off",
+  "source_ref": "9310072026312",
+  "expected": {
+   "kcal": 471.319,
+   "proteinG": 7.6,
+   "carbsG": 64.4,
+   "sugarsG": 6.8,
+   "fatG": 19.6,
+   "satFatG": 4.0,
+   "fiberG": 3.2,
+   "sodiumMg": 868.0
+  }
+ },
+ {
+  "gtin14": "09403142001231",
+  "name": "Dark Ghana",
+  "query": "dark ghana",
+  "source": "off",
+  "source_ref": "9403142001231",
+  "expected": {
+   "kcal": 554.493,
+   "proteinG": 11.4,
+   "carbsG": 51.1,
+   "sugarsG": 27.0,
+   "fatG": 34.0,
+   "satFatG": 24.1,
+   "fiberG": 0.0,
+   "sodiumMg": 2.0
+  }
+ },
+ {
+  "gtin14": "09342866000482",
+  "name": "Monster Energy Zero Ultra",
+  "query": "monster energy zero",
+  "source": "off",
+  "source_ref": "9342866000482",
+  "expected": {
+   "kcal": 3.0,
+   "proteinG": 0.0,
+   "carbsG": 1.4,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 76.0
+  }
+ },
+ {
+  "gtin14": "09300657114046",
+  "name": "HEINZ TOMATO KETCHUP",
+  "query": "heinz tomato ketchup",
+  "source": "off",
+  "source_ref": "9300657114046",
+  "expected": {
+   "kcal": 111.3,
+   "proteinG": 1.4,
+   "carbsG": 26.2,
+   "sugarsG": 25.8,
+   "fatG": 0.1,
+   "satFatG": 0.1,
+   "fiberG": null,
+   "sodiumMg": 815.0
+  }
+ },
+ {
+  "gtin14": "09421903594198",
+  "name": "Boring Oat Milk Barista Grade",
+  "query": "boring oat milk",
+  "source": "off",
+  "source_ref": "9421903594198",
+  "expected": {
+   "kcal": 54.613,
+   "proteinG": 0.6,
+   "carbsG": 8.0,
+   "sugarsG": 4.0,
+   "fatG": 2.7,
+   "satFatG": 0.3,
+   "fiberG": 1.4,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "09300652802542",
+  "name": "UP & GO PROTEIN ENERGIZE CHOC HIT FLAVOUR",
+  "query": "up go protein",
+  "source": "off",
+  "source_ref": "9300652802542",
+  "expected": {
+   "kcal": 80.0,
+   "proteinG": 7.0,
+   "carbsG": 8.5,
+   "sugarsG": 6.7,
+   "fatG": 1.7,
+   "satFatG": 0.3,
+   "fiberG": 1.0,
+   "sodiumMg": 240.0
+  }
+ }
+]

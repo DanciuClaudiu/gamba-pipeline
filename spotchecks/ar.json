@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "07798151952332",
+  "name": "Pasta de Maní Natural",
+  "query": "pasta de maní",
+  "source": "off",
+  "source_ref": "7798151952332",
+  "expected": {
+   "kcal": 585.0,
+   "proteinG": 26.0,
+   "carbsG": 10.0,
+   "sugarsG": 7.5,
+   "fatG": 49.0,
+   "satFatG": 6.4,
+   "fiberG": 9.2,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07795735000328",
+  "name": "Bizcocho Salado",
+  "query": "bizcocho salado",
+  "source": "off",
+  "source_ref": "7795735000328",
+  "expected": {
+   "kcal": 516.667,
+   "proteinG": 9.0,
+   "carbsG": 53.333,
+   "sugarsG": 2.0,
+   "fatG": 29.667,
+   "satFatG": 13.667,
+   "fiberG": 0.0,
+   "sodiumMg": 566.667
+  }
+ },
+ {
+  "gtin14": "00000077940131",
+  "name": "Turrón & Maní",
+  "query": "turrón maní",
+  "source": "off",
+  "source_ref": "77940131",
+  "expected": {
+   "kcal": 425.926,
+   "proteinG": 8.8,
+   "carbsG": 73.0,
+   "sugarsG": 40.0,
+   "fatG": 7.9,
+   "satFatG": 1.3,
+   "fiberG": 1.6,
+   "sodiumMg": 51.0
+  }
+ },
+ {
+  "gtin14": "07793890258769",
+  "name": "Pan Blanco LACTAL",
+  "query": "pan blanco lactal",
+  "source": "off",
+  "source_ref": "7793890258769",
+  "expected": {
+   "kcal": 261.111,
+   "proteinG": 9.63,
+   "carbsG": 48.148,
+   "sugarsG": null,
+   "fatG": 3.333,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 246.296
+  }
+ },
+ {
+  "gtin14": "07793913013993",
+  "name": "Yogur natural sin azúcar agregada",
+  "query": "yogur natural sin",
+  "source": "off",
+  "source_ref": "7793913013993",
+  "expected": {
+   "kcal": 79.286,
+   "proteinG": 5.286,
+   "carbsG": 7.857,
+   "sugarsG": 7.143,
+   "fatG": 3.0,
+   "satFatG": 2.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07791337006355",
+  "name": "Yogurisimo sabor Natural",
+  "query": "yogurisimo sabor natural",
+  "source": "off",
+  "source_ref": "7791337006355",
+  "expected": {
+   "kcal": 81.5,
+   "proteinG": 7.0,
+   "carbsG": 6.25,
+   "sugarsG": 5.25,
+   "fatG": 3.15,
+   "satFatG": 1.8,
+   "fiberG": 0.0,
+   "sodiumMg": 87.5
+  }
+ },
+ {
+  "gtin14": "07792200000159",
+  "name": "9 de oro clásicos",
+  "query": "9 de oro",
+  "source": "off",
+  "source_ref": "7792200000159",
+  "expected": {
+   "kcal": 480.0,
+   "proteinG": 9.0,
+   "carbsG": 60.0,
+   "sugarsG": 0.0,
+   "fatG": 22.0,
+   "satFatG": 9.0,
+   "fiberG": 2.0,
+   "sodiumMg": 669.0
+  }
+ },
+ {
+  "gtin14": "07790580138738",
+  "name": "Polenta instantánea",
+  "query": "polenta instantánea",
+  "source": "off",
+  "source_ref": "7790580138738",
+  "expected": {
+   "kcal": 348.0,
+   "proteinG": 7.0,
+   "carbsG": 78.0,
+   "sugarsG": 0.5,
+   "fatG": 0.8,
+   "satFatG": 0.0,
+   "fiberG": 2.2,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07790742358608",
+  "name": "Leche Protein",
+  "query": "leche protein",
+  "source": "off",
+  "source_ref": "7790742358608",
+  "expected": {
+   "kcal": 41.5,
+   "proteinG": 5.0,
+   "carbsG": 4.6,
+   "sugarsG": 4.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 53.0
+  }
+ },
+ {
+  "gtin14": "07790040377806",
+  "name": "criollitas x3",
+  "query": "criollitas x3",
+  "source": "off",
+  "source_ref": "7790040377806",
+  "expected": {
+   "kcal": 423.333,
+   "proteinG": 12.0,
+   "carbsG": 63.333,
+   "sugarsG": 0.0,
+   "fatG": 13.0,
+   "satFatG": 5.667,
+   "fiberG": 3.0,
+   "sodiumMg": 556.667
+  }
+ },
+ {
+  "gtin14": "07793704000911",
+  "name": "PLAYADITO",
+  "query": "playadito",
+  "source": "off",
+  "source_ref": "7793704000911",
+  "expected": {
+   "kcal": 64.0,
+   "proteinG": 1.8,
+   "carbsG": 14.4,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 1.0,
+   "sodiumMg": 16.866
+  }
+ },
+ {
+  "gtin14": "07790742625205",
+  "name": "Dulce de leche estilo colonial",
+  "query": "dulce de leche",
+  "source": "off",
+  "source_ref": "7790742625205",
+  "expected": {
+   "kcal": 315.0,
+   "proteinG": 7.5,
+   "carbsG": 55.0,
+   "sugarsG": 50.0,
+   "fatG": 7.0,
+   "satFatG": 5.0,
+   "fiberG": 0.0,
+   "sodiumMg": 145.0
+  }
+ },
+ {
+  "gtin14": "07792799000011",
+  "name": "Agua",
+  "query": "agua",
+  "source": "off",
+  "source_ref": "7792799000011",
+  "expected": {
+   "kcal": 30.0,
+   "proteinG": 0.0,
+   "carbsG": 4.0,
+   "sugarsG": 2.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 4000.0
+  }
+ },
+ {
+  "gtin14": "07790742333605",
+  "name": "Leche Zero Lactosa",
+  "query": "leche zero lactosa",
+  "source": "off",
+  "source_ref": "7790742333605",
+  "expected": {
+   "kcal": 40.0,
+   "proteinG": 3.0,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 1.0,
+   "satFatG": 0.65,
+   "fiberG": null,
+   "sodiumMg": 49.0
+  }
+ },
+ {
+  "gtin14": "07790742373304",
+  "name": "Finlandia lightx 290",
+  "query": "finlandia lightx 290",
+  "source": "off",
+  "source_ref": "7790742373304",
+  "expected": {
+   "kcal": 190.0,
+   "proteinG": 9.0,
+   "carbsG": 5.333,
+   "sugarsG": 5.333,
+   "fatG": 14.667,
+   "satFatG": 9.667,
+   "fiberG": 0.0,
+   "sodiumMg": 1213.333
+  }
+ },
+ {
+  "gtin14": "07794000006072",
+  "name": "Mayonesa Clásica Rica y Cremosa",
+  "query": "mayonesa clásica rica",
+  "source": "off",
+  "source_ref": "7794000006072",
+  "expected": {
+   "kcal": 308.0,
+   "proteinG": 0.0,
+   "carbsG": 6.67,
+   "sugarsG": 3.33,
+   "fatG": 30.8,
+   "satFatG": 3.33,
+   "fiberG": null,
+   "sodiumMg": 3330.0
+  }
+ },
+ {
+  "gtin14": "00000077980229",
+  "name": "Alfajor de Dulce de Leche",
+  "query": "alfajor de dulce",
+  "source": "off",
+  "source_ref": "77980229",
+  "expected": {
+   "kcal": 400.0,
+   "proteinG": 5.789,
+   "carbsG": 63.158,
+   "sugarsG": null,
+   "fatG": 13.684,
+   "satFatG": 7.368,
+   "fiberG": 2.368,
+   "sodiumMg": 194.737
+  }
+ },
+ {
+  "gtin14": "07790040143234",
+  "name": "Chocolinas Original",
+  "query": "chocolinas original",
+  "source": "off",
+  "source_ref": "7790040143234",
+  "expected": {
+   "kcal": 453.0,
+   "proteinG": 8.9,
+   "carbsG": 67.0,
+   "sugarsG": 20.0,
+   "fatG": 17.0,
+   "satFatG": 5.0,
+   "fiberG": 4.0,
+   "sodiumMg": 271.0
+  }
+ },
+ {
+  "gtin14": "07790742324108",
+  "name": "Finlandia +Livx 290",
+  "query": "finlandia livx 290",
+  "source": "off",
+  "source_ref": "7790742324108",
+  "expected": {
+   "kcal": 39.0,
+   "proteinG": 2.7,
+   "carbsG": 1.6,
+   "sugarsG": 1.6,
+   "fatG": 2.4,
+   "satFatG": 1.5,
+   "fiberG": 0.0,
+   "sodiumMg": 19000.0
+  }
+ },
+ {
+  "gtin14": "07790742625304",
+  "name": "Dulce de leche clásico",
+  "query": "dulce de leche",
+  "source": "off",
+  "source_ref": "7790742625304",
+  "expected": {
+   "kcal": 310.0,
+   "proteinG": 5.5,
+   "carbsG": 55.0,
+   "sugarsG": 44.0,
+   "fatG": 7.0,
+   "satFatG": 5.0,
+   "fiberG": null,
+   "sodiumMg": 155.0
+  }
+ }
+]

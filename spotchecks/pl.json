@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05900512300108",
+  "name": "Masło extra",
+  "query": "masło extra",
+  "source": "off",
+  "source_ref": "5900512300108",
+  "expected": {
+   "kcal": 746.0,
+   "proteinG": 1.0,
+   "carbsG": 1.0,
+   "sugarsG": 1.0,
+   "fatG": 82.0,
+   "satFatG": 54.0,
+   "fiberG": 4.277,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05900531000010",
+  "name": "SEREK WIEJSKI",
+  "query": "serek wiejski",
+  "source": "off",
+  "source_ref": "5900531000010",
+  "expected": {
+   "kcal": 97.0,
+   "proteinG": 11.0,
+   "carbsG": 2.0,
+   "sugarsG": 1.5,
+   "fatG": 5.0,
+   "satFatG": 3.5,
+   "fiberG": 0.0,
+   "sodiumMg": 275.0
+  }
+ },
+ {
+  "gtin14": "05902057001748",
+  "name": "kefir",
+  "query": "kefir",
+  "source": "off",
+  "source_ref": "5902057001748",
+  "expected": {
+   "kcal": 50.0,
+   "proteinG": 3.4,
+   "carbsG": 4.7,
+   "sugarsG": 4.2,
+   "fatG": 2.0,
+   "satFatG": 1.2,
+   "fiberG": null,
+   "sodiumMg": 31.0
+  }
+ },
+ {
+  "gtin14": "05900531001130",
+  "name": "Śmietana 18%",
+  "query": "śmietana 18",
+  "source": "off",
+  "source_ref": "5900531001130",
+  "expected": {
+   "kcal": 191.0,
+   "proteinG": 2.5,
+   "carbsG": 4.8,
+   "sugarsG": 3.6,
+   "fatG": 18.0,
+   "satFatG": 11.0,
+   "fiberG": 0.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "05901520000059",
+  "name": "Muszynianka 1.5",
+  "query": "muszynianka 1 5",
+  "source": "off",
+  "source_ref": "5901520000059",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 87.8
+  }
+ },
+ {
+  "gtin14": "05000112651355",
+  "name": "Coca-Cola Original",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5000112651355",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05900541000000",
+  "name": "Niegazowany",
+  "query": "niegazowany",
+  "source": "off",
+  "source_ref": "5900541000000",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 2.4
+  }
+ },
+ {
+  "gtin14": "05901588018195",
+  "name": "Czekolada mocno gorzka 80%",
+  "query": "czekolada mocno gorzka",
+  "source": "off",
+  "source_ref": "5901588018195",
+  "expected": {
+   "kcal": 558.0,
+   "proteinG": 10.0,
+   "carbsG": 21.0,
+   "sugarsG": 16.0,
+   "fatG": 45.0,
+   "satFatG": 27.0,
+   "fiberG": 16.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05901588018768",
+  "name": "Czekolada klasyczna gorzka 64%",
+  "query": "czekolada klasyczna gorzka",
+  "source": "off",
+  "source_ref": "5901588018768",
+  "expected": {
+   "kcal": 508.0,
+   "proteinG": 9.1,
+   "carbsG": 36.0,
+   "sugarsG": 32.0,
+   "fatG": 33.0,
+   "satFatG": 20.0,
+   "fiberG": 14.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05902078000201",
+  "name": "Cisowianka niegazowana",
+  "query": "cisowianka niegazowana",
+  "source": "off",
+  "source_ref": "5902078000201",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": null,
+   "carbsG": null,
+   "sugarsG": null,
+   "fatG": null,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "05449000000996",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000996",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05900617038289",
+  "name": "Peanut Butter - Smooth",
+  "query": "peanut butter smooth",
+  "source": "off",
+  "source_ref": "5900617038289",
+  "expected": {
+   "kcal": 603.0,
+   "proteinG": 27.0,
+   "carbsG": 12.0,
+   "sugarsG": 6.7,
+   "fatG": 48.0,
+   "satFatG": 6.4,
+   "fiberG": 7.6,
+   "sodiumMg": 16.0
+  }
+ },
+ {
+  "gtin14": "05900617038265",
+  "name": "Peanut Butter - Crunchy",
+  "query": "peanut butter crunchy",
+  "source": "off",
+  "source_ref": "5900617038265",
+  "expected": {
+   "kcal": 603.0,
+   "proteinG": 27.0,
+   "carbsG": 12.0,
+   "sugarsG": 6.7,
+   "fatG": 48.0,
+   "satFatG": 6.4,
+   "fiberG": 7.6,
+   "sodiumMg": 16.0
+  }
+ },
+ {
+  "gtin14": "05900085011012",
+  "name": "Majonez Dekoracyjny",
+  "query": "majonez dekoracyjny",
+  "source": "off",
+  "source_ref": "5900085011012",
+  "expected": {
+   "kcal": 704.0,
+   "proteinG": 1.5,
+   "carbsG": 2.9,
+   "sugarsG": 2.3,
+   "fatG": 76.3,
+   "satFatG": 5.3,
+   "fiberG": 0.185,
+   "sodiumMg": 236.0
+  }
+ },
+ {
+  "gtin14": "05900385012573",
+  "name": "Ketchup Łagodny",
+  "query": "ketchup łagodny",
+  "source": "off",
+  "source_ref": "5900385012573",
+  "expected": {
+   "kcal": 97.0,
+   "proteinG": 1.4,
+   "carbsG": 21.0,
+   "sugarsG": 18.0,
+   "fatG": 0.5,
+   "satFatG": 0.1,
+   "fiberG": 0.99,
+   "sodiumMg": 787.0
+  }
+ },
+ {
+  "gtin14": "05900820000011",
+  "name": "UHT milk 3.2% fat content",
+  "query": "uht milk 3",
+  "source": "off",
+  "source_ref": "5900820000011",
+  "expected": {
+   "kcal": 60.0,
+   "proteinG": 3.2,
+   "carbsG": 4.7,
+   "sugarsG": 4.7,
+   "fatG": 3.2,
+   "satFatG": 2.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.04
+  }
+ },
+ {
+  "gtin14": "05900012000232",
+  "name": "Olej rzepakowy z pierwszego tłoczenia, filtrowany",
+  "query": "olej rzepakowy z",
+  "source": "off",
+  "source_ref": "5900012000232",
+  "expected": {
+   "kcal": 900.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 100.0,
+   "satFatG": 7.5,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05900102028382",
+  "name": "Gorzka Extra",
+  "query": "gorzka extra",
+  "source": "off",
+  "source_ref": "5900102028382",
+  "expected": {
+   "kcal": 555.556,
+   "proteinG": 15.556,
+   "carbsG": 33.333,
+   "sugarsG": 8.889,
+   "fatG": 44.444,
+   "satFatG": 28.889,
+   "fiberG": 17.778,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05900820011468",
+  "name": "Łaciaty serek śmietankowy",
+  "query": "łaciaty serek śmietankowy",
+  "source": "off",
+  "source_ref": "5900820011468",
+  "expected": {
+   "kcal": 249.0,
+   "proteinG": 5.8,
+   "carbsG": 4.8,
+   "sugarsG": 3.7,
+   "fatG": 23.0,
+   "satFatG": 16.0,
+   "fiberG": null,
+   "sodiumMg": 280.0
+  }
+ },
+ {
+  "gtin14": "05902899101637",
+  "name": "Hochland Almette Soft Cheese 150G",
+  "query": "hochland almette soft",
+  "source": "off",
+  "source_ref": "5902899101637",
+  "expected": {
+   "kcal": 253.333,
+   "proteinG": 6.7,
+   "carbsG": 3.2,
+   "sugarsG": 3.2,
+   "fatG": 24.0,
+   "satFatG": 17.0,
+   "fiberG": null,
+   "sodiumMg": 244.0
+  }
+ }
+]

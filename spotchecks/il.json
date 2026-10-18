@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "07290004131074",
+  "name": "חלב טרי 3%",
+  "query": "חלב טרי 3",
+  "source": "off",
+  "source_ref": "7290004131074",
+  "expected": {
+   "kcal": 60.0,
+   "proteinG": 3.3,
+   "carbsG": 4.95,
+   "sugarsG": 4.95,
+   "fatG": 3.0,
+   "satFatG": 1.95,
+   "fiberG": 0.0,
+   "sodiumMg": 50.0
+  }
+ },
+ {
+  "gtin14": "07290000176420",
+  "name": "קפה נמס",
+  "query": "קפה נמס",
+  "source": "off",
+  "source_ref": "7290000176420",
+  "expected": {
+   "kcal": 4.0,
+   "proteinG": 0.12,
+   "carbsG": 0.75,
+   "sugarsG": 0.0,
+   "fatG": 0.01,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07290019056942",
+  "name": "מים מינרליים",
+  "query": "מים מינרליים",
+  "source": "off",
+  "source_ref": "7290019056942",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 2.4
+  }
+ },
+ {
+  "gtin14": "05906485301012",
+  "name": "XL energy drink",
+  "query": "xl energy drink",
+  "source": "off",
+  "source_ref": "5906485301012",
+  "expected": {
+   "kcal": 47.0,
+   "proteinG": 0.0,
+   "carbsG": 11.0,
+   "sugarsG": 11.0,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 60.0
+  }
+ },
+ {
+  "gtin14": "07290004127329",
+  "name": "קוטג' 5%",
+  "query": "קוטג 5",
+  "source": "off",
+  "source_ref": "7290004127329",
+  "expected": {
+   "kcal": 95.0,
+   "proteinG": 11.0,
+   "carbsG": 1.5,
+   "sugarsG": 1.5,
+   "fatG": 5.0,
+   "satFatG": 3.25,
+   "fiberG": null,
+   "sodiumMg": 350.0
+  }
+ },
+ {
+  "gtin14": "07290112494351",
+  "name": "Cornflakes Of Champions - Toasted Corn Flakes",
+  "query": "cornflakes of champions",
+  "source": "off",
+  "source_ref": "7290112494351",
+  "expected": {
+   "kcal": 375.0,
+   "proteinG": 7.0,
+   "carbsG": 83.3,
+   "sugarsG": 2.1,
+   "fatG": 0.9,
+   "satFatG": null,
+   "fiberG": 0.9,
+   "sodiumMg": 113.0
+  }
+ },
+ {
+  "gtin14": "07290110115777",
+  "name": "מים מינרלים",
+  "query": "מים מינרלים",
+  "source": "off",
+  "source_ref": "7290110115777",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 0.8
+  }
+ },
+ {
+  "gtin14": "07290000523224",
+  "name": "מלח ים דק",
+  "query": "מלח ים דק",
+  "source": "off",
+  "source_ref": "7290000523224",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 39000.0
+  }
+ },
+ {
+  "gtin14": "07290110115845",
+  "name": "קוקה קולה",
+  "query": "קוקה קולה",
+  "source": "off",
+  "source_ref": "7290110115845",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 5.08
+  }
+ },
+ {
+  "gtin14": "00000080176800",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80176800",
+  "expected": {
+   "kcal": 533.33,
+   "proteinG": 6.0,
+   "carbsG": 57.33,
+   "sugarsG": 56.0,
+   "fatG": 30.67,
+   "satFatG": 10.67,
+   "fiberG": 0.0,
+   "sodiumMg": 428.0
+  }
+ },
+ {
+  "gtin14": "08434165466333",
+  "name": "Krit krititas galletas saladas",
+  "query": "krit krititas galletas",
+  "source": "off",
+  "source_ref": "8434165466333",
+  "expected": {
+   "kcal": 505.0,
+   "proteinG": 6.5,
+   "carbsG": 60.0,
+   "sugarsG": 8.7,
+   "fatG": 26.0,
+   "satFatG": 12.0,
+   "fiberG": 2.5,
+   "sodiumMg": 680.0
+  }
+ },
+ {
+  "gtin14": "08996001414002",
+  "name": "Torabika Cappuccino",
+  "query": "torabika cappuccino",
+  "source": "off",
+  "source_ref": "8996001414002",
+  "expected": {
+   "kcal": 440.0,
+   "proteinG": 4.0,
+   "carbsG": 84.0,
+   "sugarsG": 60.0,
+   "fatG": 10.0,
+   "satFatG": 10.0,
+   "fiberG": 0.0,
+   "sodiumMg": 240.0
+  }
+ },
+ {
+  "gtin14": "07290000066318",
+  "name": "במבה",
+  "query": "במבה",
+  "source": "off",
+  "source_ref": "7290000066318",
+  "expected": {
+   "kcal": 535.0,
+   "proteinG": 17.0,
+   "carbsG": 49.0,
+   "sugarsG": 3.5,
+   "fatG": 30.0,
+   "satFatG": 3.875,
+   "fiberG": null,
+   "sodiumMg": 390.0
+  }
+ },
+ {
+  "gtin14": "07290000072623",
+  "name": "קטשופ",
+  "query": "קטשופ",
+  "source": "off",
+  "source_ref": "7290000072623",
+  "expected": {
+   "kcal": 109.0,
+   "proteinG": 1.8,
+   "carbsG": 25.5,
+   "sugarsG": 22.5,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "07290011017873",
+  "name": "קולה זירו פחית",
+  "query": "קולה זירו פחית",
+  "source": "off",
+  "source_ref": "7290011017873",
+  "expected": {
+   "kcal": 0.091,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 1.54
+  }
+ },
+ {
+  "gtin14": "07290011194246",
+  "name": "Strauss Ski and Cottage",
+  "query": "strauss ski and",
+  "source": "off",
+  "source_ref": "7290011194246",
+  "expected": {
+   "kcal": 97.0,
+   "proteinG": 10.2,
+   "carbsG": 2.4,
+   "sugarsG": 2.4,
+   "fatG": 5.0,
+   "satFatG": 3.0,
+   "fiberG": null,
+   "sodiumMg": 320.0
+  }
+ },
+ {
+  "gtin14": "07290110115869",
+  "name": "Coca-Cola Zero",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "7290110115869",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": null,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "08715700419732",
+  "name": "מתבל עגבניות",
+  "query": "מתבל עגבניות",
+  "source": "off",
+  "source_ref": "8715700419732",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.8,
+   "fatG": 0.1,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "07290110115463",
+  "name": "Fuze tea",
+  "query": "fuze tea",
+  "source": "off",
+  "source_ref": "7290110115463",
+  "expected": {
+   "kcal": 8.0,
+   "proteinG": 0.0,
+   "carbsG": 7.9,
+   "sugarsG": 7.9,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 20.0
+  }
+ },
+ {
+  "gtin14": "07290116932033",
+  "name": "חמאה",
+  "query": "חמאה",
+  "source": "off",
+  "source_ref": "7290116932033",
+  "expected": {
+   "kcal": 734.0,
+   "proteinG": 0.5,
+   "carbsG": 0.8,
+   "sugarsG": null,
+   "fatG": 81.0,
+   "satFatG": 52.7,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ }
+]

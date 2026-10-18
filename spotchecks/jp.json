@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "04901330748296",
+  "name": "フルグラ",
+  "query": "フルグラ",
+  "source": "off",
+  "source_ref": "4901330748296",
+  "expected": {
+   "kcal": 444.0,
+   "proteinG": 7.2,
+   "carbsG": 72.2,
+   "sugarsG": 9.0,
+   "fatG": 16.0,
+   "satFatG": null,
+   "fiberG": 0.4,
+   "sodiumMg": 30.0
+  }
+ },
+ {
+  "gtin14": "04902705126558",
+  "name": "Milk",
+  "query": "milk",
+  "source": "off",
+  "source_ref": "4902705126558",
+  "expected": {
+   "kcal": 68.5,
+   "proteinG": 3.4,
+   "carbsG": 4.95,
+   "sugarsG": null,
+   "fatG": 3.9,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 43.5
+  }
+ },
+ {
+  "gtin14": "00037600112314",
+  "name": "ピーナッツバター",
+  "query": "ピーナッツバター",
+  "source": "off",
+  "source_ref": "0037600112314",
+  "expected": {
+   "kcal": 635.0,
+   "proteinG": 27.0,
+   "carbsG": 17.0,
+   "sugarsG": null,
+   "fatG": 51.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 354.0
+  }
+ },
+ {
+  "gtin14": "04897036690017",
+  "name": "monster energy",
+  "query": "monster energy",
+  "source": "off",
+  "source_ref": "4897036690017",
+  "expected": {
+   "kcal": 50.0,
+   "proteinG": 0.0,
+   "carbsG": 13.0,
+   "sugarsG": 13.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "04901330578916",
+  "name": "じゃがりこチーズ",
+  "query": "じゃがりこチーズ",
+  "source": "off",
+  "source_ref": "4901330578916",
+  "expected": {
+   "kcal": 503.636,
+   "proteinG": 8.182,
+   "carbsG": 61.273,
+   "sugarsG": null,
+   "fatG": 25.091,
+   "satFatG": null,
+   "fiberG": 1.273,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04902102140553",
+  "name": "コカ・コーラ ゼロ",
+  "query": "コカ コーラ ゼロ",
+  "source": "off",
+  "source_ref": "4902102140553",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "04902102154826",
+  "name": "Ayataka",
+  "query": "ayataka",
+  "source": "off",
+  "source_ref": "4902102154826",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "06902265504511",
+  "name": "Dark soy sauce",
+  "query": "dark soy sauce",
+  "source": "off",
+  "source_ref": "6902265504511",
+  "expected": {
+   "kcal": 146.667,
+   "proteinG": 9.333,
+   "carbsG": 28.0,
+   "sugarsG": 2.931,
+   "fatG": 0.0,
+   "satFatG": 0.032,
+   "fiberG": 2.741,
+   "sodiumMg": 8800.0
+  }
+ },
+ {
+  "gtin14": "04901360353606",
+  "name": "Alfort mini chocolate",
+  "query": "alfort mini chocolate",
+  "source": "off",
+  "source_ref": "4901360353606",
+  "expected": {
+   "kcal": 521.818,
+   "proteinG": 8.364,
+   "carbsG": 59.818,
+   "sugarsG": 56.0,
+   "fatG": 28.545,
+   "satFatG": 14.364,
+   "fiberG": 3.818,
+   "sodiumMg": 143.636
+  }
+ },
+ {
+  "gtin14": "00000049452976",
+  "name": "雪印北海道炼乳",
+  "query": "雪印北海道炼乳",
+  "source": "off",
+  "source_ref": "49452976",
+  "expected": {
+   "kcal": 328.0,
+   "proteinG": 7.9,
+   "carbsG": 55.5,
+   "sugarsG": 44.2,
+   "fatG": 8.3,
+   "satFatG": 5.4,
+   "fiberG": null,
+   "sodiumMg": 92.0
+  }
+ },
+ {
+  "gtin14": "05900749618991",
+  "name": "BA! Energy bar banán",
+  "query": "ba energy bar",
+  "source": "off",
+  "source_ref": "5900749618991",
+  "expected": {
+   "kcal": 430.0,
+   "proteinG": 4.5,
+   "carbsG": 70.0,
+   "sugarsG": 13.5,
+   "fatG": 13.25,
+   "satFatG": 11.0,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "04901033630690",
+  "name": "热量减少45%调制豆奶",
+  "query": "热量减少45 调制豆奶",
+  "source": "off",
+  "source_ref": "4901033630690",
+  "expected": {
+   "kcal": 34.0,
+   "proteinG": 2.8,
+   "carbsG": 1.4,
+   "sugarsG": 1.2,
+   "fatG": 2.0,
+   "satFatG": 0.3,
+   "fiberG": 0.2,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "04549414087192",
+  "name": "低筋面粉",
+  "query": "低筋面粉",
+  "source": "off",
+  "source_ref": "4549414087192",
+  "expected": {
+   "kcal": 347.0,
+   "proteinG": 8.6,
+   "carbsG": 76.3,
+   "sugarsG": 74.1,
+   "fatG": 1.3,
+   "satFatG": null,
+   "fiberG": 2.2,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04901085003800",
+  "name": "Oii Ocha Ryokucha (green Tea)",
+  "query": "oii ocha ryokucha",
+  "source": "off",
+  "source_ref": "4901085003800",
+  "expected": {
+   "kcal": 1.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04901085179611",
+  "name": "むぎ茶",
+  "query": "むぎ茶",
+  "source": "off",
+  "source_ref": "4901085179611",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": null,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 12.308
+  }
+ },
+ {
+  "gtin14": "04901111558953",
+  "name": "Blendy stick 奶香焦糖欧蕾咖啡",
+  "query": "blendy stick 奶香焦糖欧蕾咖啡",
+  "source": "off",
+  "source_ref": "4901111558953",
+  "expected": {
+   "kcal": 477.0,
+   "proteinG": 7.69,
+   "carbsG": 66.2,
+   "sugarsG": null,
+   "fatG": 20.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 492.0
+  }
+ },
+ {
+  "gtin14": "04901111968936",
+  "name": "Blendy 冷牛奶调制 奶香欧蕾咖啡 7条装",
+  "query": "blendy 冷牛奶调制 奶香欧蕾咖啡",
+  "source": "off",
+  "source_ref": "4901111968936",
+  "expected": {
+   "kcal": 477.0,
+   "proteinG": 7.69,
+   "carbsG": 66.2,
+   "sugarsG": null,
+   "fatG": 20.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 246.0
+  }
+ },
+ {
+  "gtin14": "04901201156731",
+  "name": "Cold Brew Coffee",
+  "query": "cold brew coffee",
+  "source": "off",
+  "source_ref": "4901201156731",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.5,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 5.0,
+   "sodiumMg": 3.0
+  }
+ },
+ {
+  "gtin14": "04901306044063",
+  "name": "Yasai Seikatsu 100 (Vegetable Life 100) Original",
+  "query": "yasai seikatsu 100",
+  "source": "off",
+  "source_ref": "4901306044063",
+  "expected": {
+   "kcal": 32.5,
+   "proteinG": 0.4,
+   "carbsG": 8.0,
+   "sugarsG": 7.7,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.45,
+   "sodiumMg": 51.0
+  }
+ },
+ {
+  "gtin14": "04901567016106",
+  "name": "牧场的牛乳",
+  "query": "牧场的牛乳",
+  "source": "off",
+  "source_ref": "4901567016106",
+  "expected": {
+   "kcal": 68.5,
+   "proteinG": 3.4,
+   "carbsG": 4.95,
+   "sugarsG": null,
+   "fatG": 3.9,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ }
+]

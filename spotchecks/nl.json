@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "00000020047559",
+  "name": "Yogurt Greek Style",
+  "query": "yogurt greek style",
+  "source": "off",
+  "source_ref": "20047559",
+  "expected": {
+   "kcal": 96.176,
+   "proteinG": 4.6,
+   "carbsG": 3.2,
+   "sugarsG": 3.2,
+   "fatG": 10.0,
+   "satFatG": 6.6,
+   "fiberG": 0.5,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "04056489340591",
+  "name": "Manteiga de amendoim cremosa",
+  "query": "manteiga de amendoim",
+  "source": "off",
+  "source_ref": "4056489340591",
+  "expected": {
+   "kcal": 646.67,
+   "proteinG": 27.0,
+   "carbsG": 10.0,
+   "sugarsG": 5.0,
+   "fatG": 53.0,
+   "satFatG": 7.5,
+   "fiberG": 7.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07300400481700",
+  "name": "Wasa Volkoren",
+  "query": "wasa volkoren",
+  "source": "off",
+  "source_ref": "7300400481700",
+  "expected": {
+   "kcal": 333.333,
+   "proteinG": 10.0,
+   "carbsG": 59.0,
+   "sugarsG": 1.5,
+   "fatG": 15.0,
+   "satFatG": 0.4,
+   "fiberG": 20.0,
+   "sodiumMg": 500.0
+  }
+ },
+ {
+  "gtin14": "04016241040381",
+  "name": "Skyr naturel",
+  "query": "skyr naturel",
+  "source": "off",
+  "source_ref": "4016241040381",
+  "expected": {
+   "kcal": 60.0,
+   "proteinG": 10.0,
+   "carbsG": 4.0,
+   "sugarsG": 0.0,
+   "fatG": 0.001,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08711200428953",
+  "name": "CALVÉ pindakaas",
+  "query": "calvé pindakaas",
+  "source": "off",
+  "source_ref": "8711200428953",
+  "expected": {
+   "kcal": 669.0,
+   "proteinG": 21.0,
+   "carbsG": 11.0,
+   "sugarsG": 5.9,
+   "fatG": 59.0,
+   "satFatG": 8.2,
+   "fiberG": 6.8,
+   "sodiumMg": 204.0
+  }
+ },
+ {
+  "gtin14": "08711200431632",
+  "name": "Pindakaas",
+  "query": "pindakaas",
+  "source": "off",
+  "source_ref": "8711200431632",
+  "expected": {
+   "kcal": 669.0,
+   "proteinG": 21.0,
+   "carbsG": 11.0,
+   "sugarsG": 6.4,
+   "fatG": 59.0,
+   "satFatG": 8.5,
+   "fiberG": 6.6,
+   "sodiumMg": 220.0
+  }
+ },
+ {
+  "gtin14": "08719200250444",
+  "name": "Goede start halvarine",
+  "query": "goede start halvarine",
+  "source": "off",
+  "source_ref": "8719200250444",
+  "expected": {
+   "kcal": 356.0,
+   "proteinG": 0.5,
+   "carbsG": 1.1,
+   "sugarsG": 0.5,
+   "fatG": 39.0,
+   "satFatG": 11.0,
+   "fiberG": 0.066,
+   "sodiumMg": 124.0
+  }
+ },
+ {
+  "gtin14": "05410013129677",
+  "name": "Spa Reine",
+  "query": "spa reine",
+  "source": "off",
+  "source_ref": "5410013129677",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08710437004626",
+  "name": "Poedersuiker",
+  "query": "poedersuiker",
+  "source": "off",
+  "source_ref": "8710437004626",
+  "expected": {
+   "kcal": 396.0,
+   "proteinG": 0.0,
+   "carbsG": 99.0,
+   "sugarsG": 99.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08714779001190",
+  "name": "Puree De Pois Chiches (Hoemoes)",
+  "query": "puree de pois",
+  "source": "off",
+  "source_ref": "8714779001190",
+  "expected": {
+   "kcal": 326.0,
+   "proteinG": 6.2,
+   "carbsG": 6.5,
+   "sugarsG": 0.01,
+   "fatG": 29.7,
+   "satFatG": 3.4,
+   "fiberG": 4.0,
+   "sodiumMg": 1574.0
+  }
+ },
+ {
+  "gtin14": "05411188112709",
+  "name": "Geröstete Mandel Ohne Zucker",
+  "query": "geröstete mandel ohne",
+  "source": "off",
+  "source_ref": "5411188112709",
+  "expected": {
+   "kcal": 14.0,
+   "proteinG": 0.5,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 1.1,
+   "satFatG": 0.0,
+   "fiberG": 0.3,
+   "sodiumMg": 150.0
+  }
+ },
+ {
+  "gtin14": "03046920028363",
+  "name": "Excellence 85% Cacao Rich Dark",
+  "query": "excellence 85 cacao",
+  "source": "off",
+  "source_ref": "3046920028363",
+  "expected": {
+   "kcal": 584.0,
+   "proteinG": 12.5,
+   "carbsG": 22.0,
+   "sugarsG": 15.0,
+   "fatG": 46.0,
+   "satFatG": 27.0,
+   "fiberG": 5.0,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "08000500179864",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "8000500179864",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.2,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.0,
+   "sodiumMg": 44.0
+  }
+ },
+ {
+  "gtin14": "07622300336738",
+  "name": "OREO ORIGINAL",
+  "query": "oreo original",
+  "source": "off",
+  "source_ref": "7622300336738",
+  "expected": {
+   "kcal": 472.0,
+   "proteinG": 5.6,
+   "carbsG": 67.0,
+   "sugarsG": 35.0,
+   "fatG": 19.0,
+   "satFatG": 5.4,
+   "fiberG": 2.9,
+   "sodiumMg": 299.0
+  }
+ },
+ {
+  "gtin14": "05411188115496",
+  "name": "Soja Milch",
+  "query": "soja milch",
+  "source": "off",
+  "source_ref": "5411188115496",
+  "expected": {
+   "kcal": 33.0,
+   "proteinG": 3.3,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 1.9,
+   "satFatG": 0.3,
+   "fiberG": 0.6,
+   "sodiumMg": 35.0
+  }
+ },
+ {
+  "gtin14": "07394376616501",
+  "name": "Haver barista edition",
+  "query": "haver barista edition",
+  "source": "off",
+  "source_ref": "7394376616501",
+  "expected": {
+   "kcal": 61.0,
+   "proteinG": 1.1,
+   "carbsG": 7.1,
+   "sugarsG": 3.4,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 0.8,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "04056489340607",
+  "name": "pindakaas met stukjes noot",
+  "query": "pindakaas met stukjes",
+  "source": "off",
+  "source_ref": "4056489340607",
+  "expected": {
+   "kcal": 640.0,
+   "proteinG": 27.0,
+   "carbsG": 10.0,
+   "sugarsG": 5.0,
+   "fatG": 53.0,
+   "satFatG": 7.0,
+   "fiberG": 7.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08711200430925",
+  "name": "Pindakaas stukjes pinda",
+  "query": "pindakaas stukjes pinda",
+  "source": "off",
+  "source_ref": "8711200430925",
+  "expected": {
+   "kcal": 646.0,
+   "proteinG": 20.0,
+   "carbsG": 16.0,
+   "sugarsG": 9.9,
+   "fatG": 55.0,
+   "satFatG": 7.0,
+   "fiberG": 6.5,
+   "sodiumMg": 205.0
+  }
+ },
+ {
+  "gtin14": "00000020713195",
+  "name": "Sel avec iode",
+  "query": "sel avec iode",
+  "source": "off",
+  "source_ref": "20713195",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 38551.998
+  }
+ },
+ {
+  "gtin14": "08710496979125",
+  "name": "Chocoladehagel puur",
+  "query": "chocoladehagel puur",
+  "source": "off",
+  "source_ref": "8710496979125",
+  "expected": {
+   "kcal": 428.0,
+   "proteinG": 5.0,
+   "carbsG": 67.0,
+   "sugarsG": 64.0,
+   "fatG": 15.0,
+   "satFatG": 8.8,
+   "fiberG": 6.776,
+   "sodiumMg": 8.0
+  }
+ }
+]

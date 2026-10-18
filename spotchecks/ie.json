@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "03329770077003",
+  "name": "Skyr nature 0%",
+  "query": "skyr nature 0",
+  "source": "off",
+  "source_ref": "3329770077003",
+  "expected": {
+   "kcal": 57.0,
+   "proteinG": 9.5,
+   "carbsG": 3.6,
+   "sugarsG": 3.6,
+   "fatG": 0.5,
+   "satFatG": 0.1,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07622210578464",
+  "name": "Organic 70% Dark Chocolate Bar",
+  "query": "organic 70 dark",
+  "source": "off",
+  "source_ref": "7622210578464",
+  "expected": {
+   "kcal": 580.0,
+   "proteinG": 9.1,
+   "carbsG": 36.0,
+   "sugarsG": 29.0,
+   "fatG": 42.0,
+   "satFatG": 25.0,
+   "fiberG": 10.0,
+   "sodiumMg": 0.01
+  }
+ },
+ {
+  "gtin14": "00000050457236",
+  "name": "Tomato Ketchup",
+  "query": "tomato ketchup",
+  "source": "off",
+  "source_ref": "50457236",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.8,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "00000020994945",
+  "name": "Natural Cottage Cheese",
+  "query": "natural cottage cheese",
+  "source": "off",
+  "source_ref": "20994945",
+  "expected": {
+   "kcal": 97.0,
+   "proteinG": 11.5,
+   "carbsG": 2.8,
+   "sugarsG": 2.8,
+   "fatG": 4.5,
+   "satFatG": 3.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.208
+  }
+ },
+ {
+  "gtin14": "05099630002237",
+  "name": "Wholewheat Bread",
+  "query": "wholewheat bread",
+  "source": "off",
+  "source_ref": "5099630002237",
+  "expected": {
+   "kcal": 631.658,
+   "proteinG": 8.056,
+   "carbsG": 41.667,
+   "sugarsG": 1.667,
+   "fatG": 1.111,
+   "satFatG": 1.111,
+   "fiberG": 6.389,
+   "sodiumMg": 522.222
+  }
+ },
+ {
+  "gtin14": "05391508960077",
+  "name": "Live Unsweetened Natural Yoghurt",
+  "query": "live unsweetened natural",
+  "source": "off",
+  "source_ref": "5391508960077",
+  "expected": {
+   "kcal": 78.0,
+   "proteinG": 4.6,
+   "carbsG": 6.9,
+   "sugarsG": 6.9,
+   "fatG": 3.5,
+   "satFatG": 2.2,
+   "fiberG": 0.0,
+   "sodiumMg": 72.0
+  }
+ },
+ {
+  "gtin14": "04056489933854",
+  "name": "Creamy Greek Style Natural Irish Yogurt",
+  "query": "creamy greek style",
+  "source": "off",
+  "source_ref": "4056489933854",
+  "expected": {
+   "kcal": 137.0,
+   "proteinG": 5.1,
+   "carbsG": 7.7,
+   "sugarsG": 6.0,
+   "fatG": 9.5,
+   "satFatG": 6.39,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05099801000031",
+  "name": "Progress Oatlets",
+  "query": "progress oatlets",
+  "source": "off",
+  "source_ref": "5099801000031",
+  "expected": {
+   "kcal": 371.0,
+   "proteinG": 11.0,
+   "carbsG": 64.0,
+   "sugarsG": 0.9,
+   "fatG": 5.8,
+   "satFatG": 1.0,
+   "fiberG": 8.3,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "05011038004545",
+  "name": "Irish Creamery Butter",
+  "query": "irish creamery butter",
+  "source": "off",
+  "source_ref": "5011038004545",
+  "expected": {
+   "kcal": 744.0,
+   "proteinG": 0.6,
+   "carbsG": 0.6,
+   "sugarsG": 0.6,
+   "fatG": 80.0,
+   "satFatG": 53.0,
+   "fiberG": 0.0,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "05099406000566",
+  "name": "Fermented Traditional Turnover",
+  "query": "fermented traditional turnover",
+  "source": "off",
+  "source_ref": "5099406000566",
+  "expected": {
+   "kcal": 277.5,
+   "proteinG": 10.5,
+   "carbsG": 47.2,
+   "sugarsG": 1.9,
+   "fatG": 3.0,
+   "satFatG": 0.86,
+   "fiberG": 3.2,
+   "sodiumMg": 665.0
+  }
+ },
+ {
+  "gtin14": "07622210584724",
+  "name": "Dark chocolate",
+  "query": "dark chocolate",
+  "source": "off",
+  "source_ref": "7622210584724",
+  "expected": {
+   "kcal": 600.17,
+   "proteinG": 10.0,
+   "carbsG": 24.0,
+   "sugarsG": 14.0,
+   "fatG": 50.0,
+   "satFatG": 30.0,
+   "fiberG": 13.0,
+   "sodiumMg": 51.0
+  }
+ },
+ {
+  "gtin14": "07622201693916",
+  "name": "Full fat soft cheese",
+  "query": "full fat soft",
+  "source": "off",
+  "source_ref": "7622201693916",
+  "expected": {
+   "kcal": 226.667,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 300.0
+  }
+ },
+ {
+  "gtin14": "05010265002911",
+  "name": "Dark Rye Crispbread",
+  "query": "dark rye crispbread",
+  "source": "off",
+  "source_ref": "5010265002911",
+  "expected": {
+   "kcal": 342.0,
+   "proteinG": 8.5,
+   "carbsG": 66.6,
+   "sugarsG": 3.0,
+   "fatG": 1.2,
+   "satFatG": 0.2,
+   "fiberG": 1.5,
+   "sodiumMg": 371.43
+  }
+ },
+ {
+  "gtin14": "05010265002836",
+  "name": "Original Crispbread",
+  "query": "original crispbread",
+  "source": "off",
+  "source_ref": "5010265002836",
+  "expected": {
+   "kcal": 357.37,
+   "proteinG": 10.476,
+   "carbsG": 68.571,
+   "sugarsG": 2.857,
+   "fatG": 0.952,
+   "satFatG": 0.19,
+   "fiberG": 13.333,
+   "sodiumMg": 304.762
+  }
+ },
+ {
+  "gtin14": "08719200269828",
+  "name": "Vegan Spread",
+  "query": "vegan spread",
+  "source": "off",
+  "source_ref": "8719200269828",
+  "expected": {
+   "kcal": 632.0,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 70.0,
+   "satFatG": 20.0,
+   "fiberG": null,
+   "sodiumMg": 511.0
+  }
+ },
+ {
+  "gtin14": "00000020471613",
+  "name": "wholegrain wheat bixies",
+  "query": "wholegrain wheat bixies",
+  "source": "off",
+  "source_ref": "20471613",
+  "expected": {
+   "kcal": 362.0,
+   "proteinG": 12.7,
+   "carbsG": 67.8,
+   "sugarsG": 3.0,
+   "fatG": 2.3,
+   "satFatG": 0.5,
+   "fiberG": 9.5,
+   "sodiumMg": 0.23
+  }
+ },
+ {
+  "gtin14": "04056489159506",
+  "name": "LOW SUGAR Granola ORIGINAL",
+  "query": "low sugar granola",
+  "source": "off",
+  "source_ref": "4056489159506",
+  "expected": {
+   "kcal": 522.222,
+   "proteinG": 13.778,
+   "carbsG": 59.333,
+   "sugarsG": 3.111,
+   "fatG": 23.778,
+   "satFatG": 3.333,
+   "fiberG": 7.556,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "00000040874302",
+  "name": "Sesame Crispbread",
+  "query": "sesame crispbread",
+  "source": "off",
+  "source_ref": "40874302",
+  "expected": {
+   "kcal": 360.0,
+   "proteinG": 12.3,
+   "carbsG": 57.4,
+   "sugarsG": 3.7,
+   "fatG": 6.3,
+   "satFatG": 1.0,
+   "fiberG": 16.8,
+   "sodiumMg": 220.0
+  }
+ },
+ {
+  "gtin14": "04088600132334",
+  "name": "85% Cocoa - Dark Chocolate",
+  "query": "85 cocoa dark",
+  "source": "off",
+  "source_ref": "4088600132334",
+  "expected": {
+   "kcal": 604.0,
+   "proteinG": 10.8,
+   "carbsG": 21.8,
+   "sugarsG": 13.2,
+   "fatG": 49.8,
+   "satFatG": 32.0,
+   "fiberG": 13.2,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04061464727830",
+  "name": "Crunchy Peanut Butter",
+  "query": "crunchy peanut butter",
+  "source": "off",
+  "source_ref": "4061464727830",
+  "expected": {
+   "kcal": 560.0,
+   "proteinG": 28.5,
+   "carbsG": 12.0,
+   "sugarsG": 4.6,
+   "fatG": 51.3,
+   "satFatG": 6.6,
+   "fiberG": 5.4,
+   "sodiumMg": 4.0
+  }
+ }
+]

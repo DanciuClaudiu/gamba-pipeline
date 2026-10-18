@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "09322969000015",
+  "name": "Corn Thins Original",
+  "query": "corn thins original",
+  "source": "off",
+  "source_ref": "9322969000015",
+  "expected": {
+   "kcal": 382.0,
+   "proteinG": 10.2,
+   "carbsG": 70.9,
+   "sugarsG": 0.4,
+   "fatG": 3.4,
+   "satFatG": 0.5,
+   "fiberG": 7.3,
+   "sodiumMg": 259.0
+  }
+ },
+ {
+  "gtin14": "09300652010794",
+  "name": "Weet-Bix",
+  "query": "weet bix",
+  "source": "off",
+  "source_ref": "9300652010794",
+  "expected": {
+   "kcal": 353.439,
+   "proteinG": 12.4,
+   "carbsG": 65.9,
+   "sugarsG": 3.0,
+   "fatG": 1.3,
+   "satFatG": 0.3,
+   "fiberG": 12.9,
+   "sodiumMg": 270.0
+  }
+ },
+ {
+  "gtin14": "09300652010374",
+  "name": "Weet-Bix",
+  "query": "weet bix",
+  "source": "off",
+  "source_ref": "9300652010374",
+  "expected": {
+   "kcal": 339.047,
+   "proteinG": 12.258,
+   "carbsG": 65.806,
+   "sugarsG": 2.903,
+   "fatG": 4.194,
+   "satFatG": 0.968,
+   "fiberG": 12.903,
+   "sodiumMg": 270.968
+  }
+ },
+ {
+  "gtin14": "09310072014753",
+  "name": "Vita-Weat 9 Grains",
+  "query": "vita weat 9",
+  "source": "off",
+  "source_ref": "9310072014753",
+  "expected": {
+   "kcal": 410.728,
+   "proteinG": 11.765,
+   "carbsG": 62.605,
+   "sugarsG": 1.681,
+   "fatG": 9.244,
+   "satFatG": 1.261,
+   "fiberG": 13.445,
+   "sodiumMg": 424.37
+  }
+ },
+ {
+  "gtin14": "09352042000328",
+  "name": "Vegemite",
+  "query": "vegemite",
+  "source": "off",
+  "source_ref": "9352042000328",
+  "expected": {
+   "kcal": 100.382,
+   "proteinG": 25.9,
+   "carbsG": 11.1,
+   "sugarsG": 2.4,
+   "fatG": 1.0,
+   "satFatG": 1.0,
+   "fiberG": 8.4,
+   "sodiumMg": 3300.0
+  }
+ },
+ {
+  "gtin14": "09352042000342",
+  "name": "VEGEMITE",
+  "query": "vegemite",
+  "source": "off",
+  "source_ref": "9352042000342",
+  "expected": {
+   "kcal": 176.864,
+   "proteinG": 24.0,
+   "carbsG": 28.0,
+   "sugarsG": 20.0,
+   "fatG": 20.0,
+   "satFatG": 0.0,
+   "fiberG": 8.0,
+   "sodiumMg": 3300.0
+  }
+ },
+ {
+  "gtin14": "09300658228537",
+  "name": "Greek Style Yoghurt",
+  "query": "greek style yoghurt",
+  "source": "off",
+  "source_ref": "9300658228537",
+  "expected": {
+   "kcal": 119.0,
+   "proteinG": 4.24,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 9.44,
+   "satFatG": 6.24,
+   "fiberG": null,
+   "sodiumMg": 0.057
+  }
+ },
+ {
+  "gtin14": "09310653102626",
+  "name": "Greek Yogurt",
+  "query": "greek yogurt",
+  "source": "off",
+  "source_ref": "9310653102626",
+  "expected": {
+   "kcal": 56.0,
+   "proteinG": 9.3,
+   "carbsG": 4.0,
+   "sugarsG": 3.3,
+   "fatG": 0.2,
+   "satFatG": 0.1,
+   "fiberG": 0.0,
+   "sodiumMg": 32.0
+  }
+ },
+ {
+  "gtin14": "09300652805048",
+  "name": "Weet-Bix",
+  "query": "weet bix",
+  "source": "off",
+  "source_ref": "9300652805048",
+  "expected": {
+   "kcal": 370.968,
+   "proteinG": 3.8,
+   "carbsG": 20.4,
+   "sugarsG": 0.9,
+   "fatG": 3.8,
+   "satFatG": 0.1,
+   "fiberG": 4.0,
+   "sodiumMg": 84.0
+  }
+ },
+ {
+  "gtin14": "09300675079655",
+  "name": "Coke Zero Sugar",
+  "query": "coke zero sugar",
+  "source": "off",
+  "source_ref": "9300675079655",
+  "expected": {
+   "kcal": 1.2,
+   "proteinG": 0.02,
+   "carbsG": 0.027,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.004
+  }
+ },
+ {
+  "gtin14": "09310072000282",
+  "name": "Tim Tam",
+  "query": "tim tam",
+  "source": "off",
+  "source_ref": "9310072000282",
+  "expected": {
+   "kcal": 523.723,
+   "proteinG": 0.8,
+   "carbsG": 65.1,
+   "sugarsG": 46.0,
+   "fatG": 26.8,
+   "satFatG": 15.0,
+   "fiberG": 1.8,
+   "sodiumMg": 28.916
+  }
+ },
+ {
+  "gtin14": "00000093552806",
+  "name": "Vegemite",
+  "query": "vegemite",
+  "source": "off",
+  "source_ref": "93552806",
+  "expected": {
+   "kcal": 177.2,
+   "proteinG": 24.7,
+   "carbsG": 11.4,
+   "sugarsG": 3.8,
+   "fatG": 1.6,
+   "satFatG": 1.0,
+   "fiberG": 9.2,
+   "sodiumMg": 3300.0
+  }
+ },
+ {
+  "gtin14": "09300652803495",
+  "name": "Almond Milk Unsweetened",
+  "query": "almond milk unsweetened",
+  "source": "off",
+  "source_ref": "9300652803495",
+  "expected": {
+   "kcal": 103.0,
+   "proteinG": 3.5,
+   "carbsG": 2.0,
+   "sugarsG": 0.8,
+   "fatG": 8.8,
+   "satFatG": 0.8,
+   "fiberG": 2.0,
+   "sodiumMg": 225.0
+  }
+ },
+ {
+  "gtin14": "09300617065920",
+  "name": "OLD GOLD DARK CHOCOLATE",
+  "query": "old gold dark",
+  "source": "off",
+  "source_ref": "9300617065920",
+  "expected": {
+   "kcal": 555.449,
+   "proteinG": 9.6,
+   "carbsG": 36.4,
+   "sugarsG": 28.8,
+   "fatG": 39.2,
+   "satFatG": 24.0,
+   "fiberG": null,
+   "sodiumMg": 12.0
+  }
+ },
+ {
+  "gtin14": "09300652809985",
+  "name": "Oat",
+  "query": "oat",
+  "source": "off",
+  "source_ref": "9300652809985",
+  "expected": {
+   "kcal": 46.0,
+   "proteinG": 0.8,
+   "carbsG": 6.3,
+   "sugarsG": 2.0,
+   "fatG": 1.9,
+   "satFatG": 0.2,
+   "fiberG": 0.4,
+   "sodiumMg": 45.0
+  }
+ },
+ {
+  "gtin14": "00062020000248",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "0062020000248",
+  "expected": {
+   "kcal": 528.999,
+   "proteinG": 6.0,
+   "carbsG": 57.333,
+   "sugarsG": 56.0,
+   "fatG": 30.667,
+   "satFatG": 10.667,
+   "fiberG": 0.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "09310072026404",
+  "name": "Original Arnott's Jatz Crackers",
+  "query": "original arnott s",
+  "source": "off",
+  "source_ref": "9310072026404",
+  "expected": {
+   "kcal": 433.751,
+   "proteinG": 7.6,
+   "carbsG": 66.0,
+   "sugarsG": 6.0,
+   "fatG": 18.4,
+   "satFatG": 4.0,
+   "fiberG": 3.2,
+   "sodiumMg": 492.0
+  }
+ },
+ {
+  "gtin14": "09300675001410",
+  "name": "CLASSIC",
+  "query": "classic",
+  "source": "off",
+  "source_ref": "9300675001410",
+  "expected": {
+   "kcal": 42.933,
+   "proteinG": 0.0,
+   "carbsG": 10.667,
+   "sugarsG": 10.667,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 10.133
+  }
+ },
+ {
+  "gtin14": "09312231001215",
+  "name": "Organic Almond Unsweetened",
+  "query": "organic almond unsweetened",
+  "source": "off",
+  "source_ref": "9312231001215",
+  "expected": {
+   "kcal": 29.4,
+   "proteinG": 0.6,
+   "carbsG": 2.92,
+   "sugarsG": 1.4,
+   "fatG": 1.72,
+   "satFatG": 0.2,
+   "fiberG": 0.4,
+   "sodiumMg": 45.2
+  }
+ },
+ {
+  "gtin14": "09352042002148",
+  "name": "Peanut Butter",
+  "query": "peanut butter",
+  "source": "off",
+  "source_ref": "9352042002148",
+  "expected": {
+   "kcal": 623.588,
+   "proteinG": 23.9,
+   "carbsG": 11.8,
+   "sugarsG": 7.9,
+   "fatG": 52.5,
+   "satFatG": 10.4,
+   "fiberG": 7.0,
+   "sodiumMg": 539.0
+  }
+ }
+]

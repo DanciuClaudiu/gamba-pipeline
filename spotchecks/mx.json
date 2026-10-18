@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "00097339000054",
+  "name": "Mexican hot sauce",
+  "query": "mexican hot sauce",
+  "source": "off",
+  "source_ref": "0097339000054",
+  "expected": {
+   "kcal": 40.0,
+   "proteinG": 2.0,
+   "carbsG": 2.0,
+   "sugarsG": 3.109,
+   "fatG": 2.0,
+   "satFatG": 0.018,
+   "fiberG": 2.0,
+   "sodiumMg": 2160.0
+  }
+ },
+ {
+  "gtin14": "07501030467090",
+  "name": "pan Bimbo cero",
+  "query": "pan bimbo cero",
+  "source": "off",
+  "source_ref": "7501030467090",
+  "expected": {
+   "kcal": 203.0,
+   "proteinG": 10.7,
+   "carbsG": 36.9,
+   "sugarsG": 5.8,
+   "fatG": 1.7,
+   "satFatG": 0.4,
+   "fiberG": 6.1,
+   "sodiumMg": 176.0
+  }
+ },
+ {
+  "gtin14": "00013000001243",
+  "name": "Tomato Ketchup",
+  "query": "tomato ketchup",
+  "source": "off",
+  "source_ref": "0013000001243",
+  "expected": {
+   "kcal": 116.667,
+   "proteinG": 0.0,
+   "carbsG": 33.333,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 941.667
+  }
+ },
+ {
+  "gtin14": "07500810022061",
+  "name": "PAN INTEGRAL",
+  "query": "pan integral",
+  "source": "off",
+  "source_ref": "7500810022061",
+  "expected": {
+   "kcal": 217.742,
+   "proteinG": 10.645,
+   "carbsG": 37.258,
+   "sugarsG": 8.871,
+   "fatG": 2.903,
+   "satFatG": 0.806,
+   "fiberG": 5.968,
+   "sodiumMg": 580.645
+  }
+ },
+ {
+  "gtin14": "00000075007614",
+  "name": "Coca cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "75007614",
+  "expected": {
+   "kcal": 30.0,
+   "proteinG": 1.0,
+   "carbsG": 7.5,
+   "sugarsG": 7.5,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "07500810029183",
+  "name": "Blanco Pan de Harina de Trigo",
+  "query": "blanco pan de",
+  "source": "off",
+  "source_ref": "7500810029183",
+  "expected": {
+   "kcal": 242.0,
+   "proteinG": 8.3,
+   "carbsG": 45.2,
+   "sugarsG": 13.1,
+   "fatG": 2.2,
+   "satFatG": 0.6,
+   "fiberG": 2.4,
+   "sodiumMg": 455.0
+  }
+ },
+ {
+  "gtin14": "07501000131440",
+  "name": "Cero cero multigrano",
+  "query": "cero cero multigrano",
+  "source": "off",
+  "source_ref": "7501000131440",
+  "expected": {
+   "kcal": 274.0,
+   "proteinG": 16.036,
+   "carbsG": 37.297,
+   "sugarsG": 4.324,
+   "fatG": 1.622,
+   "satFatG": 0.36,
+   "fiberG": 4.324,
+   "sodiumMg": 194.595
+  }
+ },
+ {
+  "gtin14": "07501000375417",
+  "name": "Oroweat granos enterps multigrano",
+  "query": "oroweat granos enterps",
+  "source": "off",
+  "source_ref": "7501000375417",
+  "expected": {
+   "kcal": 267.059,
+   "proteinG": 10.588,
+   "carbsG": 45.059,
+   "sugarsG": 10.118,
+   "fatG": 4.941,
+   "satFatG": 1.059,
+   "fiberG": 3.294,
+   "sodiumMg": 456.471
+  }
+ },
+ {
+  "gtin14": "07501000111800",
+  "name": "Pan Tostado Clásico",
+  "query": "pan tostado clásico",
+  "source": "off",
+  "source_ref": "7501000111800",
+  "expected": {
+   "kcal": 401.0,
+   "proteinG": 11.0,
+   "carbsG": 72.2,
+   "sugarsG": 15.3,
+   "fatG": 7.6,
+   "satFatG": 2.5,
+   "fiberG": 3.0,
+   "sodiumMg": 624.0
+  }
+ },
+ {
+  "gtin14": "07501000375295",
+  "name": "12 Granos y Semillas",
+  "query": "12 granos y",
+  "source": "off",
+  "source_ref": "7501000375295",
+  "expected": {
+   "kcal": 258.824,
+   "proteinG": 10.353,
+   "carbsG": 45.176,
+   "sugarsG": 6.353,
+   "fatG": 4.118,
+   "satFatG": 0.824,
+   "fiberG": 4.353,
+   "sodiumMg": 478.824
+  }
+ },
+ {
+  "gtin14": "00894700010137",
+  "name": "Greek Yogurt Nonfat Plain",
+  "query": "greek yogurt nonfat",
+  "source": "off",
+  "source_ref": "0894700010137",
+  "expected": {
+   "kcal": 52.941,
+   "proteinG": 9.5,
+   "carbsG": 4.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 35.0
+  }
+ },
+ {
+  "gtin14": "00633148100013",
+  "name": "Tajín Clásico",
+  "query": "tajín clásico",
+  "source": "off",
+  "source_ref": "0633148100013",
+  "expected": {
+   "kcal": 190.0,
+   "proteinG": 4.0,
+   "carbsG": 38.0,
+   "sugarsG": 0.0,
+   "fatG": 2.5,
+   "satFatG": 0.5,
+   "fiberG": 9.2,
+   "sodiumMg": 19400.0
+  }
+ },
+ {
+  "gtin14": "00096619676811",
+  "name": "Crema de Almendras",
+  "query": "crema de almendras",
+  "source": "off",
+  "source_ref": "0096619676811",
+  "expected": {
+   "kcal": 621.0,
+   "proteinG": 18.75,
+   "carbsG": 21.875,
+   "sugarsG": 3.125,
+   "fatG": 53.125,
+   "satFatG": 4.688,
+   "fiberG": 6.25,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00658480001101",
+  "name": "Salmas Horneadas",
+  "query": "salmas horneadas",
+  "source": "off",
+  "source_ref": "0658480001101",
+  "expected": {
+   "kcal": 466.667,
+   "proteinG": 1.0,
+   "carbsG": 14.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 1.0,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "00633148100624",
+  "name": "Tajin Classic Seasoning Reduced Sodium",
+  "query": "tajin classic seasoning",
+  "source": "off",
+  "source_ref": "0633148100624",
+  "expected": {
+   "kcal": 116.9,
+   "proteinG": 4.2,
+   "carbsG": 19.4,
+   "sugarsG": 0.0,
+   "fatG": 2.5,
+   "satFatG": 0.4,
+   "fiberG": 10.2,
+   "sodiumMg": 29.8
+  }
+ },
+ {
+  "gtin14": "00025293002920",
+  "name": "SILK - Bebida de Almendra s/azúcar",
+  "query": "silk bebida de",
+  "source": "off",
+  "source_ref": "0025293002920",
+  "expected": {
+   "kcal": 11.3,
+   "proteinG": 0.4,
+   "carbsG": 0.4,
+   "sugarsG": 0.1,
+   "fatG": 0.9,
+   "satFatG": 0.1,
+   "fiberG": 0.2,
+   "sodiumMg": 19.2
+  }
+ },
+ {
+  "gtin14": "07506443101074",
+  "name": "Griego OIKOS Selecto",
+  "query": "griego oikos selecto",
+  "source": "off",
+  "source_ref": "7506443101074",
+  "expected": {
+   "kcal": 93.7,
+   "proteinG": 8.0,
+   "carbsG": 8.0,
+   "sugarsG": 6.3,
+   "fatG": 3.3,
+   "satFatG": 2.1,
+   "fiberG": 0.0,
+   "sodiumMg": 30.5
+  }
+ },
+ {
+  "gtin14": "07501020515299",
+  "name": "media crema",
+  "query": "media crema",
+  "source": "off",
+  "source_ref": "7501020515299",
+  "expected": {
+   "kcal": 196.667,
+   "proteinG": 2.333,
+   "carbsG": 4.333,
+   "sugarsG": 3.333,
+   "fatG": 19.0,
+   "satFatG": 11.667,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07501020540666",
+  "name": "Nutri leche clásica",
+  "query": "nutri leche clásica",
+  "source": "off",
+  "source_ref": "7501020540666",
+  "expected": {
+   "kcal": 53.0,
+   "proteinG": 2.0,
+   "carbsG": 4.5,
+   "sugarsG": 4.5,
+   "fatG": 3.0,
+   "satFatG": 0.5,
+   "fiberG": 0.0,
+   "sodiumMg": 49.0
+  }
+ },
+ {
+  "gtin14": "07501295600126",
+  "name": "ENTERA",
+  "query": "entera",
+  "source": "off",
+  "source_ref": "7501295600126",
+  "expected": {
+   "kcal": 61.4,
+   "proteinG": 3.0,
+   "carbsG": 5.6,
+   "sugarsG": 5.0,
+   "fatG": 3.0,
+   "satFatG": 1.8,
+   "fiberG": 0.0,
+   "sodiumMg": 52.0
+  }
+ }
+]

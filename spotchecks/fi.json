@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "07394376616037",
+  "name": "iKaffe",
+  "query": "ikaffe",
+  "source": "off",
+  "source_ref": "7394376616037",
+  "expected": {
+   "kcal": 61.0,
+   "proteinG": 1.1,
+   "carbsG": 7.1,
+   "sugarsG": 3.4,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 0.8,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "07392672004459",
+  "name": "Kreikkalainen Jugurtti",
+  "query": "kreikkalainen jugurtti",
+  "source": "off",
+  "source_ref": "7392672004459",
+  "expected": {
+   "kcal": 65.0,
+   "proteinG": 13.0,
+   "carbsG": 2.8,
+   "sugarsG": 2.8,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "06437002001454",
+  "name": "Ruispalat Original",
+  "query": "ruispalat original",
+  "source": "off",
+  "source_ref": "6437002001454",
+  "expected": {
+   "kcal": 268.0,
+   "proteinG": 9.2,
+   "carbsG": 48.0,
+   "sugarsG": 3.1,
+   "fatG": 1.7,
+   "satFatG": 0.3,
+   "fiberG": 12.0,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "06411402202208",
+  "name": "Puikula",
+  "query": "puikula",
+  "source": "off",
+  "source_ref": "6411402202208",
+  "expected": {
+   "kcal": 250.0,
+   "proteinG": 11.071,
+   "carbsG": 42.857,
+   "sugarsG": 3.571,
+   "fatG": 1.429,
+   "satFatG": 0.357,
+   "fiberG": 10.0,
+   "sodiumMg": 421.429
+  }
+ },
+ {
+  "gtin14": "06438460328329",
+  "name": "Kotimaista Isot Vapaan Kanan Munat",
+  "query": "kotimaista isot vapaan",
+  "source": "off",
+  "source_ref": "6438460328329",
+  "expected": {
+   "kcal": 144.0,
+   "proteinG": 12.5,
+   "carbsG": 0.3,
+   "sugarsG": 0.3,
+   "fatG": 10.3,
+   "satFatG": 3.0,
+   "fiberG": 0.0,
+   "sodiumMg": 134.0
+  }
+ },
+ {
+  "gtin14": "06414893094918",
+  "name": "Kotimaista vapaan kanan munat 10 kpl",
+  "query": "kotimaista vapaan kanan",
+  "source": "off",
+  "source_ref": "6414893094918",
+  "expected": {
+   "kcal": 143.0,
+   "proteinG": 12.5,
+   "carbsG": 0.3,
+   "sugarsG": 0.3,
+   "fatG": 10.3,
+   "satFatG": 2.1,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05690527983303",
+  "name": "Wanhanajan vanilja",
+  "query": "wanhanajan vanilja",
+  "source": "off",
+  "source_ref": "5690527983303",
+  "expected": {
+   "kcal": 71.0,
+   "proteinG": 9.2,
+   "carbsG": 3.8,
+   "sugarsG": 3.1,
+   "fatG": 2.1,
+   "satFatG": 1.3,
+   "fiberG": null,
+   "sodiumMg": 51.0
+  }
+ },
+ {
+  "gtin14": "06437005058660",
+  "name": "Taika",
+  "query": "taika",
+  "source": "off",
+  "source_ref": "6437005058660",
+  "expected": {
+   "kcal": 265.0,
+   "proteinG": 11.0,
+   "carbsG": 39.0,
+   "sugarsG": 6.5,
+   "fatG": 5.2,
+   "satFatG": 1.2,
+   "fiberG": 8.8,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "00000020047559",
+  "name": "Yogurt Greek Style",
+  "query": "yogurt greek style",
+  "source": "off",
+  "source_ref": "20047559",
+  "expected": {
+   "kcal": 96.176,
+   "proteinG": 4.6,
+   "carbsG": 3.2,
+   "sugarsG": 3.2,
+   "fatG": 10.0,
+   "satFatG": 6.6,
+   "fiberG": 0.5,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "05000184321064",
+  "name": "Majoneesi",
+  "query": "majoneesi",
+  "source": "off",
+  "source_ref": "5000184321064",
+  "expected": {
+   "kcal": 720.0,
+   "proteinG": 1.1,
+   "carbsG": 1.4,
+   "sugarsG": 0.7,
+   "fatG": 79.0,
+   "satFatG": 3.0,
+   "fiberG": 0.0,
+   "sodiumMg": 236.0
+  }
+ },
+ {
+  "gtin14": "05411188128588",
+  "name": "Alpro Fermentiertes Sojaprodukt, Ungesüßt, Skyr style 400g",
+  "query": "alpro fermentiertes sojaprodukt",
+  "source": "off",
+  "source_ref": "5411188128588",
+  "expected": {
+   "kcal": 60.0,
+   "proteinG": 5.8,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 3.4,
+   "satFatG": 0.6,
+   "fiberG": 1.3,
+   "sodiumMg": 130.0
+  }
+ },
+ {
+  "gtin14": "07311311020599",
+  "name": "TORTILLA ORIGINAL",
+  "query": "tortilla original",
+  "source": "off",
+  "source_ref": "7311311020599",
+  "expected": {
+   "kcal": 302.0,
+   "proteinG": 8.3,
+   "carbsG": 55.0,
+   "sugarsG": 2.0,
+   "fatG": 4.9,
+   "satFatG": 1.2,
+   "fiberG": 2.5,
+   "sodiumMg": 560.0
+  }
+ },
+ {
+  "gtin14": "04056489203339",
+  "name": "Edam",
+  "query": "edam",
+  "source": "off",
+  "source_ref": "4056489203339",
+  "expected": {
+   "kcal": 312.0,
+   "proteinG": 24.0,
+   "carbsG": 0.0,
+   "sugarsG": 4.639,
+   "fatG": 24.0,
+   "satFatG": 0.103,
+   "fiberG": 0.0,
+   "sodiumMg": 787.0
+  }
+ },
+ {
+  "gtin14": "07340191134782",
+  "name": "Cookies med sjokolade",
+  "query": "cookies med sjokolade",
+  "source": "off",
+  "source_ref": "7340191134782",
+  "expected": {
+   "kcal": 509.0,
+   "proteinG": 4.9,
+   "carbsG": 60.0,
+   "sugarsG": 34.0,
+   "fatG": 27.0,
+   "satFatG": 14.0,
+   "fiberG": null,
+   "sodiumMg": 360.0
+  }
+ },
+ {
+  "gtin14": "07340191144620",
+  "name": "Täysjyvävehnätortilla",
+  "query": "täysjyvävehnätortilla",
+  "source": "off",
+  "source_ref": "7340191144620",
+  "expected": {
+   "kcal": 277.419,
+   "proteinG": 9.032,
+   "carbsG": 45.161,
+   "sugarsG": 1.613,
+   "fatG": 5.323,
+   "satFatG": 0.806,
+   "fiberG": 7.097,
+   "sodiumMg": 0.968
+  }
+ },
+ {
+  "gtin14": "06430081490041",
+  "name": "Barista Oat Drink",
+  "query": "barista oat drink",
+  "source": "off",
+  "source_ref": "6430081490041",
+  "expected": {
+   "kcal": 58.0,
+   "proteinG": 1.2,
+   "carbsG": 6.6,
+   "sugarsG": 3.5,
+   "fatG": 3.0,
+   "satFatG": 0.03,
+   "fiberG": null,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "06408430039432",
+  "name": "Oltermanni",
+  "query": "oltermanni",
+  "source": "off",
+  "source_ref": "6408430039432",
+  "expected": {
+   "kcal": 364.0,
+   "proteinG": 25.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 29.0,
+   "satFatG": 17.0,
+   "fiberG": 0.0,
+   "sodiumMg": 520.0
+  }
+ },
+ {
+  "gtin14": "06411200112747",
+  "name": "Kaurajuoma kahviin",
+  "query": "kaurajuoma kahviin",
+  "source": "off",
+  "source_ref": "6411200112747",
+  "expected": {
+   "kcal": 65.0,
+   "proteinG": 0.9,
+   "carbsG": 8.4,
+   "sugarsG": 3.6,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 0.3,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "06408430042081",
+  "name": "Pehmeä rasvaton maitorahka",
+  "query": "pehmeä rasvaton maitorahka",
+  "source": "off",
+  "source_ref": "6408430042081",
+  "expected": {
+   "kcal": 58.0,
+   "proteinG": 10.0,
+   "carbsG": 3.7,
+   "sugarsG": 3.7,
+   "fatG": 0.1,
+   "satFatG": 0.06,
+   "fiberG": null,
+   "sodiumMg": 35.0
+  }
+ },
+ {
+  "gtin14": "06408430043200",
+  "name": "Hyvä Suomalainen Arkirae",
+  "query": "hyvä suomalainen arkirae",
+  "source": "off",
+  "source_ref": "6408430043200",
+  "expected": {
+   "kcal": 69.0,
+   "proteinG": 13.0,
+   "carbsG": 2.1,
+   "sugarsG": 2.1,
+   "fatG": 1.0,
+   "satFatG": 0.6,
+   "fiberG": null,
+   "sodiumMg": 275.0
+  }
+ }
+]

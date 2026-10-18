@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05449000131836",
+  "name": "Coca-Cola Zero 500ml",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000131836",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 20.0
+  }
+ },
+ {
+  "gtin14": "04000339035229",
+  "name": "Philadelphia 200 gr",
+  "query": "philadelphia 200 gr",
+  "source": "off",
+  "source_ref": "4000339035229",
+  "expected": {
+   "kcal": 226.667,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 296.0
+  }
+ },
+ {
+  "gtin14": "07612100907603",
+  "name": "Crunchy cream",
+  "query": "crunchy cream",
+  "source": "off",
+  "source_ref": "7612100907603",
+  "expected": {
+   "kcal": 547.0,
+   "proteinG": 3.7,
+   "carbsG": 59.4,
+   "sugarsG": 50.1,
+   "fatG": 32.4,
+   "satFatG": 5.5,
+   "fiberG": 1.6,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "07610095231505",
+  "name": "vaya BEAN SALT SNACK",
+  "query": "vaya bean salt",
+  "source": "off",
+  "source_ref": "7610095231505",
+  "expected": {
+   "kcal": 413.0,
+   "proteinG": 17.0,
+   "carbsG": 57.0,
+   "sugarsG": 1.3,
+   "fatG": 13.0,
+   "satFatG": 1.1,
+   "fiberG": 6.6,
+   "sodiumMg": 680.0
+  }
+ },
+ {
+  "gtin14": "07611100054713",
+  "name": "Aromat",
+  "query": "aromat",
+  "source": "off",
+  "source_ref": "7611100054713",
+  "expected": {
+   "kcal": 165.0,
+   "proteinG": 13.0,
+   "carbsG": 16.0,
+   "sugarsG": 7.1,
+   "fatG": 3.5,
+   "satFatG": 1.2,
+   "fiberG": 0.6,
+   "sodiumMg": 23160.0
+  }
+ },
+ {
+  "gtin14": "07640150491001",
+  "name": "El Tony Mate",
+  "query": "el tony mate",
+  "source": "off",
+  "source_ref": "7640150491001",
+  "expected": {
+   "kcal": 24.0,
+   "proteinG": 0.6,
+   "carbsG": 5.8,
+   "sugarsG": 5.8,
+   "fatG": 0.6,
+   "satFatG": 0.1,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07610128737127",
+  "name": "Le beurre de crème pasteurisée",
+  "query": "le beurre de",
+  "source": "off",
+  "source_ref": "7610128737127",
+  "expected": {
+   "kcal": 742.0,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 82.0,
+   "satFatG": 49.2,
+   "fiberG": 0.0,
+   "sodiumMg": 3147.0
+  }
+ },
+ {
+  "gtin14": "00000012516797",
+  "name": "Viande séchée aux herbes printanières",
+  "query": "viande séchée aux",
+  "source": "off",
+  "source_ref": "12516797",
+  "expected": {
+   "kcal": 479.0,
+   "proteinG": 24.0,
+   "carbsG": 46.0,
+   "sugarsG": 20.0,
+   "fatG": 21.0,
+   "satFatG": 3.0,
+   "fiberG": 5.0,
+   "sodiumMg": 173.0
+  }
+ },
+ {
+  "gtin14": "00000011555797",
+  "name": "Vegan Bloc Butter",
+  "query": "vegan bloc butter",
+  "source": "off",
+  "source_ref": "11555797",
+  "expected": {
+   "kcal": 720.0,
+   "proteinG": 0.5,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 80.0,
+   "satFatG": 39.0,
+   "fiberG": 0.5,
+   "sodiumMg": 79.0
+  }
+ },
+ {
+  "gtin14": "05449000000996",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000996",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00000080176800",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80176800",
+  "expected": {
+   "kcal": 533.33,
+   "proteinG": 6.0,
+   "carbsG": 57.33,
+   "sugarsG": 56.0,
+   "fatG": 30.67,
+   "satFatG": 10.67,
+   "fiberG": 0.0,
+   "sodiumMg": 428.0
+  }
+ },
+ {
+  "gtin14": "05449000131805",
+  "name": "Coca-Cola Zero Azúcar",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000131805",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "00000054491472",
+  "name": "Cola 500 Ml",
+  "query": "cola 500 ml",
+  "source": "off",
+  "source_ref": "54491472",
+  "expected": {
+   "kcal": 44.0,
+   "proteinG": 0.0,
+   "carbsG": 10.9,
+   "sugarsG": 10.9,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08715700017006",
+  "name": "Tomato Ketchup",
+  "query": "tomato ketchup",
+  "source": "off",
+  "source_ref": "8715700017006",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.2,
+   "fatG": 0.1,
+   "satFatG": 0.1,
+   "fiberG": 0.73,
+   "sodiumMg": 720.0
+  }
+ },
+ {
+  "gtin14": "08076809513746",
+  "name": "Pesto alla Genovese",
+  "query": "pesto alla genovese",
+  "source": "off",
+  "source_ref": "8076809513746",
+  "expected": {
+   "kcal": 492.0,
+   "proteinG": 4.7,
+   "carbsG": 9.8,
+   "sugarsG": 5.5,
+   "fatG": 46.0,
+   "satFatG": 7.1,
+   "fiberG": 5.0,
+   "sodiumMg": 1259.0
+  }
+ },
+ {
+  "gtin14": "08445290114594",
+  "name": "Crousti fondant choco-noisettes",
+  "query": "crousti fondant choco",
+  "source": "off",
+  "source_ref": "8445290114594",
+  "expected": {
+   "kcal": 452.0,
+   "proteinG": 7.7,
+   "carbsG": 62.8,
+   "sugarsG": 17.5,
+   "fatG": 17.4,
+   "satFatG": 2.4,
+   "fiberG": 6.2,
+   "sodiumMg": 88.0
+  }
+ },
+ {
+  "gtin14": "05411188138099",
+  "name": "Danone ALPRO® Joghurt Soja Natur ungesüßt",
+  "query": "danone alpro joghurt",
+  "source": "off",
+  "source_ref": "5411188138099",
+  "expected": {
+   "kcal": 42.3,
+   "proteinG": 4.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 2.3,
+   "satFatG": 0.4,
+   "fiberG": 0.9,
+   "sodiumMg": 96.0
+  }
+ },
+ {
+  "gtin14": "03068320084602",
+  "name": "Evian Mineralwasser, PET, 1.5L",
+  "query": "evian mineralwasser pet",
+  "source": "off",
+  "source_ref": "3068320084602",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08076809540124",
+  "name": "Classico",
+  "query": "classico",
+  "source": "off",
+  "source_ref": "8076809540124",
+  "expected": {
+   "kcal": 461.0,
+   "proteinG": 8.3,
+   "carbsG": 60.0,
+   "sugarsG": 17.0,
+   "fatG": 19.0,
+   "satFatG": 1.7,
+   "fiberG": 8.2,
+   "sodiumMg": 280.0
+  }
+ },
+ {
+  "gtin14": "04104420254756",
+  "name": "Dinkel Crunchy",
+  "query": "dinkel crunchy",
+  "source": "off",
+  "source_ref": "4104420254756",
+  "expected": {
+   "kcal": 437.0,
+   "proteinG": 11.0,
+   "carbsG": 66.0,
+   "sugarsG": 17.0,
+   "fatG": 13.0,
+   "satFatG": 1.1,
+   "fiberG": 6.2,
+   "sodiumMg": 64.0
+  }
+ }
+]

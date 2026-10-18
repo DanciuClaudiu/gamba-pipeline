@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "07622210449283",
+  "name": "Prince",
+  "query": "prince",
+  "source": "off",
+  "source_ref": "7622210449283",
+  "expected": {
+   "kcal": 466.0,
+   "proteinG": 6.3,
+   "carbsG": 68.0,
+   "sugarsG": 32.0,
+   "fatG": 17.0,
+   "satFatG": 5.6,
+   "fiberG": 52.0,
+   "sodiumMg": 204.0
+  }
+ },
+ {
+  "gtin14": "03760049790214",
+  "name": "Pain De Mie Bio",
+  "query": "pain de mie",
+  "source": "off",
+  "source_ref": "3760049790214",
+  "expected": {
+   "kcal": 268.0,
+   "proteinG": 8.1,
+   "carbsG": 47.0,
+   "sugarsG": 6.3,
+   "fatG": 4.2,
+   "satFatG": 0.4,
+   "fiberG": 4.9,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "03329770077003",
+  "name": "Skyr nature 0%",
+  "query": "skyr nature 0",
+  "source": "off",
+  "source_ref": "3329770077003",
+  "expected": {
+   "kcal": 57.0,
+   "proteinG": 9.5,
+   "carbsG": 3.6,
+   "sugarsG": 3.6,
+   "fatG": 0.5,
+   "satFatG": 0.1,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "03760049798609",
+  "name": "Pain de mie grandes tranches Seigle & Graines 500g",
+  "query": "pain de mie",
+  "source": "off",
+  "source_ref": "3760049798609",
+  "expected": {
+   "kcal": 297.0,
+   "proteinG": 12.0,
+   "carbsG": 37.0,
+   "sugarsG": 4.2,
+   "fatG": 9.6,
+   "satFatG": 1.0,
+   "fiberG": 7.2,
+   "sodiumMg": 384.0
+  }
+ },
+ {
+  "gtin14": "03168930010265",
+  "name": "cruesly mélange de noix",
+  "query": "cruesly mélange de",
+  "source": "off",
+  "source_ref": "3168930010265",
+  "expected": {
+   "kcal": 462.0,
+   "proteinG": 8.5,
+   "carbsG": 57.0,
+   "sugarsG": 12.0,
+   "fatG": 19.0,
+   "satFatG": 2.0,
+   "fiberG": 10.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "03046920022651",
+  "name": "Noir Intense",
+  "query": "noir intense",
+  "source": "off",
+  "source_ref": "3046920022651",
+  "expected": {
+   "kcal": 566.0,
+   "proteinG": 9.5,
+   "carbsG": 35.0,
+   "sugarsG": 30.0,
+   "fatG": 41.0,
+   "satFatG": 24.0,
+   "fiberG": 12.2,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "03760020507350",
+  "name": "Pur beurre de cacahuète",
+  "query": "pur beurre de",
+  "source": "off",
+  "source_ref": "3760020507350",
+  "expected": {
+   "kcal": 628.0,
+   "proteinG": 27.0,
+   "carbsG": 12.0,
+   "sugarsG": 5.1,
+   "fatG": 51.0,
+   "satFatG": 9.9,
+   "fiberG": 6.5,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08052575090254",
+  "name": "Rigoni di Asiago - Nocciolata bio",
+  "query": "rigoni di asiago",
+  "source": "off",
+  "source_ref": "8052575090254",
+  "expected": {
+   "kcal": 544.0,
+   "proteinG": 8.1,
+   "carbsG": 54.0,
+   "sugarsG": 51.0,
+   "fatG": 32.0,
+   "satFatG": 5.7,
+   "fiberG": 3.6,
+   "sodiumMg": 48.0
+  }
+ },
+ {
+  "gtin14": "03228857002344",
+  "name": "Pain de mie american sandwich complet sans sucres ajoutés 600g",
+  "query": "pain de mie",
+  "source": "off",
+  "source_ref": "3228857002344",
+  "expected": {
+   "kcal": 280.0,
+   "proteinG": 7.7,
+   "carbsG": 43.0,
+   "sugarsG": 3.6,
+   "fatG": 6.8,
+   "satFatG": 0.5,
+   "fiberG": 8.1,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "03175680011480",
+  "name": "Sésame",
+  "query": "sésame",
+  "source": "off",
+  "source_ref": "3175680011480",
+  "expected": {
+   "kcal": 467.0,
+   "proteinG": 10.0,
+   "carbsG": 64.0,
+   "sugarsG": 17.0,
+   "fatG": 18.0,
+   "satFatG": 2.0,
+   "fiberG": 4.6,
+   "sodiumMg": 152.0
+  }
+ },
+ {
+  "gtin14": "03017620422003",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "3017620422003",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 0.0,
+   "sodiumMg": 42.8
+  }
+ },
+ {
+  "gtin14": "03046920022606",
+  "name": "Excellence 85% cacao",
+  "query": "excellence 85 cacao",
+  "source": "off",
+  "source_ref": "3046920022606",
+  "expected": {
+   "kcal": 584.0,
+   "proteinG": 12.5,
+   "carbsG": 22.0,
+   "sugarsG": 15.0,
+   "fatG": 46.0,
+   "satFatG": 27.0,
+   "fiberG": 0.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "03017620425035",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "3017620425035",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": null,
+   "sodiumMg": 42.8
+  }
+ },
+ {
+  "gtin14": "03229820100234",
+  "name": "Fourrés Chocolat Noir",
+  "query": "fourrés chocolat noir",
+  "source": "off",
+  "source_ref": "3229820100234",
+  "expected": {
+   "kcal": 476.0,
+   "proteinG": 7.6,
+   "carbsG": 66.0,
+   "sugarsG": 27.0,
+   "fatG": 19.0,
+   "satFatG": 6.3,
+   "fiberG": 5.2,
+   "sodiumMg": 196.0
+  }
+ },
+ {
+  "gtin14": "07311070032611",
+  "name": "KRISPROLLS Complets",
+  "query": "krisprolls complets",
+  "source": "off",
+  "source_ref": "7311070032611",
+  "expected": {
+   "kcal": 400.0,
+   "proteinG": 13.0,
+   "carbsG": 68.0,
+   "sugarsG": 1.1,
+   "fatG": 6.6,
+   "satFatG": 0.9,
+   "fiberG": 8.3,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "03284230006408",
+  "name": "Brioche Tranchée Bio 400g",
+  "query": "brioche tranchée bio",
+  "source": "off",
+  "source_ref": "3284230006408",
+  "expected": {
+   "kcal": 336.0,
+   "proteinG": 8.8,
+   "carbsG": 52.0,
+   "sugarsG": 13.0,
+   "fatG": 9.4,
+   "satFatG": 0.9,
+   "fiberG": 3.9,
+   "sodiumMg": 380.0
+  }
+ },
+ {
+  "gtin14": "03168930163480",
+  "name": "Alvalle Gazpacho l'original",
+  "query": "alvalle gazpacho l",
+  "source": "off",
+  "source_ref": "3168930163480",
+  "expected": {
+   "kcal": 40.0,
+   "proteinG": 0.9,
+   "carbsG": 3.5,
+   "sugarsG": 3.3,
+   "fatG": 2.2,
+   "satFatG": 0.4,
+   "fiberG": 1.2,
+   "sodiumMg": 244.0
+  }
+ },
+ {
+  "gtin14": "03029330022428",
+  "name": "14 Maxi Tranches complet sans sucres ajoutés",
+  "query": "14 maxi tranches",
+  "source": "off",
+  "source_ref": "3029330022428",
+  "expected": {
+   "kcal": 264.0,
+   "proteinG": 8.5,
+   "carbsG": 42.0,
+   "sugarsG": 2.9,
+   "fatG": 5.2,
+   "satFatG": 0.4,
+   "fiberG": 7.5,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "03760049794298",
+  "name": "Pain de mie Bio grandes tranches céréales & graines 500g",
+  "query": "pain de mie",
+  "source": "off",
+  "source_ref": "3760049794298",
+  "expected": {
+   "kcal": 303.0,
+   "proteinG": 8.6,
+   "carbsG": 46.0,
+   "sugarsG": 5.1,
+   "fatG": 8.3,
+   "satFatG": 0.8,
+   "fiberG": 5.1,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "07300400481595",
+  "name": "AUTHENTIQUE",
+  "query": "authentique",
+  "source": "off",
+  "source_ref": "7300400481595",
+  "expected": {
+   "kcal": 336.0,
+   "proteinG": 9.0,
+   "carbsG": 62.0,
+   "sugarsG": 1.0,
+   "fatG": 1.5,
+   "satFatG": 0.4,
+   "fiberG": 19.0,
+   "sodiumMg": 400.0
+  }
+ }
+]

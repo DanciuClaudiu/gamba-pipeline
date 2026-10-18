@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "04056489143833",
+  "name": "Крема сирене",
+  "query": "крема сирене",
+  "source": "off",
+  "source_ref": "4056489143833",
+  "expected": {
+   "kcal": 243.0,
+   "proteinG": 6.3,
+   "carbsG": 2.8,
+   "sugarsG": 2.7,
+   "fatG": 23.0,
+   "satFatG": 16.1,
+   "fiberG": 0.0,
+   "sodiumMg": 256.0
+  }
+ },
+ {
+  "gtin14": "07622210590473",
+  "name": "Philadelphia 300g",
+  "query": "philadelphia 300g",
+  "source": "off",
+  "source_ref": "7622210590473",
+  "expected": {
+   "kcal": 226.667,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 300.0
+  }
+ },
+ {
+  "gtin14": "04019300170005",
+  "name": "Скир натурален",
+  "query": "скир натурален",
+  "source": "off",
+  "source_ref": "4019300170005",
+  "expected": {
+   "kcal": 59.259,
+   "proteinG": 11.0,
+   "carbsG": 4.0,
+   "sugarsG": 4.0,
+   "fatG": 0.2,
+   "satFatG": 0.1,
+   "fiberG": 0.0,
+   "sodiumMg": 31.0
+  }
+ },
+ {
+  "gtin14": "03800082900567",
+  "name": "Солети Златна Добруджа",
+  "query": "солети златна добруджа",
+  "source": "off",
+  "source_ref": "3800082900567",
+  "expected": {
+   "kcal": 381.3,
+   "proteinG": 8.4,
+   "carbsG": 72.4,
+   "sugarsG": 2.7,
+   "fatG": 4.5,
+   "satFatG": 2.3,
+   "fiberG": 1.8,
+   "sodiumMg": 1000.0
+  }
+ },
+ {
+  "gtin14": "03800000600593",
+  "name": "Devin изворна",
+  "query": "devin изворна",
+  "source": "off",
+  "source_ref": "3800000600593",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05941875905227",
+  "name": "Прясно краве мляко 3,7%",
+  "query": "прясно краве мляко",
+  "source": "off",
+  "source_ref": "5941875905227",
+  "expected": {
+   "kcal": 65.0,
+   "proteinG": 3.1,
+   "carbsG": 4.7,
+   "sugarsG": 4.7,
+   "fatG": 3.7,
+   "satFatG": 2.2,
+   "fiberG": 0.0,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "07622300331283",
+  "name": "Вафла МОРЕНИ maxx",
+  "query": "вафла морени maxx",
+  "source": "off",
+  "source_ref": "7622300331283",
+  "expected": {
+   "kcal": 522.0,
+   "proteinG": 6.5,
+   "carbsG": 61.0,
+   "sugarsG": 44.0,
+   "fatG": 27.0,
+   "satFatG": 12.0,
+   "fiberG": 3.0,
+   "sodiumMg": 90.0
+  }
+ },
+ {
+  "gtin14": "03800116400001",
+  "name": "Хрус-хрус",
+  "query": "хрус хрус",
+  "source": "off",
+  "source_ref": "3800116400001",
+  "expected": {
+   "kcal": 398.2,
+   "proteinG": 10.61,
+   "carbsG": 77.38,
+   "sugarsG": 1.86,
+   "fatG": 5.14,
+   "satFatG": 1.49,
+   "fiberG": 3.7,
+   "sodiumMg": 1160.0
+  }
+ },
+ {
+  "gtin14": "03800082900581",
+  "name": "Солети",
+  "query": "солети",
+  "source": "off",
+  "source_ref": "3800082900581",
+  "expected": {
+   "kcal": 381.3,
+   "proteinG": 8.4,
+   "carbsG": 72.4,
+   "sugarsG": 2.7,
+   "fatG": 4.5,
+   "satFatG": 2.3,
+   "fiberG": 1.8,
+   "sodiumMg": 1000.0
+  }
+ },
+ {
+  "gtin14": "05449000000996",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000996",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00000080176800",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80176800",
+  "expected": {
+   "kcal": 533.33,
+   "proteinG": 6.0,
+   "carbsG": 57.33,
+   "sugarsG": 56.0,
+   "fatG": 30.67,
+   "satFatG": 10.67,
+   "fiberG": 0.0,
+   "sodiumMg": 428.0
+  }
+ },
+ {
+  "gtin14": "00000020022464",
+  "name": "Extra Dark 74% Cocoa",
+  "query": "extra dark 74",
+  "source": "off",
+  "source_ref": "20022464",
+  "expected": {
+   "kcal": 571.0,
+   "proteinG": 9.9,
+   "carbsG": 32.0,
+   "sugarsG": 26.0,
+   "fatG": 42.0,
+   "satFatG": 26.0,
+   "fiberG": 12.6,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05449000131805",
+  "name": "Coca-Cola Zero Azúcar",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000131805",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "00000054491472",
+  "name": "Cola 500 Ml",
+  "query": "cola 500 ml",
+  "source": "off",
+  "source_ref": "54491472",
+  "expected": {
+   "kcal": 44.0,
+   "proteinG": 0.0,
+   "carbsG": 10.9,
+   "sugarsG": 10.9,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04014400400007",
+  "name": "Toffifee 15er",
+  "query": "toffifee 15er",
+  "source": "off",
+  "source_ref": "4014400400007",
+  "expected": {
+   "kcal": 521.0,
+   "proteinG": 6.0,
+   "carbsG": 58.9,
+   "sugarsG": 48.8,
+   "fatG": 29.0,
+   "satFatG": 12.7,
+   "fiberG": 16.0,
+   "sodiumMg": 0.11
+  }
+ },
+ {
+  "gtin14": "05449000000286",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000286",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00000020002183",
+  "name": "Fiocchi di latte",
+  "query": "fiocchi di latte",
+  "source": "off",
+  "source_ref": "20002183",
+  "expected": {
+   "kcal": 98.0,
+   "proteinG": 11.5,
+   "carbsG": 2.8,
+   "sugarsG": 2.8,
+   "fatG": 4.5,
+   "satFatG": 3.0,
+   "fiberG": 0.0,
+   "sodiumMg": 240.0
+  }
+ },
+ {
+  "gtin14": "04056489366461",
+  "name": "Extra Dark 85% Cocoa",
+  "query": "extra dark 85",
+  "source": "off",
+  "source_ref": "4056489366461",
+  "expected": {
+   "kcal": 585.0,
+   "proteinG": 10.5,
+   "carbsG": 21.2,
+   "sugarsG": 12.8,
+   "fatG": 48.1,
+   "satFatG": 29.0,
+   "fiberG": 14.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "04056489195917",
+  "name": "Jemné ovesné vločky",
+  "query": "jemné ovesné vločky",
+  "source": "off",
+  "source_ref": "4056489195917",
+  "expected": {
+   "kcal": 372.0,
+   "proteinG": 12.0,
+   "carbsG": 62.0,
+   "sugarsG": 0.7,
+   "fatG": 5.7,
+   "satFatG": 1.0,
+   "fiberG": 8.5,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04056489254157",
+  "name": "Био овесени ядки",
+  "query": "био овесени ядки",
+  "source": "off",
+  "source_ref": "4056489254157",
+  "expected": {
+   "kcal": 365.0,
+   "proteinG": 14.2,
+   "carbsG": 55.1,
+   "sugarsG": 1.2,
+   "fatG": 6.9,
+   "satFatG": 1.0,
+   "fiberG": 12.3,
+   "sodiumMg": 4.0
+  }
+ }
+]

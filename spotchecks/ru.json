@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "04810268031793",
+  "name": "Греческий йогурт Натуральный 2%",
+  "query": "греческий йогурт натуральный",
+  "source": "off",
+  "source_ref": "4810268031793",
+  "expected": {
+   "kcal": 66.8,
+   "proteinG": 8.0,
+   "carbsG": 4.2,
+   "sugarsG": null,
+   "fatG": 2.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04601674085292",
+  "name": "Кетчуп томатный",
+  "query": "кетчуп томатный",
+  "source": "off",
+  "source_ref": "4601674085292",
+  "expected": {
+   "kcal": 110.0,
+   "proteinG": 1.0,
+   "carbsG": 25.0,
+   "sugarsG": null,
+   "fatG": 0.1,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04607084351385",
+  "name": "Choco Pie - Мучное кондитерское изделие в глазури«Choco Pie» («Чоко Пай»)",
+  "query": "choco pie мучное",
+  "source": "off",
+  "source_ref": "4607084351385",
+  "expected": {
+   "kcal": 506.667,
+   "proteinG": 4.5,
+   "carbsG": 63.0,
+   "sugarsG": null,
+   "fatG": 18.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04600699501398",
+  "name": "Altero Golden масло подсолнечное с добавлением оливкового",
+  "query": "altero golden масло",
+  "source": "off",
+  "source_ref": "4600699501398",
+  "expected": {
+   "kcal": 899.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": null,
+   "fatG": 99.9,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04607053473544",
+  "name": "Молоко Простоквашино 2,5 % бут. пастеризованное 930мл",
+  "query": "молоко простоквашино 2",
+  "source": "off",
+  "source_ref": "4607053473544",
+  "expected": {
+   "kcal": 53.776,
+   "proteinG": 2.9,
+   "carbsG": 4.9,
+   "sugarsG": null,
+   "fatG": 2.5,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04600605033951",
+  "name": "греческий густой йогурт",
+  "query": "греческий густой йогурт",
+  "source": "off",
+  "source_ref": "4600605033951",
+  "expected": {
+   "kcal": 64.0,
+   "proteinG": 8.7,
+   "carbsG": 2.8,
+   "sugarsG": 0.0,
+   "fatG": 2.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04600699503903",
+  "name": "Майонез оливковый Слобода",
+  "query": "майонез оливковый слобода",
+  "source": "off",
+  "source_ref": "4600699503903",
+  "expected": {
+   "kcal": 620.0,
+   "proteinG": 0.3,
+   "carbsG": 3.0,
+   "sugarsG": null,
+   "fatG": 67.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04650075427750",
+  "name": "Кола",
+  "query": "кола",
+  "source": "off",
+  "source_ref": "4650075427750",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": null,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": null,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "05449000054227",
+  "name": "Coca-Cola Original Taste",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5449000054227",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04607084351354",
+  "name": "Choco Pie Original",
+  "query": "choco pie original",
+  "source": "off",
+  "source_ref": "4607084351354",
+  "expected": {
+   "kcal": 430.0,
+   "proteinG": 4.5,
+   "carbsG": 63.0,
+   "sugarsG": 37.0,
+   "fatG": 18.0,
+   "satFatG": 10.0,
+   "fiberG": null,
+   "sodiumMg": 276.0
+  }
+ },
+ {
+  "gtin14": "04601674084714",
+  "name": "HEINZ Томатный Кетчуп",
+  "query": "heinz томатный кетчуп",
+  "source": "off",
+  "source_ref": "4601674084714",
+  "expected": {
+   "kcal": 110.0,
+   "proteinG": 1.0,
+   "carbsG": 25.0,
+   "sugarsG": 0.0,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04605246003523",
+  "name": "Чай чорний цейлонський байховий Грінфілд Голден Цейлон (Greenfield Golden Ceylon) в пакетиках для разової заварки",
+  "query": "чай чорний цейлонський",
+  "source": "off",
+  "source_ref": "4605246003523",
+  "expected": {
+   "kcal": 1.0,
+   "proteinG": 2.0,
+   "carbsG": 2.0,
+   "sugarsG": 1.0,
+   "fatG": 8.0,
+   "satFatG": 5.0,
+   "fiberG": 1.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04810268030369",
+  "name": "TEOS Йогурт Греческий 2%",
+  "query": "teos йогурт греческий",
+  "source": "off",
+  "source_ref": "4810268030369",
+  "expected": {
+   "kcal": 66.8,
+   "proteinG": 8.0,
+   "carbsG": 4.2,
+   "sugarsG": null,
+   "fatG": 2.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04604248003517",
+  "name": "Горчица «Русская»",
+  "query": "горчица русская",
+  "source": "off",
+  "source_ref": "4604248003517",
+  "expected": {
+   "kcal": 196.0,
+   "proteinG": 7.5,
+   "carbsG": 20.0,
+   "sugarsG": 1.3,
+   "fatG": 9.5,
+   "satFatG": 1.32,
+   "fiberG": null,
+   "sodiumMg": 1000.0
+  }
+ },
+ {
+  "gtin14": "04605829006040",
+  "name": "Хлеб пшеничный",
+  "query": "хлеб пшеничный",
+  "source": "off",
+  "source_ref": "4605829006040",
+  "expected": {
+   "kcal": 278.0,
+   "proteinG": 8.0,
+   "carbsG": 48.0,
+   "sugarsG": 7.5,
+   "fatG": 6.0,
+   "satFatG": 0.8,
+   "fiberG": 2.6,
+   "sodiumMg": 480.0
+  }
+ },
+ {
+  "gtin14": "04810065006079",
+  "name": "Молоко сгущенное цельное с сахаром ГОСТ 31688-2012",
+  "query": "молоко сгущенное цельное",
+  "source": "off",
+  "source_ref": "4810065006079",
+  "expected": {
+   "kcal": 330.0,
+   "proteinG": 8.0,
+   "carbsG": 56.0,
+   "sugarsG": 28.647,
+   "fatG": 8.5,
+   "satFatG": 0.083,
+   "fiberG": 0.0,
+   "sodiumMg": 32.942
+  }
+ },
+ {
+  "gtin14": "04600699501121",
+  "name": "Слобода для жарки и салатов",
+  "query": "слобода для жарки",
+  "source": "off",
+  "source_ref": "4600699501121",
+  "expected": {
+   "kcal": 899.0,
+   "proteinG": 0.01,
+   "carbsG": 0.01,
+   "sugarsG": 0.0,
+   "fatG": 99.9,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04601662006162",
+  "name": "молоко безлактозное parmalat comfort",
+  "query": "молоко безлактозное parmalat",
+  "source": "off",
+  "source_ref": "4601662006162",
+  "expected": {
+   "kcal": 47.0,
+   "proteinG": 3.0,
+   "carbsG": 4.7,
+   "sugarsG": null,
+   "fatG": 1.8,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "04603934000779",
+  "name": "Вода питьевая «Святой Источник»® /«Saint Spring»® негазированная",
+  "query": "вода питьевая святой",
+  "source": "off",
+  "source_ref": "4603934000779",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.916
+  }
+ },
+ {
+  "gtin14": "04690388111274",
+  "name": "лейс краб смотка большие",
+  "query": "лейс краб смотка",
+  "source": "off",
+  "source_ref": "4690388111274",
+  "expected": {
+   "kcal": 520.0,
+   "proteinG": 6.0,
+   "carbsG": 53.0,
+   "sugarsG": null,
+   "fatG": 32.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ }
+]

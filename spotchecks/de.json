@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "08000500426494",
+  "name": "Nutella Plant-Based",
+  "query": "nutella plant based",
+  "source": "off",
+  "source_ref": "8000500426494",
+  "expected": {
+   "kcal": 534.0,
+   "proteinG": 6.8,
+   "carbsG": 53.4,
+   "sugarsG": 45.4,
+   "fatG": 31.8,
+   "satFatG": 11.0,
+   "fiberG": 4.558,
+   "sodiumMg": 28.0
+  }
+ },
+ {
+  "gtin14": "04008400401621",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "4008400401621",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.675,
+   "sodiumMg": 44.0
+  }
+ },
+ {
+  "gtin14": "04008400404127",
+  "name": "Nutella Nuss-Nugat-Creme",
+  "query": "nutella nuss nugat",
+  "source": "off",
+  "source_ref": "4008400404127",
+  "expected": {
+   "kcal": 538.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.675,
+   "sodiumMg": 44.0
+  }
+ },
+ {
+  "gtin14": "04025500287955",
+  "name": "Kalinka Kefir Fettarm Mild Pur",
+  "query": "kalinka kefir fettarm",
+  "source": "off",
+  "source_ref": "4025500287955",
+  "expected": {
+   "kcal": 46.0,
+   "proteinG": 3.4,
+   "carbsG": 4.1,
+   "sugarsG": 4.1,
+   "fatG": 1.5,
+   "satFatG": 1.0,
+   "fiberG": 0.0,
+   "sodiumMg": 47.0
+  }
+ },
+ {
+  "gtin14": "07622300315733",
+  "name": "Philadelphia Original",
+  "query": "philadelphia original",
+  "source": "off",
+  "source_ref": "7622300315733",
+  "expected": {
+   "kcal": 225.0,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 296.0
+  }
+ },
+ {
+  "gtin14": "04008400402222",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "4008400402222",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 3.0,
+   "sodiumMg": 44.0
+  }
+ },
+ {
+  "gtin14": "04005500310105",
+  "name": "Maggi",
+  "query": "maggi",
+  "source": "off",
+  "source_ref": "4005500310105",
+  "expected": {
+   "kcal": 68.0,
+   "proteinG": 9.8,
+   "carbsG": 6.5,
+   "sugarsG": 3.5,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 7280.0
+  }
+ },
+ {
+  "gtin14": "04001954161010",
+  "name": "Irische Butter",
+  "query": "irische butter",
+  "source": "off",
+  "source_ref": "4001954161010",
+  "expected": {
+   "kcal": 748.0,
+   "proteinG": 0.7,
+   "carbsG": 0.7,
+   "sugarsG": 0.7,
+   "fatG": 82.5,
+   "satFatG": 56.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05000112546415",
+  "name": "Coca-Cola Original",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5000112546415",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "03057640186158",
+  "name": "Wasser Volvic naturelle, 6erPack",
+  "query": "wasser volvic naturelle",
+  "source": "off",
+  "source_ref": "3057640186158",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 1.2
+  }
+ },
+ {
+  "gtin14": "05411188112709",
+  "name": "Geröstete Mandel Ohne Zucker",
+  "query": "geröstete mandel ohne",
+  "source": "off",
+  "source_ref": "5411188112709",
+  "expected": {
+   "kcal": 14.0,
+   "proteinG": 0.5,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 1.1,
+   "satFatG": 0.0,
+   "fiberG": 0.3,
+   "sodiumMg": 150.0
+  }
+ },
+ {
+  "gtin14": "05410041001204",
+  "name": "Tuc Original",
+  "query": "tuc original",
+  "source": "off",
+  "source_ref": "5410041001204",
+  "expected": {
+   "kcal": 482.0,
+   "proteinG": 8.3,
+   "carbsG": 67.0,
+   "sugarsG": 7.1,
+   "fatG": 19.0,
+   "satFatG": 9.0,
+   "fiberG": 2.4,
+   "sodiumMg": 669.0
+  }
+ },
+ {
+  "gtin14": "00000020005733",
+  "name": "Cerneaux de Noix",
+  "query": "cerneaux de noix",
+  "source": "off",
+  "source_ref": "20005733",
+  "expected": {
+   "kcal": 712.0,
+   "proteinG": 15.5,
+   "carbsG": 3.7,
+   "sugarsG": 3.0,
+   "fatG": 69.1,
+   "satFatG": 6.8,
+   "fiberG": 6.8,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "04014400400007",
+  "name": "Toffifee 15er",
+  "query": "toffifee 15er",
+  "source": "off",
+  "source_ref": "4014400400007",
+  "expected": {
+   "kcal": 521.0,
+   "proteinG": 6.0,
+   "carbsG": 58.9,
+   "sugarsG": 48.8,
+   "fatG": 29.0,
+   "satFatG": 12.7,
+   "fiberG": 16.0,
+   "sodiumMg": 0.11
+  }
+ },
+ {
+  "gtin14": "06410500090014",
+  "name": "Knäckebrot mit Roggensauerteig",
+  "query": "knäckebrot mit roggensauerteig",
+  "source": "off",
+  "source_ref": "6410500090014",
+  "expected": {
+   "kcal": 350.0,
+   "proteinG": 10.0,
+   "carbsG": 61.0,
+   "sugarsG": 1.6,
+   "fatG": 2.6,
+   "satFatG": 0.5,
+   "fiberG": 20.0,
+   "sodiumMg": 560.0
+  }
+ },
+ {
+  "gtin14": "08076809513746",
+  "name": "Pesto alla Genovese",
+  "query": "pesto alla genovese",
+  "source": "off",
+  "source_ref": "8076809513746",
+  "expected": {
+   "kcal": 492.0,
+   "proteinG": 4.7,
+   "carbsG": 9.8,
+   "sugarsG": 5.5,
+   "fatG": 46.0,
+   "satFatG": 7.1,
+   "fiberG": 5.0,
+   "sodiumMg": 1259.0
+  }
+ },
+ {
+  "gtin14": "07394376616501",
+  "name": "Haver barista edition",
+  "query": "haver barista edition",
+  "source": "off",
+  "source_ref": "7394376616501",
+  "expected": {
+   "kcal": 61.0,
+   "proteinG": 1.1,
+   "carbsG": 7.1,
+   "sugarsG": 3.4,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 0.8,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "08853662056012",
+  "name": "Sriracha Sauce",
+  "query": "sriracha sauce",
+  "source": "off",
+  "source_ref": "8853662056012",
+  "expected": {
+   "kcal": 139.0,
+   "proteinG": 2.3,
+   "carbsG": 28.0,
+   "sugarsG": 22.0,
+   "fatG": 1.2,
+   "satFatG": 0.2,
+   "fiberG": 3.1,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "07300400114714",
+  "name": "Knäckebrot Vollkorn Roggen",
+  "query": "knäckebrot vollkorn roggen",
+  "source": "off",
+  "source_ref": "7300400114714",
+  "expected": {
+   "kcal": 333.33,
+   "proteinG": 9.0,
+   "carbsG": 60.0,
+   "sugarsG": 1.5,
+   "fatG": 1.5,
+   "satFatG": 0.4,
+   "fiberG": 20.0,
+   "sodiumMg": 480.0
+  }
+ },
+ {
+  "gtin14": "04029764001807",
+  "name": "Club-Mate Original",
+  "query": "club mate original",
+  "source": "off",
+  "source_ref": "4029764001807",
+  "expected": {
+   "kcal": 20.0,
+   "proteinG": 0.0,
+   "carbsG": 5.0,
+   "sugarsG": 5.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ }
+]

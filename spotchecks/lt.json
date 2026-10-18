@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "08715700016504",
+  "name": "Ketchup",
+  "query": "ketchup",
+  "source": "off",
+  "source_ref": "8715700016504",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.8,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08000070015456",
+  "name": "Lavazza club",
+  "query": "lavazza club",
+  "source": "off",
+  "source_ref": "8000070015456",
+  "expected": {
+   "kcal": 396.6,
+   "proteinG": 14.4,
+   "carbsG": 40.2,
+   "sugarsG": null,
+   "fatG": 15.4,
+   "satFatG": null,
+   "fiberG": 19.8,
+   "sodiumMg": 74.0
+  }
+ },
+ {
+  "gtin14": "04770148229477",
+  "name": "Lait 3,2%",
+  "query": "lait 3 2",
+  "source": "off",
+  "source_ref": "4770148229477",
+  "expected": {
+   "kcal": 60.0,
+   "proteinG": 3.2,
+   "carbsG": 4.7,
+   "sugarsG": 4.7,
+   "fatG": 3.2,
+   "satFatG": 2.0,
+   "fiberG": 0.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "04770405227079",
+  "name": "Mineral water",
+  "query": "mineral water",
+  "source": "off",
+  "source_ref": "4770405227079",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 172.7
+  }
+ },
+ {
+  "gtin14": "08720182083203",
+  "name": "Original Mayonnaise",
+  "query": "original mayonnaise",
+  "source": "off",
+  "source_ref": "8720182083203",
+  "expected": {
+   "kcal": 671.0,
+   "proteinG": 0.6,
+   "carbsG": 2.9,
+   "sugarsG": 2.9,
+   "fatG": 73.0,
+   "satFatG": 5.6,
+   "fiberG": 0.013,
+   "sodiumMg": 372.0
+  }
+ },
+ {
+  "gtin14": "04056489328148",
+  "name": "Graikiškas jogurtas",
+  "query": "graikiškas jogurtas",
+  "source": "off",
+  "source_ref": "4056489328148",
+  "expected": {
+   "kcal": 64.0,
+   "proteinG": 6.0,
+   "carbsG": 4.4,
+   "sugarsG": 3.5,
+   "fatG": 2.5,
+   "satFatG": 1.8,
+   "fiberG": null,
+   "sodiumMg": 31.0
+  }
+ },
+ {
+  "gtin14": "04770179993477",
+  "name": "Sausainiai Klasika",
+  "query": "sausainiai klasika",
+  "source": "off",
+  "source_ref": "4770179993477",
+  "expected": {
+   "kcal": 438.0,
+   "proteinG": 8.7,
+   "carbsG": 71.0,
+   "sugarsG": 21.0,
+   "fatG": 13.0,
+   "satFatG": 5.7,
+   "fiberG": null,
+   "sodiumMg": 330.0
+  }
+ },
+ {
+  "gtin14": "04770265041426",
+  "name": "Dvaro pienas",
+  "query": "dvaro pienas",
+  "source": "off",
+  "source_ref": "4770265041426",
+  "expected": {
+   "kcal": 63.0,
+   "proteinG": 3.2,
+   "carbsG": 4.7,
+   "sugarsG": 4.7,
+   "fatG": 3.5,
+   "satFatG": 2.1,
+   "fiberG": null,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "04770265214165",
+  "name": "Jogurtas",
+  "query": "jogurtas",
+  "source": "off",
+  "source_ref": "4770265214165",
+  "expected": {
+   "kcal": 88.0,
+   "proteinG": 9.0,
+   "carbsG": 4.2,
+   "sugarsG": 3.6,
+   "fatG": 3.9,
+   "satFatG": 2.5,
+   "fiberG": null,
+   "sodiumMg": 129.5
+  }
+ },
+ {
+  "gtin14": "05449000000996",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000996",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05000112651355",
+  "name": "Coca-Cola Original",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5000112651355",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00000020261382",
+  "name": "Pilos Graikiškas Jogurtas",
+  "query": "pilos graikiškas jogurtas",
+  "source": "off",
+  "source_ref": "20261382",
+  "expected": {
+   "kcal": 119.742,
+   "proteinG": 3.7,
+   "carbsG": 4.0,
+   "sugarsG": 4.0,
+   "fatG": 10.0,
+   "satFatG": 6.5,
+   "fiberG": null,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "05000112651324",
+  "name": "[Coca-Cola] Carbonated softdrink with cola taste",
+  "query": "coca cola carbonated",
+  "source": "off",
+  "source_ref": "5000112651324",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08000070020580",
+  "name": "Qualita Oro",
+  "query": "qualita oro",
+  "source": "off",
+  "source_ref": "8000070020580",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.1,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "07622210346735",
+  "name": "belvita orginal breakfast",
+  "query": "belvita orginal breakfast",
+  "source": "off",
+  "source_ref": "7622210346735",
+  "expected": {
+   "kcal": 454.589,
+   "proteinG": 7.7,
+   "carbsG": 68.0,
+   "sugarsG": 24.0,
+   "fatG": 16.0,
+   "satFatG": 1.6,
+   "fiberG": 5.2,
+   "sodiumMg": 130.0
+  }
+ },
+ {
+  "gtin14": "04740125531213",
+  "name": "Kreeka jogurt",
+  "query": "kreeka jogurt",
+  "source": "off",
+  "source_ref": "4740125531213",
+  "expected": {
+   "kcal": 78.0,
+   "proteinG": 7.0,
+   "carbsG": 4.0,
+   "sugarsG": 4.0,
+   "fatG": 4.0,
+   "satFatG": 2.5,
+   "fiberG": null,
+   "sodiumMg": 0.04
+  }
+ },
+ {
+  "gtin14": "08720182087270",
+  "name": "Original Mayonnaise",
+  "query": "original mayonnaise",
+  "source": "off",
+  "source_ref": "8720182087270",
+  "expected": {
+   "kcal": 671.0,
+   "proteinG": 0.6,
+   "carbsG": 2.9,
+   "sugarsG": 2.9,
+   "fatG": 73.0,
+   "satFatG": 5.6,
+   "fiberG": null,
+   "sodiumMg": 372.0
+  }
+ },
+ {
+  "gtin14": "04770299045186",
+  "name": "Sviestas",
+  "query": "sviestas",
+  "source": "off",
+  "source_ref": "4770299045186",
+  "expected": {
+   "kcal": 746.0,
+   "proteinG": 0.8,
+   "carbsG": 1.1,
+   "sugarsG": 0.8,
+   "fatG": 82.0,
+   "satFatG": 56.0,
+   "fiberG": null,
+   "sodiumMg": 12.0
+  }
+ },
+ {
+  "gtin14": "04770407302019",
+  "name": "Hematogenas",
+  "query": "hematogenas",
+  "source": "off",
+  "source_ref": "4770407302019",
+  "expected": {
+   "kcal": 421.845,
+   "proteinG": 7.6,
+   "carbsG": 77.0,
+   "sugarsG": 75.0,
+   "fatG": 8.7,
+   "satFatG": 4.6,
+   "fiberG": null,
+   "sodiumMg": 260.0
+  }
+ },
+ {
+  "gtin14": "04770477231615",
+  "name": "Carbonated aromatic drink with sugar and sweeteners",
+  "query": "carbonated aromatic drink",
+  "source": "off",
+  "source_ref": "4770477231615",
+  "expected": {
+   "kcal": 28.0,
+   "proteinG": 0.0,
+   "carbsG": 7.0,
+   "sugarsG": 7.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 4.0
+  }
+ }
+]

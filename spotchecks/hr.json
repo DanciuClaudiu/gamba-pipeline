@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "04056489346357",
+  "name": "Boisson à l'amande, sans sucres",
+  "query": "boisson à l",
+  "source": "off",
+  "source_ref": "4056489346357",
+  "expected": {
+   "kcal": 14.0,
+   "proteinG": 0.5,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 1.2,
+   "satFatG": 0.1,
+   "fiberG": 0.221,
+   "sodiumMg": 52.0
+  }
+ },
+ {
+  "gtin14": "05449000000286",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000286",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "08076809540155",
+  "name": "Gran Cereale Cacao",
+  "query": "gran cereale cacao",
+  "source": "off",
+  "source_ref": "8076809540155",
+  "expected": {
+   "kcal": 457.0,
+   "proteinG": 9.0,
+   "carbsG": 59.4,
+   "sugarsG": 29.5,
+   "fatG": 19.0,
+   "satFatG": 3.6,
+   "fiberG": 9.1,
+   "sodiumMg": 126.0
+  }
+ },
+ {
+  "gtin14": "03859888858008",
+  "name": "Svježi krem sir",
+  "query": "svježi krem sir",
+  "source": "off",
+  "source_ref": "3859888858008",
+  "expected": {
+   "kcal": 232.075,
+   "proteinG": 6.1,
+   "carbsG": 3.0,
+   "sugarsG": 3.0,
+   "fatG": 22.0,
+   "satFatG": 15.9,
+   "fiberG": null,
+   "sodiumMg": 300.0
+  }
+ },
+ {
+  "gtin14": "03859888858336",
+  "name": "abc classic svježi krem sir",
+  "query": "abc classic svježi",
+  "source": "off",
+  "source_ref": "3859888858336",
+  "expected": {
+   "kcal": 234.0,
+   "proteinG": 6.1,
+   "carbsG": 3.0,
+   "sugarsG": 3.0,
+   "fatG": 22.0,
+   "satFatG": 15.6,
+   "fiberG": 0.36,
+   "sodiumMg": 320.0
+  }
+ },
+ {
+  "gtin14": "03850354010784",
+  "name": "Dukatos grčki tip jogurta",
+  "query": "dukatos grčki tip",
+  "source": "off",
+  "source_ref": "3850354010784",
+  "expected": {
+   "kcal": 125.0,
+   "proteinG": 3.8,
+   "carbsG": 5.0,
+   "sugarsG": 5.0,
+   "fatG": 9.7,
+   "satFatG": 7.3,
+   "fiberG": null,
+   "sodiumMg": 52.0
+  }
+ },
+ {
+  "gtin14": "03858884600062",
+  "name": "Jana",
+  "query": "jana",
+  "source": "off",
+  "source_ref": "3858884600062",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 5.02
+  }
+ },
+ {
+  "gtin14": "03850108020908",
+  "name": "Mlijeko",
+  "query": "mlijeko",
+  "source": "off",
+  "source_ref": "3850108020908",
+  "expected": {
+   "kcal": 56.0,
+   "proteinG": 3.2,
+   "carbsG": 4.6,
+   "sugarsG": 4.6,
+   "fatG": 2.8,
+   "satFatG": 1.9,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "03850354009726",
+  "name": "Dukatos grčki tip jogurta",
+  "query": "dukatos grčki tip",
+  "source": "off",
+  "source_ref": "3850354009726",
+  "expected": {
+   "kcal": 122.0,
+   "proteinG": 3.9,
+   "carbsG": 4.5,
+   "sugarsG": 4.5,
+   "fatG": 9.6,
+   "satFatG": 6.4,
+   "fiberG": null,
+   "sodiumMg": 67.0
+  }
+ },
+ {
+  "gtin14": "03858882210010",
+  "name": "suncokretovo ulje",
+  "query": "suncokretovo ulje",
+  "source": "off",
+  "source_ref": "3858882210010",
+  "expected": {
+   "kcal": 828.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 92.0,
+   "satFatG": 11.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "00000054491472",
+  "name": "Cola 500 Ml",
+  "query": "cola 500 ml",
+  "source": "off",
+  "source_ref": "54491472",
+  "expected": {
+   "kcal": 44.0,
+   "proteinG": 0.0,
+   "carbsG": 10.9,
+   "sugarsG": 10.9,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "04056489366461",
+  "name": "Extra Dark 85% Cocoa",
+  "query": "extra dark 85",
+  "source": "off",
+  "source_ref": "4056489366461",
+  "expected": {
+   "kcal": 585.0,
+   "proteinG": 10.5,
+   "carbsG": 21.2,
+   "sugarsG": 12.8,
+   "fatG": 48.1,
+   "satFatG": 29.0,
+   "fiberG": 14.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "00000080135876",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "80135876",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 0.0,
+   "sodiumMg": 43.0
+  }
+ },
+ {
+  "gtin14": "00000020006105",
+  "name": "Roggenvollkornbrot",
+  "query": "roggenvollkornbrot",
+  "source": "off",
+  "source_ref": "20006105",
+  "expected": {
+   "kcal": 234.0,
+   "proteinG": 6.4,
+   "carbsG": 52.4,
+   "sugarsG": 8.8,
+   "fatG": 2.0,
+   "satFatG": 0.8,
+   "fiberG": 20.8,
+   "sodiumMg": 896.0
+  }
+ },
+ {
+  "gtin14": "00000020051426",
+  "name": "WEIZENTOAST Vollkorn/Complet",
+  "query": "weizentoast vollkorn complet",
+  "source": "off",
+  "source_ref": "20051426",
+  "expected": {
+   "kcal": 256.0,
+   "proteinG": 8.8,
+   "carbsG": 42.0,
+   "sugarsG": 3.5,
+   "fatG": 5.5,
+   "satFatG": 0.5,
+   "fiberG": 6.5,
+   "sodiumMg": 393.0
+  }
+ },
+ {
+  "gtin14": "05449000131843",
+  "name": "Coca-Cola Zero",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000131843",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "04056489018636",
+  "name": "Tortilla Wraps",
+  "query": "tortilla wraps",
+  "source": "off",
+  "source_ref": "4056489018636",
+  "expected": {
+   "kcal": 301.0,
+   "proteinG": 9.3,
+   "carbsG": 48.0,
+   "sugarsG": 2.6,
+   "fatG": 6.3,
+   "satFatG": 1.4,
+   "fiberG": 7.7,
+   "sodiumMg": 0.24
+  }
+ },
+ {
+  "gtin14": "04056489041320",
+  "name": "Bio napitak od zobi",
+  "query": "bio napitak od",
+  "source": "off",
+  "source_ref": "4056489041320",
+  "expected": {
+   "kcal": 37.0,
+   "proteinG": 0.4,
+   "carbsG": 5.6,
+   "sugarsG": 4.4,
+   "fatG": 1.2,
+   "satFatG": 0.1,
+   "fiberG": 1.007,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "04056489021445",
+  "name": "SKYR ICELANDIC STYLE NATURAL",
+  "query": "skyr icelandic style",
+  "source": "off",
+  "source_ref": "4056489021445",
+  "expected": {
+   "kcal": 62.4,
+   "proteinG": 11.0,
+   "carbsG": 4.0,
+   "sugarsG": 4.0,
+   "fatG": 0.2,
+   "satFatG": 0.1,
+   "fiberG": 0.0,
+   "sodiumMg": 51.0
+  }
+ },
+ {
+  "gtin14": "04056489413455",
+  "name": "Rolled Oat Flakes",
+  "query": "rolled oat flakes",
+  "source": "off",
+  "source_ref": "4056489413455",
+  "expected": {
+   "kcal": 364.0,
+   "proteinG": 12.0,
+   "carbsG": 62.0,
+   "sugarsG": 1.0,
+   "fatG": 5.7,
+   "satFatG": 1.0,
+   "fiberG": 8.5,
+   "sodiumMg": 0.0
+  }
+ }
+]

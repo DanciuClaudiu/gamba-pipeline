@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05711953068881",
+  "name": "Chocolate Flavour Shake",
+  "query": "chocolate flavour shake",
+  "source": "off",
+  "source_ref": "5711953068881",
+  "expected": {
+   "kcal": 51.0,
+   "proteinG": 5.7,
+   "carbsG": 4.9,
+   "sugarsG": 4.7,
+   "fatG": 0.9,
+   "satFatG": 0.6,
+   "fiberG": 0.2,
+   "sodiumMg": 0.18
+  }
+ },
+ {
+  "gtin14": "05740900403376",
+  "name": "Smørbar",
+  "query": "smørbar",
+  "source": "off",
+  "source_ref": "5740900403376",
+  "expected": {
+   "kcal": 707.0,
+   "proteinG": 0.6,
+   "carbsG": 0.7,
+   "sugarsG": 0.7,
+   "fatG": 78.0,
+   "satFatG": 40.0,
+   "fiberG": 0.0,
+   "sodiumMg": 433.0
+  }
+ },
+ {
+  "gtin14": "05701205008994",
+  "name": "Signaturbrød Gillelejehavn",
+  "query": "signaturbrød gillelejehavn",
+  "source": "off",
+  "source_ref": "5701205008994",
+  "expected": {
+   "kcal": 214.0,
+   "proteinG": 6.4,
+   "carbsG": 32.0,
+   "sugarsG": 2.0,
+   "fatG": 4.7,
+   "satFatG": 0.6,
+   "fiberG": 9.0,
+   "sodiumMg": 640.0
+  }
+ },
+ {
+  "gtin14": "05741000119020",
+  "name": "Pepsi Max",
+  "query": "pepsi max",
+  "source": "off",
+  "source_ref": "5741000119020",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "05701205001568",
+  "name": "Solsikkerugbrød",
+  "query": "solsikkerugbrød",
+  "source": "off",
+  "source_ref": "5701205001568",
+  "expected": {
+   "kcal": 234.0,
+   "proteinG": 6.5,
+   "carbsG": 40.0,
+   "sugarsG": 2.0,
+   "fatG": 7.1,
+   "satFatG": 0.8,
+   "fiberG": 8.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05701872203005",
+  "name": "Coca Cola Coca Cola",
+  "query": "coca cola coca",
+  "source": "off",
+  "source_ref": "5701872203005",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05760466904919",
+  "name": "Kærgården",
+  "query": "kærgården",
+  "source": "off",
+  "source_ref": "5760466904919",
+  "expected": {
+   "kcal": 634.0,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 70.0,
+   "satFatG": 35.0,
+   "fiberG": 0.0,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "05740700982972",
+  "name": "Coca Cola Zero",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5740700982972",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08710522882276",
+  "name": "Real Mayonnaise",
+  "query": "real mayonnaise",
+  "source": "off",
+  "source_ref": "8710522882276",
+  "expected": {
+   "kcal": 724.0,
+   "proteinG": 1.1,
+   "carbsG": 1.4,
+   "sugarsG": 1.3,
+   "fatG": 79.0,
+   "satFatG": 6.2,
+   "fiberG": 0.0,
+   "sodiumMg": 600.0
+  }
+ },
+ {
+  "gtin14": "08715700016504",
+  "name": "Ketchup",
+  "query": "ketchup",
+  "source": "off",
+  "source_ref": "8715700016504",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.8,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05000184321064",
+  "name": "Majoneesi",
+  "query": "majoneesi",
+  "source": "off",
+  "source_ref": "5000184321064",
+  "expected": {
+   "kcal": 720.0,
+   "proteinG": 1.1,
+   "carbsG": 1.4,
+   "sugarsG": 0.7,
+   "fatG": 79.0,
+   "satFatG": 3.0,
+   "fiberG": 0.0,
+   "sodiumMg": 236.0
+  }
+ },
+ {
+  "gtin14": "04008400409627",
+  "name": "Nutella",
+  "query": "nutella",
+  "source": "off",
+  "source_ref": "4008400409627",
+  "expected": {
+   "kcal": 539.0,
+   "proteinG": 6.3,
+   "carbsG": 57.5,
+   "sugarsG": 56.3,
+   "fatG": 30.9,
+   "satFatG": 10.6,
+   "fiberG": 0.0,
+   "sodiumMg": 44.0
+  }
+ },
+ {
+  "gtin14": "04000339697908",
+  "name": "Philadelphia naturell",
+  "query": "philadelphia naturell",
+  "source": "off",
+  "source_ref": "4000339697908",
+  "expected": {
+   "kcal": 226.0,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 295.0
+  }
+ },
+ {
+  "gtin14": "07311070338188",
+  "name": "Pågen Limpan",
+  "query": "pågen limpan",
+  "source": "off",
+  "source_ref": "7311070338188",
+  "expected": {
+   "kcal": 269.0,
+   "proteinG": 7.8,
+   "carbsG": 50.0,
+   "sugarsG": 2.7,
+   "fatG": 3.7,
+   "satFatG": 0.4,
+   "fiberG": 2.5,
+   "sodiumMg": 551.0
+  }
+ },
+ {
+  "gtin14": "03036810201372",
+  "name": "Dijon Original",
+  "query": "dijon original",
+  "source": "off",
+  "source_ref": "3036810201372",
+  "expected": {
+   "kcal": 151.0,
+   "proteinG": 7.0,
+   "carbsG": 3.5,
+   "sugarsG": 1.9,
+   "fatG": 11.0,
+   "satFatG": 0.6,
+   "fiberG": 0.132,
+   "sodiumMg": 1960.0
+  }
+ },
+ {
+  "gtin14": "05740900403383",
+  "name": "Dansk Smor",
+  "query": "dansk smor",
+  "source": "off",
+  "source_ref": "5740900403383",
+  "expected": {
+   "kcal": 739.0,
+   "proteinG": 0.6,
+   "carbsG": 0.7,
+   "sugarsG": 0.7,
+   "fatG": 82.0,
+   "satFatG": 52.0,
+   "fiberG": null,
+   "sodiumMg": 480.0
+  }
+ },
+ {
+  "gtin14": "05701246016743",
+  "name": "Bagernes bedste rugbrød",
+  "query": "bagernes bedste rugbrød",
+  "source": "off",
+  "source_ref": "5701246016743",
+  "expected": {
+   "kcal": 276.0,
+   "proteinG": 12.0,
+   "carbsG": 27.0,
+   "sugarsG": 2.3,
+   "fatG": 12.0,
+   "satFatG": 1.4,
+   "fiberG": 7.9,
+   "sodiumMg": 1.4
+  }
+ },
+ {
+  "gtin14": "07394376618963",
+  "name": "Havredrik barista edition",
+  "query": "havredrik barista edition",
+  "source": "off",
+  "source_ref": "7394376618963",
+  "expected": {
+   "kcal": 61.0,
+   "proteinG": 1.1,
+   "carbsG": 7.1,
+   "sugarsG": 3.4,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 0.8,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "05701205005542",
+  "name": "Multigrain sandwich bread",
+  "query": "multigrain sandwich bread",
+  "source": "off",
+  "source_ref": "5701205005542",
+  "expected": {
+   "kcal": 235.0,
+   "proteinG": 9.75,
+   "carbsG": 40.0,
+   "sugarsG": null,
+   "fatG": 1.99,
+   "satFatG": null,
+   "fiberG": 8.0,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "05701977012038",
+  "name": "Økologisk Havre Drik",
+  "query": "økologisk havre drik",
+  "source": "off",
+  "source_ref": "5701977012038",
+  "expected": {
+   "kcal": 46.0,
+   "proteinG": 0.4,
+   "carbsG": 8.3,
+   "sugarsG": 4.1,
+   "fatG": 0.9,
+   "satFatG": 0.2,
+   "fiberG": 1.4,
+   "sodiumMg": 35.0
+  }
+ }
+]

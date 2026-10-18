@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "08715700016504",
+  "name": "Ketchup",
+  "query": "ketchup",
+  "source": "off",
+  "source_ref": "8715700016504",
+  "expected": {
+   "kcal": 102.0,
+   "proteinG": 1.2,
+   "carbsG": 23.2,
+   "sugarsG": 22.8,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05000184321064",
+  "name": "Majoneesi",
+  "query": "majoneesi",
+  "source": "off",
+  "source_ref": "5000184321064",
+  "expected": {
+   "kcal": 720.0,
+   "proteinG": 1.1,
+   "carbsG": 1.4,
+   "sugarsG": 0.7,
+   "fatG": 79.0,
+   "satFatG": 3.0,
+   "fiberG": 0.0,
+   "sodiumMg": 236.0
+  }
+ },
+ {
+  "gtin14": "07394376616037",
+  "name": "iKaffe",
+  "query": "ikaffe",
+  "source": "off",
+  "source_ref": "7394376616037",
+  "expected": {
+   "kcal": 61.0,
+   "proteinG": 1.1,
+   "carbsG": 7.1,
+   "sugarsG": 3.4,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 0.8,
+   "sodiumMg": 39.0
+  }
+ },
+ {
+  "gtin14": "07311870010970",
+  "name": "Bregott - Normalsaltat",
+  "query": "bregott normalsaltat",
+  "source": "off",
+  "source_ref": "7311870010970",
+  "expected": {
+   "kcal": 678.0,
+   "proteinG": 0.4,
+   "carbsG": 0.4,
+   "sugarsG": 0.4,
+   "fatG": 75.0,
+   "satFatG": 33.0,
+   "fiberG": 0.0,
+   "sodiumMg": 480.0
+  }
+ },
+ {
+  "gtin14": "07392672104104",
+  "name": "Turkisk Naturell Yoghurt",
+  "query": "turkisk naturell yoghurt",
+  "source": "off",
+  "source_ref": "7392672104104",
+  "expected": {
+   "kcal": 120.0,
+   "proteinG": 3.2,
+   "carbsG": 4.5,
+   "sugarsG": 4.5,
+   "fatG": 10.0,
+   "satFatG": 6.5,
+   "fiberG": 0.0,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "07310070005250",
+  "name": "PEPSI MAX",
+  "query": "pepsi max",
+  "source": "off",
+  "source_ref": "7310070005250",
+  "expected": {
+   "kcal": 0.303,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 12.121
+  }
+ },
+ {
+  "gtin14": "05000112637922",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5000112637922",
+  "expected": {
+   "kcal": 42.121,
+   "proteinG": 0.0,
+   "carbsG": 10.606,
+   "sugarsG": 10.606,
+   "fatG": 0.0,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "06408430102068",
+  "name": "Oddlygood Barista Kaurajuoma",
+  "query": "oddlygood barista kaurajuoma",
+  "source": "off",
+  "source_ref": "6408430102068",
+  "expected": {
+   "kcal": 58.0,
+   "proteinG": 1.2,
+   "carbsG": 6.6,
+   "sugarsG": 3.5,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "05000112637939",
+  "name": "Coca-Cola Zero Sugar",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5000112637939",
+  "expected": {
+   "kcal": 0.3,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "07310865008060",
+  "name": "KESO Cottage Cheese Naturell",
+  "query": "keso cottage cheese",
+  "source": "off",
+  "source_ref": "7310865008060",
+  "expected": {
+   "kcal": 93.0,
+   "proteinG": 13.0,
+   "carbsG": 1.6,
+   "sugarsG": 1.6,
+   "fatG": 4.0,
+   "satFatG": 2.6,
+   "fiberG": 1.39,
+   "sodiumMg": 0.82
+  }
+ },
+ {
+  "gtin14": "06410500090014",
+  "name": "Knäckebrot mit Roggensauerteig",
+  "query": "knäckebrot mit roggensauerteig",
+  "source": "off",
+  "source_ref": "6410500090014",
+  "expected": {
+   "kcal": 350.0,
+   "proteinG": 10.0,
+   "carbsG": 61.0,
+   "sugarsG": 1.6,
+   "fatG": 2.6,
+   "satFatG": 0.5,
+   "fiberG": 20.0,
+   "sodiumMg": 560.0
+  }
+ },
+ {
+  "gtin14": "05449000133335",
+  "name": "Coca-Cola Zero",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000133335",
+  "expected": {
+   "kcal": 0.3,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "04000339697908",
+  "name": "Philadelphia naturell",
+  "query": "philadelphia naturell",
+  "source": "off",
+  "source_ref": "4000339697908",
+  "expected": {
+   "kcal": 226.0,
+   "proteinG": 5.4,
+   "carbsG": 4.3,
+   "sugarsG": 4.3,
+   "fatG": 21.0,
+   "satFatG": 14.0,
+   "fiberG": 0.2,
+   "sodiumMg": 295.0
+  }
+ },
+ {
+  "gtin14": "07311070006209",
+  "name": "Gifflar Kanel",
+  "query": "gifflar kanel",
+  "source": "off",
+  "source_ref": "7311070006209",
+  "expected": {
+   "kcal": 373.0,
+   "proteinG": 7.3,
+   "carbsG": 52.0,
+   "sugarsG": 19.0,
+   "fatG": 14.0,
+   "satFatG": 2.5,
+   "fiberG": null,
+   "sodiumMg": 304.0
+  }
+ },
+ {
+  "gtin14": "07350028543762",
+  "name": "CHIAFRÖ & HAVSSALT",
+  "query": "chiafrö havssalt",
+  "source": "off",
+  "source_ref": "7350028543762",
+  "expected": {
+   "kcal": 383.0,
+   "proteinG": 8.5,
+   "carbsG": 76.0,
+   "sugarsG": 2.2,
+   "fatG": 3.2,
+   "satFatG": 0.5,
+   "fiberG": 8.1,
+   "sodiumMg": 348.0
+  }
+ },
+ {
+  "gtin14": "07311070338188",
+  "name": "Pågen Limpan",
+  "query": "pågen limpan",
+  "source": "off",
+  "source_ref": "7311070338188",
+  "expected": {
+   "kcal": 269.0,
+   "proteinG": 7.8,
+   "carbsG": 50.0,
+   "sugarsG": 2.7,
+   "fatG": 3.7,
+   "satFatG": 0.4,
+   "fiberG": 2.5,
+   "sodiumMg": 551.0
+  }
+ },
+ {
+  "gtin14": "08715700423944",
+  "name": "Ketchup 50% sucres/sel en -",
+  "query": "ketchup 50 sucres",
+  "source": "off",
+  "source_ref": "8715700423944",
+  "expected": {
+   "kcal": 64.0,
+   "proteinG": 1.4,
+   "carbsG": 12.0,
+   "sugarsG": 11.0,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 1.02,
+   "sodiumMg": 360.0
+  }
+ },
+ {
+  "gtin14": "07331217012993",
+  "name": "Hummus original",
+  "query": "hummus original",
+  "source": "off",
+  "source_ref": "7331217012993",
+  "expected": {
+   "kcal": 233.031,
+   "proteinG": 7.383,
+   "carbsG": 15.041,
+   "sugarsG": 2.375,
+   "fatG": 17.107,
+   "satFatG": 2.483,
+   "fiberG": 5.415,
+   "sodiumMg": 438.008
+  }
+ },
+ {
+  "gtin14": "07610313412143",
+  "name": "Herbamare original",
+  "query": "herbamare original",
+  "source": "off",
+  "source_ref": "7610313412143",
+  "expected": {
+   "kcal": 18.0,
+   "proteinG": 0.9,
+   "carbsG": 2.5,
+   "sugarsG": 1.5,
+   "fatG": 0.5,
+   "satFatG": 0.5,
+   "fiberG": 2.0,
+   "sodiumMg": 37439.999
+  }
+ },
+ {
+  "gtin14": "07311071330525",
+  "name": "LingonGrova",
+  "query": "lingongrova",
+  "source": "off",
+  "source_ref": "7311071330525",
+  "expected": {
+   "kcal": 266.0,
+   "proteinG": 8.8,
+   "carbsG": 53.1,
+   "sugarsG": 9.0,
+   "fatG": 3.0,
+   "satFatG": 0.3,
+   "fiberG": 6.1,
+   "sodiumMg": 0.0
+  }
+ }
+]

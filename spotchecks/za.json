@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05449000009067",
+  "name": "Coca-Cola Sabor Original",
+  "query": "coca cola sabor",
+  "source": "off",
+  "source_ref": "5449000009067",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05449000000453",
+  "name": "Coca Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000000453",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "06001275000003",
+  "name": "Oats",
+  "query": "oats",
+  "source": "off",
+  "source_ref": "6001275000003",
+  "expected": {
+   "kcal": 378.227,
+   "proteinG": 13.1,
+   "carbsG": 57.0,
+   "sugarsG": 1.5,
+   "fatG": 7.9,
+   "satFatG": 1.6,
+   "fiberG": 11.6,
+   "sodiumMg": 5.0
+  }
+ },
+ {
+  "gtin14": "00000060019578",
+  "name": "TOMATO SAUCE",
+  "query": "tomato sauce",
+  "source": "off",
+  "source_ref": "60019578",
+  "expected": {
+   "kcal": 103.125,
+   "proteinG": 0.625,
+   "carbsG": 25.0,
+   "sugarsG": 22.5,
+   "fatG": 0.625,
+   "satFatG": 0.625,
+   "fiberG": 1.25,
+   "sodiumMg": 675.0
+  }
+ },
+ {
+  "gtin14": "06001038071554",
+  "name": "Aromat Original",
+  "query": "aromat original",
+  "source": "off",
+  "source_ref": "6001038071554",
+  "expected": {
+   "kcal": 92.256,
+   "proteinG": 3.4,
+   "carbsG": 19.0,
+   "sugarsG": 0.7,
+   "fatG": 0.3,
+   "satFatG": 0.1,
+   "fiberG": 0.8,
+   "sodiumMg": 24464.001
+  }
+ },
+ {
+  "gtin14": "06001253010178",
+  "name": "White Bread",
+  "query": "white bread",
+  "source": "off",
+  "source_ref": "6001253010178",
+  "expected": {
+   "kcal": 235.0,
+   "proteinG": 8.12,
+   "carbsG": 45.0,
+   "sugarsG": 4.0,
+   "fatG": 1.31,
+   "satFatG": null,
+   "fiberG": 4.38,
+   "sodiumMg": null
+  }
+ },
+ {
+  "gtin14": "06001253010185",
+  "name": "SUPERIOR BROWN BREAD",
+  "query": "superior brown bread",
+  "source": "off",
+  "source_ref": "6001253010185",
+  "expected": {
+   "kcal": 223.75,
+   "proteinG": 8.25,
+   "carbsG": 42.5,
+   "sugarsG": 2.75,
+   "fatG": 1.875,
+   "satFatG": 0.75,
+   "fiberG": 7.0,
+   "sodiumMg": 376.25
+  }
+ },
+ {
+  "gtin14": "06001710010253",
+  "name": "Premium Slices Brown Bread",
+  "query": "premium slices brown",
+  "source": "off",
+  "source_ref": "6001710010253",
+  "expected": {
+   "kcal": 223.47,
+   "proteinG": 8.875,
+   "carbsG": 46.375,
+   "sugarsG": 0.0,
+   "fatG": 1.938,
+   "satFatG": 0.813,
+   "fiberG": 8.25,
+   "sodiumMg": 341.25
+  }
+ },
+ {
+  "gtin14": "06009629181064",
+  "name": "Classic White Bread",
+  "query": "classic white bread",
+  "source": "off",
+  "source_ref": "6009629181064",
+  "expected": {
+   "kcal": 244.742,
+   "proteinG": 6.7,
+   "carbsG": 50.0,
+   "sugarsG": 4.2,
+   "fatG": 1.7,
+   "satFatG": 0.8,
+   "fiberG": 5.9,
+   "sodiumMg": 356.0
+  }
+ },
+ {
+  "gtin14": "06001052001018",
+  "name": "Wholegrain Wheat Biscuits",
+  "query": "wholegrain wheat biscuits",
+  "source": "off",
+  "source_ref": "6001052001018",
+  "expected": {
+   "kcal": 377.629,
+   "proteinG": 12.4,
+   "carbsG": 63.0,
+   "sugarsG": 2.9,
+   "fatG": 2.9,
+   "satFatG": 0.7,
+   "fiberG": 10.7,
+   "sodiumMg": 1416.0
+  }
+ },
+ {
+  "gtin14": "05449000000439",
+  "name": "Coca Cola Original taste",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5449000000439",
+  "expected": {
+   "kcal": 45.0,
+   "proteinG": 0.0,
+   "carbsG": 11.2,
+   "sugarsG": 11.2,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "09002490100070",
+  "name": "Red Bull",
+  "query": "red bull",
+  "source": "off",
+  "source_ref": "9002490100070",
+  "expected": {
+   "kcal": 46.0,
+   "proteinG": 0.0,
+   "carbsG": 11.0,
+   "sugarsG": 11.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 40000.0
+  }
+ },
+ {
+  "gtin14": "06001068323005",
+  "name": "Ricoffy",
+  "query": "ricoffy",
+  "source": "off",
+  "source_ref": "6001068323005",
+  "expected": {
+   "kcal": 359.2,
+   "proteinG": 5.6,
+   "carbsG": 81.0,
+   "sugarsG": 16.8,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 6.4,
+   "sodiumMg": 256.0
+  }
+ },
+ {
+  "gtin14": "06001299015274",
+  "name": "Lait entier",
+  "query": "lait entier",
+  "source": "off",
+  "source_ref": "6001299015274",
+  "expected": {
+   "kcal": 63.08,
+   "proteinG": 3.32,
+   "carbsG": 4.8,
+   "sugarsG": 4.8,
+   "fatG": 3.4,
+   "satFatG": 1.92,
+   "fiberG": 0.0,
+   "sodiumMg": 48.0
+  }
+ },
+ {
+  "gtin14": "06001324011172",
+  "name": "Orange Squash",
+  "query": "orange squash",
+  "source": "off",
+  "source_ref": "6001324011172",
+  "expected": {
+   "kcal": 62.141,
+   "proteinG": 0.2,
+   "carbsG": 16.0,
+   "sugarsG": 16.0,
+   "fatG": 0.1,
+   "satFatG": 0.1,
+   "fiberG": 0.1,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "06009710390177",
+  "name": "Country Spread",
+  "query": "country spread",
+  "source": "off",
+  "source_ref": "6009710390177",
+  "expected": {
+   "kcal": 362.094,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 40.0,
+   "fatG": 13.0,
+   "satFatG": 16.0,
+   "fiberG": 0.0,
+   "sodiumMg": 450.0
+  }
+ },
+ {
+  "gtin14": "06001069020446",
+  "name": "Original Mayonnaise",
+  "query": "original mayonnaise",
+  "source": "off",
+  "source_ref": "6001069020446",
+  "expected": {
+   "kcal": 476.816,
+   "proteinG": 0.3,
+   "carbsG": 8.0,
+   "sugarsG": 6.7,
+   "fatG": 52.3,
+   "satFatG": 7.2,
+   "fiberG": 0.5,
+   "sodiumMg": 475.0
+  }
+ },
+ {
+  "gtin14": "06009522301262",
+  "name": "Mayonaise",
+  "query": "mayonaise",
+  "source": "off",
+  "source_ref": "6009522301262",
+  "expected": {
+   "kcal": 455.0,
+   "proteinG": 1.0,
+   "carbsG": 11.1,
+   "sugarsG": 11.1,
+   "fatG": 52.2,
+   "satFatG": 6.0,
+   "fiberG": 1.4,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "05449000060082",
+  "name": "Twist Lemon",
+  "query": "twist lemon",
+  "source": "off",
+  "source_ref": "5449000060082",
+  "expected": {
+   "kcal": 36.4,
+   "proteinG": 0.0,
+   "carbsG": 9.1,
+   "sugarsG": 9.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 14.224
+  }
+ },
+ {
+  "gtin14": "05449000664686",
+  "name": "Coca-Cola",
+  "query": "coca cola",
+  "source": "off",
+  "source_ref": "5449000664686",
+  "expected": {
+   "kcal": 44.0,
+   "proteinG": 0.0,
+   "carbsG": 11.0,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 7.0
+  }
+ }
+]

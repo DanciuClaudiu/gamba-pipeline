@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05900020043481",
+  "name": "Nestle fitness protein cocoa 0% added sugar",
+  "query": "nestle fitness protein",
+  "source": "off",
+  "source_ref": "5900020043481",
+  "expected": {
+   "kcal": 351.0,
+   "proteinG": 12.1,
+   "carbsG": 64.1,
+   "sugarsG": 0.8,
+   "fatG": 5.1,
+   "satFatG": 1.4,
+   "fiberG": 12.4,
+   "sodiumMg": 356.0
+  }
+ },
+ {
+  "gtin14": "05601049614330",
+  "name": "Manteiga Açoriana",
+  "query": "manteiga açoriana",
+  "source": "off",
+  "source_ref": "5601049614330",
+  "expected": {
+   "kcal": 742.0,
+   "proteinG": 0.5,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 82.0,
+   "satFatG": 54.0,
+   "fiberG": 1.063,
+   "sodiumMg": 600.0
+  }
+ },
+ {
+  "gtin14": "05601049612336",
+  "name": "Manteiga Tradicional Com Sal",
+  "query": "manteiga tradicional com",
+  "source": "off",
+  "source_ref": "5601049612336",
+  "expected": {
+   "kcal": 743.0,
+   "proteinG": 0.6,
+   "carbsG": 0.7,
+   "sugarsG": 0.7,
+   "fatG": 82.0,
+   "satFatG": 54.0,
+   "fiberG": 1.365,
+   "sodiumMg": 520.0
+  }
+ },
+ {
+  "gtin14": "05000112519945",
+  "name": "Coca-Cola Zero",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5000112519945",
+  "expected": {
+   "kcal": 0.2,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "00000056002980",
+  "name": "Limão",
+  "query": "limão",
+  "source": "off",
+  "source_ref": "56002980",
+  "expected": {
+   "kcal": 30.0,
+   "proteinG": 0.0,
+   "carbsG": 7.6,
+   "sugarsG": 6.1,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05603533200005",
+  "name": "Limão",
+  "query": "limão",
+  "source": "off",
+  "source_ref": "5603533200005",
+  "expected": {
+   "kcal": 1.0,
+   "proteinG": 0.05,
+   "carbsG": 0.039,
+   "sugarsG": 0.037,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.001,
+   "sodiumMg": 64.0
+  }
+ },
+ {
+  "gtin14": "05601049132995",
+  "name": "Leite Meio-Gordo",
+  "query": "leite meio gordo",
+  "source": "off",
+  "source_ref": "5601049132995",
+  "expected": {
+   "kcal": 48.0,
+   "proteinG": 3.4,
+   "carbsG": 4.9,
+   "sugarsG": 4.9,
+   "fatG": 1.6,
+   "satFatG": 1.0,
+   "fiberG": null,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "05603722493812",
+  "name": "manteiga Magra",
+  "query": "manteiga magra",
+  "source": "off",
+  "source_ref": "5603722493812",
+  "expected": {
+   "kcal": 384.0,
+   "proteinG": 1.8,
+   "carbsG": 1.9,
+   "sugarsG": 0.0,
+   "fatG": 41.0,
+   "satFatG": 24.0,
+   "fiberG": null,
+   "sodiumMg": 520.0
+  }
+ },
+ {
+  "gtin14": "05604321028757",
+  "name": "Marinheiras Chia",
+  "query": "marinheiras chia",
+  "source": "off",
+  "source_ref": "5604321028757",
+  "expected": {
+   "kcal": 430.0,
+   "proteinG": 12.0,
+   "carbsG": 66.0,
+   "sugarsG": 3.4,
+   "fatG": 12.0,
+   "satFatG": 2.0,
+   "fiberG": 4.2,
+   "sodiumMg": 520.0
+  }
+ },
+ {
+  "gtin14": "05601001187803",
+  "name": "Nestle chocapic strong chocolate taste",
+  "query": "nestle chocapic strong",
+  "source": "off",
+  "source_ref": "5601001187803",
+  "expected": {
+   "kcal": 389.0,
+   "proteinG": 8.9,
+   "carbsG": 73.6,
+   "sugarsG": 22.4,
+   "fatG": 4.8,
+   "satFatG": 1.3,
+   "fiberG": 7.7,
+   "sodiumMg": 88.0
+  }
+ },
+ {
+  "gtin14": "05449000054227",
+  "name": "Coca-Cola Original Taste",
+  "query": "coca cola original",
+  "source": "off",
+  "source_ref": "5449000054227",
+  "expected": {
+   "kcal": 42.0,
+   "proteinG": 0.0,
+   "carbsG": 10.6,
+   "sugarsG": 10.6,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05449000133328",
+  "name": "Cocacola zero sugar",
+  "query": "cocacola zero sugar",
+  "source": "off",
+  "source_ref": "5449000133328",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "08402001010873",
+  "name": "Muesli Crunchy",
+  "query": "muesli crunchy",
+  "source": "off",
+  "source_ref": "8402001010873",
+  "expected": {
+   "kcal": 401.0,
+   "proteinG": 8.8,
+   "carbsG": 52.0,
+   "sugarsG": 3.2,
+   "fatG": 12.0,
+   "satFatG": 1.4,
+   "fiberG": 23.0,
+   "sodiumMg": 32.0
+  }
+ },
+ {
+  "gtin14": "08710482532303",
+  "name": "Trigo Espelta Crackers",
+  "query": "trigo espelta crackers",
+  "source": "off",
+  "source_ref": "8710482532303",
+  "expected": {
+   "kcal": 440.0,
+   "proteinG": 15.0,
+   "carbsG": 56.0,
+   "sugarsG": 3.8,
+   "fatG": 14.0,
+   "satFatG": 1.4,
+   "fiberG": 14.0,
+   "sodiumMg": 400.0
+  }
+ },
+ {
+  "gtin14": "08480000156112",
+  "name": "Avena crunchy",
+  "query": "avena crunchy",
+  "source": "off",
+  "source_ref": "8480000156112",
+  "expected": {
+   "kcal": 387.0,
+   "proteinG": 13.0,
+   "carbsG": 66.0,
+   "sugarsG": 4.6,
+   "fatG": 5.8,
+   "satFatG": 1.0,
+   "fiberG": 11.0,
+   "sodiumMg": 80.0
+  }
+ },
+ {
+  "gtin14": "08480000142429",
+  "name": "Trigo espelta 0% azucares",
+  "query": "trigo espelta 0",
+  "source": "off",
+  "source_ref": "8480000142429",
+  "expected": {
+   "kcal": 422.0,
+   "proteinG": 9.0,
+   "carbsG": 64.0,
+   "sugarsG": 2.0,
+   "fatG": 16.0,
+   "satFatG": 1.3,
+   "fiberG": 8.0,
+   "sodiumMg": 360.0
+  }
+ },
+ {
+  "gtin14": "08445290157348",
+  "name": "Nesquik",
+  "query": "nesquik",
+  "source": "off",
+  "source_ref": "8445290157348",
+  "expected": {
+   "kcal": 386.0,
+   "proteinG": 5.1,
+   "carbsG": 78.9,
+   "sugarsG": 75.1,
+   "fatG": 3.6,
+   "satFatG": 1.6,
+   "fiberG": 7.7,
+   "sodiumMg": 164.0
+  }
+ },
+ {
+  "gtin14": "08402001012174",
+  "name": "Barritas de Espelta Sabor Manzana 0%",
+  "query": "barritas de espelta",
+  "source": "off",
+  "source_ref": "8402001012174",
+  "expected": {
+   "kcal": 346.0,
+   "proteinG": 6.1,
+   "carbsG": 55.0,
+   "sugarsG": 4.8,
+   "fatG": 6.1,
+   "satFatG": 0.7,
+   "fiberG": 24.0,
+   "sodiumMg": 104.0
+  }
+ },
+ {
+  "gtin14": "08412600028124",
+  "name": "CLASICA / CLASSICO",
+  "query": "clasica classico",
+  "source": "off",
+  "source_ref": "8412600028124",
+  "expected": {
+   "kcal": 319.0,
+   "proteinG": 9.4,
+   "carbsG": 45.0,
+   "sugarsG": 3.8,
+   "fatG": 1.5,
+   "satFatG": 0.3,
+   "fiberG": 4.0,
+   "sodiumMg": 1.1
+  }
+ },
+ {
+  "gtin14": "08412600028131",
+  "name": "Hogaza Masa Madre y Cereales",
+  "query": "hogaza masa madre",
+  "source": "off",
+  "source_ref": "8412600028131",
+  "expected": {
+   "kcal": 273.0,
+   "proteinG": 11.0,
+   "carbsG": 38.0,
+   "sugarsG": 2.9,
+   "fatG": 3.8,
+   "satFatG": 0.6,
+   "fiberG": 8.2,
+   "sodiumMg": 400.0
+  }
+ }
+]

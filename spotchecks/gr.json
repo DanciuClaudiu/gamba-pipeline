@@ -1,0 +1,342 @@
+[
+ {
+  "gtin14": "05449000214799",
+  "name": "Coca-Cola sans sucres",
+  "query": "coca cola sans",
+  "source": "off",
+  "source_ref": "5449000214799",
+  "expected": {
+   "kcal": 0.3,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05201627019900",
+  "name": "Zagori",
+  "query": "zagori",
+  "source": "off",
+  "source_ref": "5201627019900",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 2.4
+  }
+ },
+ {
+  "gtin14": "05202178083747",
+  "name": "Καρπός Αμυγδάλου χωρίς προσθηκη ζάχαρης",
+  "query": "καρπός αμυγδάλου χωρίς",
+  "source": "off",
+  "source_ref": "5202178083747",
+  "expected": {
+   "kcal": 24.0,
+   "proteinG": 0.7,
+   "carbsG": 0.5,
+   "sugarsG": 0.5,
+   "fatG": 1.7,
+   "satFatG": 0.1,
+   "fiberG": 1.8,
+   "sodiumMg": 40.0
+  }
+ },
+ {
+  "gtin14": "05200120690012",
+  "name": "ΘΕΟΝΗ Φυσικό Μεταλλικό Νερό",
+  "query": "θεονη φυσικό μεταλλικό",
+  "source": "off",
+  "source_ref": "5200120690012",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05202535177010",
+  "name": "Peanut Butter",
+  "query": "peanut butter",
+  "source": "off",
+  "source_ref": "5202535177010",
+  "expected": {
+   "kcal": 614.0,
+   "proteinG": 24.2,
+   "carbsG": 12.9,
+   "sugarsG": 4.9,
+   "fatG": 49.9,
+   "satFatG": 8.2,
+   "fiberG": 8.4,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05200120690029",
+  "name": "ÕEONH",
+  "query": "õeonh",
+  "source": "off",
+  "source_ref": "5200120690029",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": null,
+   "sodiumMg": 1.2
+  }
+ },
+ {
+  "gtin14": "07622201126131",
+  "name": "Merenda",
+  "query": "merenda",
+  "source": "off",
+  "source_ref": "7622201126131",
+  "expected": {
+   "kcal": 525.0,
+   "proteinG": 3.6,
+   "carbsG": 64.0,
+   "sugarsG": 63.0,
+   "fatG": 28.0,
+   "satFatG": 7.7,
+   "fiberG": 2.6,
+   "sodiumMg": 92.0
+  }
+ },
+ {
+  "gtin14": "04056489366461",
+  "name": "Extra Dark 85% Cocoa",
+  "query": "extra dark 85",
+  "source": "off",
+  "source_ref": "4056489366461",
+  "expected": {
+   "kcal": 585.0,
+   "proteinG": 10.5,
+   "carbsG": 21.2,
+   "sugarsG": 12.8,
+   "fatG": 48.1,
+   "satFatG": 29.0,
+   "fiberG": 14.0,
+   "sodiumMg": 8.0
+  }
+ },
+ {
+  "gtin14": "05449000133335",
+  "name": "Coca-Cola Zero",
+  "query": "coca cola zero",
+  "source": "off",
+  "source_ref": "5449000133335",
+  "expected": {
+   "kcal": 0.3,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "04056489470847",
+  "name": "Tomato Ketchup",
+  "query": "tomato ketchup",
+  "source": "off",
+  "source_ref": "4056489470847",
+  "expected": {
+   "kcal": 81.0,
+   "proteinG": 1.3,
+   "carbsG": 18.0,
+   "sugarsG": 16.0,
+   "fatG": 0.1,
+   "satFatG": 0.0,
+   "fiberG": 1.13,
+   "sodiumMg": 354.0
+  }
+ },
+ {
+  "gtin14": "08010265640202",
+  "name": "Corn Flakes",
+  "query": "corn flakes",
+  "source": "off",
+  "source_ref": "8010265640202",
+  "expected": {
+   "kcal": 378.0,
+   "proteinG": 7.0,
+   "carbsG": 84.0,
+   "sugarsG": 8.0,
+   "fatG": 0.9,
+   "satFatG": 0.2,
+   "fiberG": 3.0,
+   "sodiumMg": 440.0
+  }
+ },
+ {
+  "gtin14": "07300400114714",
+  "name": "Knäckebrot Vollkorn Roggen",
+  "query": "knäckebrot vollkorn roggen",
+  "source": "off",
+  "source_ref": "7300400114714",
+  "expected": {
+   "kcal": 333.33,
+   "proteinG": 9.0,
+   "carbsG": 60.0,
+   "sugarsG": 1.5,
+   "fatG": 1.5,
+   "satFatG": 0.4,
+   "fiberG": 20.0,
+   "sodiumMg": 480.0
+  }
+ },
+ {
+  "gtin14": "04056489254157",
+  "name": "Био овесени ядки",
+  "query": "био овесени ядки",
+  "source": "off",
+  "source_ref": "4056489254157",
+  "expected": {
+   "kcal": 365.0,
+   "proteinG": 14.2,
+   "carbsG": 55.1,
+   "sugarsG": 1.2,
+   "fatG": 6.9,
+   "satFatG": 1.0,
+   "fiberG": 12.3,
+   "sodiumMg": 4.0
+  }
+ },
+ {
+  "gtin14": "05201004020338",
+  "name": "Caprice",
+  "query": "caprice",
+  "source": "off",
+  "source_ref": "5201004020338",
+  "expected": {
+   "kcal": 379.422,
+   "proteinG": 7.4,
+   "carbsG": 67.0,
+   "sugarsG": 48.0,
+   "fatG": 19.0,
+   "satFatG": 8.4,
+   "fiberG": 4.3,
+   "sodiumMg": 153.0
+  }
+ },
+ {
+  "gtin14": "05201219046154",
+  "name": "Nescafe classic",
+  "query": "nescafe classic",
+  "source": "off",
+  "source_ref": "5201219046154",
+  "expected": {
+   "kcal": 308.55,
+   "proteinG": 20.223,
+   "carbsG": 44.406,
+   "sugarsG": 0.0,
+   "fatG": 1.147,
+   "satFatG": 0.208,
+   "fiberG": 19.91,
+   "sodiumMg": 40.654
+  }
+ },
+ {
+  "gtin14": "08710100103410",
+  "name": "Quaker Oats Tin",
+  "query": "quaker oats tin",
+  "source": "off",
+  "source_ref": "8710100103410",
+  "expected": {
+   "kcal": 374.0,
+   "proteinG": 11.0,
+   "carbsG": 60.0,
+   "sugarsG": 1.1,
+   "fatG": 8.0,
+   "satFatG": 1.5,
+   "fiberG": 9.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05201005080027",
+  "name": "Natural mineral water",
+  "query": "natural mineral water",
+  "source": "off",
+  "source_ref": "5201005080027",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": 0.0,
+   "carbsG": 0.0,
+   "sugarsG": 0.0,
+   "fatG": 0.0,
+   "satFatG": 0.0,
+   "fiberG": 0.0,
+   "sodiumMg": 0.0
+  }
+ },
+ {
+  "gtin14": "05201024865179",
+  "name": "Τραγανές Μπουκιές",
+  "query": "τραγανές μπουκιές",
+  "source": "off",
+  "source_ref": "5201024865179",
+  "expected": {
+   "kcal": 455.556,
+   "proteinG": 8.1,
+   "carbsG": 57.0,
+   "sugarsG": 16.0,
+   "fatG": 19.0,
+   "satFatG": 4.9,
+   "fiberG": 10.0,
+   "sodiumMg": 192.0
+  }
+ },
+ {
+  "gtin14": "05201049404018",
+  "name": "Peanut Butter Smooth",
+  "query": "peanut butter smooth",
+  "source": "off",
+  "source_ref": "5201049404018",
+  "expected": {
+   "kcal": 619.0,
+   "proteinG": 24.7,
+   "carbsG": 15.9,
+   "sugarsG": 8.8,
+   "fatG": 49.5,
+   "satFatG": 7.9,
+   "fiberG": 5.8,
+   "sodiumMg": 236.0
+  }
+ },
+ {
+  "gtin14": "05201627019887",
+  "name": "zagori",
+  "query": "zagori",
+  "source": "off",
+  "source_ref": "5201627019887",
+  "expected": {
+   "kcal": 0.0,
+   "proteinG": null,
+   "carbsG": null,
+   "sugarsG": null,
+   "fatG": null,
+   "satFatG": null,
+   "fiberG": null,
+   "sodiumMg": 0.285
+  }
+ }
+]
