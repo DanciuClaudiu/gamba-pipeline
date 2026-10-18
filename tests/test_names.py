@@ -32,3 +32,8 @@ def test_first_brand():
     assert first_brand("Wal-Mart Stores,  Progressive Balloons  Inc.") == "Wal-Mart Stores"
     assert first_brand(" , Heinz") == "Heinz"
     assert first_brand(None) is None
+
+
+def test_norwegian_names_count_as_bokmal():
+    assert pick({"en": "Milk", "no": "Melk"}, "en", ("nb", "en")) == ("Milk", {"nb": "Melk"})
+    assert pick({"no": "Melk", "nb": "Lettmelk"}, "no", ("nb", "en")) == ("Lettmelk", {})

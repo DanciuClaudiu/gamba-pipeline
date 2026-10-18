@@ -1,5 +1,8 @@
 """Product names and brands for the packs (SPEC §3.10, Q34)."""
 
+# Open Food Facts files Norwegian names under both "no" and "nb"; iOS calls Norwegian "nb".
+LANGUAGE_ALIASES = {"no": "nb"}
+
 
 def clean(text: str | None) -> str | None:
     """Whitespace collapsed; None when nothing is left."""
@@ -14,8 +17,13 @@ def pick(
 
     Open Food Facts lists names by language, with "main" for the product's main language. Without
     a "main" entry, the name in the product's language is used, then the first of `languages`, then
-    any name."""
+    any name. A name under an alias (`LANGUAGE_ALIASES`) counts as its language's, unless the
+    product also has a name in that language."""
     cleaned = {lang: text for lang, raw in names.items() if (text := clean(raw))}
+    for alias, lang in LANGUAGE_ALIASES.items():
+        if alias in cleaned:
+            cleaned.setdefault(lang, cleaned.pop(alias))
+    main_language = LANGUAGE_ALIASES.get(main_language or "", main_language)
     main = (
         cleaned.get("main")
         or (cleaned.get(main_language) if main_language else None)
