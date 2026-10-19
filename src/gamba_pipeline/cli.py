@@ -1,7 +1,7 @@
 """Command line: `uv run gamba-pipeline <command>`. A full build runs download, reference, packs,
 package, survey, spotcheck and report, in that order. The monthly workflow
 (.github/workflows/packs.yml) runs pin-latest first, then the full build with fresh spot checks,
-then release and upload."""
+then release and upload; a daily one (review.yml) runs review."""
 
 import argparse
 import json
@@ -57,9 +57,7 @@ def main(argv: list[str] | None = None) -> int:
     build_release.add_argument("--build-date", default=date.today().isoformat())
     upload = commands.add_parser("upload", help="upload build/packages/*.aar to App Store Connect")
     upload.add_argument("--dry-run", action="store_true", help="list the archives; upload nothing")
-    upload.add_argument(
-        "--submit", action="store_true", help="then submit the new versions for App Store review"
-    )
+    commands.add_parser("review", help="submit up to ten new pack versions for App Store review")
     build_report = commands.add_parser("report", help="write build/REPORT.md")
     build_report.add_argument("--build-date", default=date.today().isoformat())
     args = parser.parse_args(argv)
@@ -96,8 +94,8 @@ def main(argv: list[str] | None = None) -> int:
             return 0
         case "spotcheck":
             return _spotcheck(args.refresh, pinned, downloads)
-        case "upload":
-            return _upload(args.dry_run, args.submit)
+        case "upload" | "review":
+            return _app_store(args.command, getattr(args, "dry_run", False))
         case "release":
             files = release.write(ROOT / "build", args.build_date, pinned)
             size = sum(path.stat().st_size for path in files[:-1]) / 1_000_000
@@ -174,16 +172,18 @@ def _package() -> int:
     return 0
 
 
-def _upload(dry_run: bool, submit: bool) -> int:
+def _app_store(command: str, dry_run: bool) -> int:
     packages = ROOT / "build" / "packages"
     if dry_run:
-        return delivery.deliver(packages, None, submit=submit, dry_run=True)
+        return delivery.deliver(packages, None, dry_run=True)
     with tempfile.TemporaryDirectory() as keys:
-        credentials = appstore.Credentials.from_env(os.environ, Path(keys))
+        client = appstore.AppStoreConnect(appstore.Credentials.from_env(os.environ, Path(keys)))
         try:
-            return delivery.deliver(packages, appstore.AppStoreConnect(credentials), submit=submit)
+            if command == "review":
+                return delivery.review(client)
+            return delivery.deliver(packages, client)
         except appstore.AppStoreError as error:
-            print(f"upload: {error}", file=sys.stderr)
+            print(f"{command}: {error}", file=sys.stderr)
             return 1
 
 

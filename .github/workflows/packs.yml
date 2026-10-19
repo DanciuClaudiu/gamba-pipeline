@@ -3,7 +3,8 @@
 #   dry-run     build, check and report; nothing leaves the runner
 #   testflight  also upload every pack (internal TestFlight uses the newest processed versions),
 #               commit the new pins, spot checks and report, and publish the release
-#   app-store   also submit the new versions for App Store review
+#   app-store   as testflight; then this run and the daily Review packs run (review.yml) submit
+#               the new versions for App Store review, ten at a time
 # Scheduled runs use the repository variable PACK_DELIVERY, a dry run while it's unset. Never run it
 # on pull requests: the App Store Connect key would reach code from forks.
 name: Packs
@@ -88,7 +89,7 @@ jobs:
           ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
           ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
           ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
-        run: uv run gamba-pipeline upload ${{ env.DELIVERY == 'app-store' && '--submit' || '' }}
+        run: uv run gamba-pipeline upload
       - name: Commit the pins, spot checks and report
         if: env.DELIVERY != 'dry-run'
         run: |
@@ -109,3 +110,10 @@ jobs:
           gh release create "packs-$BUILD_DATE" build/release/*.sqlite.gz \
             --title "Packs, $BUILD_DATE" --notes-file build/release/NOTES.md \
             --target "$(git rev-parse HEAD)"
+      - name: Submit the first packs for review
+        if: env.DELIVERY == 'app-store'
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+        run: uv run gamba-pipeline review

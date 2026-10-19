@@ -21,6 +21,10 @@ TOKEN_LIFETIME = 15 * 60  # altool's tokens last 20 minutes
 RETRY_WAITS = (2, 4, 8, 16)
 JWT = re.compile(r"[\w-]+\.[\w-]+\.[\w-]+")
 ENV = ("ASC_KEY_ID", "ASC_ISSUER_ID", "ASC_PRIVATE_KEY")
+OPEN_SUBMISSION = (
+    "READY_FOR_REVIEW", "WAITING_FOR_REVIEW", "IN_REVIEW", "UNRESOLVED_ISSUES",
+    "CANCELING", "COMPLETING",
+)  # fmt: skip
 
 Send = Callable[[str, str, dict[str, str], bytes | None], tuple[int, bytes]]
 
@@ -58,19 +62,24 @@ class Credentials:
 
 @dataclass(frozen=True)
 class Version:
-    """A background asset version: state AWAITING_UPLOAD, PROCESSING, FAILED or COMPLETE."""
+    """A background asset version: `state` is AWAITING_UPLOAD, PROCESSING, FAILED or COMPLETE;
+    `release` is its App Store release's state (PREPARE_FOR_SUBMISSION … READY_FOR_DISTRIBUTION,
+    REJECTED, SUPERSEDED), None before it has one."""
 
     id: str
     version: str
     state: str
     errors: tuple[str, ...]
+    release: str | None = None
 
     @classmethod
-    def from_resource(cls, resource: dict) -> "Version":
+    def from_resource(cls, resource: dict, releases: Mapping[str, str]) -> "Version":
         attributes = resource["attributes"]
         details = attributes.get("stateDetails") or {}
         errors = tuple(error.get("description", "") for error in details.get("errors") or [])
-        return cls(resource["id"], attributes["version"], attributes["state"], errors)
+        link = ((resource.get("relationships") or {}).get("appStoreRelease") or {}).get("data")
+        release = releases.get(link["id"]) if link else None
+        return cls(resource["id"], attributes["version"], attributes["state"], errors, release)
 
 
 def _send(method: str, url: str, headers: dict[str, str], body: bytes | None) -> tuple[int, bytes]:
@@ -169,25 +178,43 @@ class AppStoreConnect:
         )
         return created["data"]["id"]
 
+    def assets(self, app_id: str) -> list[tuple[str, str]]:
+        """The app's asset packs that aren't archived, as (record ID, pack ID), by pack ID."""
+        query = _query(sort="assetPackIdentifier", limit="200")
+        found = self.request("GET", f"/v1/apps/{app_id}/backgroundAssets?{query}")["data"]
+        return [
+            (asset["id"], asset["attributes"]["assetPackIdentifier"])
+            for asset in found
+            if not asset["attributes"].get("archived")
+        ]
+
     def latest_version(self, asset_id: str) -> Version | None:
-        query = _query(sort="-version", limit="1")
-        versions = self.request("GET", f"/v1/backgroundAssets/{asset_id}/versions?{query}")["data"]
-        return Version.from_resource(versions[0]) if versions else None
+        query = _query(sort="-version", limit="1", include="appStoreRelease")
+        answer = self.request("GET", f"/v1/backgroundAssets/{asset_id}/versions?{query}")
+        releases = {
+            item["id"]: item["attributes"]["state"]
+            for item in answer.get("included", [])
+            if item["type"] == "backgroundAssetVersionAppStoreReleases"
+        }
+        versions = answer["data"]
+        return Version.from_resource(versions[0], releases) if versions else None
 
     def upload(self, archive: Path, app_id: str) -> None:
         env = {**os.environ, "API_PRIVATE_KEYS_DIR": str(self.credentials.keys_dir)}
         self._altool(["--upload-asset-pack", str(archive), "--apple-id", app_id, *self._key], env)
 
-    def open_submission(self, app_id: str) -> str | None:
+    def open_submission(self, app_id: str) -> tuple[str, str] | None:
+        """A review submission of the app's that isn't complete, as (ID, state): a draft, one
+        waiting for or in review, or one with unresolved issues."""
         query = _query(
             **{
                 "filter[app]": app_id,
                 "filter[platform]": "IOS",
-                "filter[state]": "READY_FOR_REVIEW,UNRESOLVED_ISSUES",
+                "filter[state]": ",".join(OPEN_SUBMISSION),
             }
         )
         found = self.request("GET", f"/v1/reviewSubmissions?{query}")["data"]
-        return found[0]["id"] if found else None
+        return (found[0]["id"], found[0]["attributes"]["state"]) if found else None
 
     def submit(self, app_id: str, version_ids: list[str]) -> str:
         submission = self.request(

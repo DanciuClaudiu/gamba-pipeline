@@ -27,6 +27,9 @@ class FakeClient:
     def asset_id(self, app_id, pack_id):
         return f"asset-{pack_id}"
 
+    def assets(self, app_id):
+        return [(f"asset-{pack}", pack) for pack in sorted(self.versions)]
+
     def latest_version(self, asset_id):
         queue = self.versions[asset_id.removeprefix("asset-")]
         return queue.pop(0) if len(queue) > 1 else queue[0]
@@ -67,11 +70,6 @@ def test_dry_run_lists_the_archives(tmp_path):
         "food-gb.aar  1.0 MB",
         "would upload 2 packs (1.6 MB) to com.danciuclaudiu.gamba",
     ]
-    _, lines, _ = run(packages, None, dry_run=True, submit=True)
-    assert lines[-1] == (
-        "would upload 2 packs (1.6 MB) to com.danciuclaudiu.gamba, "
-        "and submit them for App Store review"
-    )
 
 
 def test_no_archives(tmp_path):
@@ -108,44 +106,21 @@ def test_waits_for_the_new_version(tmp_path):
     assert "food-ro: version 3 complete" in lines
 
 
-def test_submits_the_new_versions(tmp_path):
-    client = FakeClient(
-        {"food-ro": [v(2, "COMPLETE"), v(3, "COMPLETE")], "food-gb": [None, v(1, "COMPLETE")]}
-    )
-    code, lines, _ = run(archives(tmp_path, ro=10, gb=10), client, submit=True)
-    assert code == 0
-    assert client.submitted == ["v1", "v3"]
-    assert lines[-1] == "submitted 2 packs for App Store review (sub1)"
-
-
 def test_a_failed_upload_doesnt_stop_the_others(tmp_path):
     versions = {"food-gb": [None], "food-ro": [v(2, "COMPLETE"), v(3, "COMPLETE")]}
     client = FakeClient(versions, fail_uploads={"food-gb"})
-    code, lines, _ = run(archives(tmp_path, ro=10, gb=10), client, submit=True)
+    code, lines, _ = run(archives(tmp_path, ro=10, gb=10), client)
     assert code == 1
     assert client.uploads == ["food-gb.aar", "food-ro.aar"]
     assert "food-gb: upload failed: altool --upload-asset-pack: 400 invalid values" in lines
     assert "1 of 2 packs processed" in lines
-    assert client.submitted is None
 
 
-def test_nothing_is_submitted_when_a_pack_fails_processing(tmp_path):
+def test_a_pack_that_fails_processing_fails_the_upload(tmp_path):
     client = FakeClient({"food-ro": [v(2, "COMPLETE"), v(3, "FAILED", "Invalid manifest")]})
-    code, lines, _ = run(archives(tmp_path, ro=10), client, submit=True)
+    code, lines, _ = run(archives(tmp_path, ro=10), client)
     assert code == 1
     assert "food-ro: version 3 failed: Invalid manifest" in lines
-    assert client.submitted is None
-
-
-def test_leaves_an_open_review_submission_alone(tmp_path):
-    client = FakeClient({"food-ro": [v(2, "COMPLETE"), v(3, "COMPLETE")]}, open_submission="s9")
-    code, lines, _ = run(archives(tmp_path, ro=10), client, submit=True)
-    assert code == 1
-    assert client.submitted is None
-    assert lines[-1] == (
-        "a review submission is already open in App Store Connect; submit the packs there, "
-        "or remove it and run this again"
-    )
 
 
 def test_gives_up_waiting_after_the_timeout(tmp_path):
@@ -179,3 +154,54 @@ def test_the_upload_command_dry_runs_without_credentials(tmp_path, monkeypatch, 
     )
     with pytest.raises(SystemExit, match="ASC_KEY_ID, ASC_ISSUER_ID, ASC_PRIVATE_KEY"):
         cli.main(["upload"])
+
+
+def ready(number: int, release: str | None = "PREPARE_FOR_SUBMISSION") -> Version:
+    return Version(f"v{number}", str(number), "COMPLETE", (), release)
+
+
+def test_review_submits_up_to_ten_new_versions():
+    client = FakeClient({f"food-{chr(97 + i)}{chr(97 + i)}": [ready(i)] for i in range(12)})
+    lines = []
+    assert delivery.review(client, out=lines.append) == 0
+    assert client.submitted == [f"v{i}" for i in range(10)]
+    assert lines == [
+        "submitted 10 packs for App Store review (sub1): food-aa, food-bb, food-cc, food-dd, "
+        "food-ee, food-ff, food-gg, food-hh, food-ii, food-jj",
+        "2 more wait for the next submission",
+    ]
+
+
+def test_review_skips_versions_not_ready_for_it():
+    client = FakeClient(
+        {
+            "food-gb": [ready(4, None)],
+            "food-ro": [ready(3, "READY_FOR_DISTRIBUTION")],
+            "food-us": [ready(5, "WAITING_FOR_REVIEW")],
+            "food-fr": [ready(2, "REJECTED")],
+            "food-de": [Version("v6", "6", "PROCESSING", ())],
+            "food-it": [None],
+        }
+    )
+    lines = []
+    assert delivery.review(client, out=lines.append) == 0
+    assert client.submitted == ["v4"]
+
+
+def test_review_waits_for_an_open_submission():
+    client = FakeClient({"food-ro": [ready(3)]}, open_submission=("s9", "WAITING_FOR_REVIEW"))
+    lines = []
+    assert delivery.review(client, out=lines.append) == 0
+    assert client.submitted is None
+    assert lines == [
+        "a review submission is waiting for review in App Store Connect; "
+        "the packs wait until it's done"
+    ]
+
+
+def test_review_with_nothing_new():
+    client = FakeClient({"food-ro": [ready(3, "READY_FOR_DISTRIBUTION")]})
+    lines = []
+    assert delivery.review(client, out=lines.append) == 0
+    assert client.submitted is None
+    assert lines == ["no new pack versions to submit"]

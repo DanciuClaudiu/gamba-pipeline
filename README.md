@@ -17,7 +17,8 @@ uv run gamba-pipeline spotcheck   # check the packs against spotchecks/<country>
 uv run gamba-pipeline report      # write build/REPORT.md, and the full lists to build/report/
 uv run gamba-pipeline pin-latest  # pin the newest Open Food Facts export in inputs.toml
 uv run gamba-pipeline release     # gzip each pack into build/release/, with the release notes
-uv run gamba-pipeline upload      # upload the packs to App Store Connect (--dry-run, --submit)
+uv run gamba-pipeline upload      # upload the packs to App Store Connect (--dry-run lists them)
+uv run gamba-pipeline review      # submit up to ten new pack versions for App Store review
 uv run pytest -q
 ```
 
@@ -33,10 +34,12 @@ repository variable `PACK_DELIVERY`.
 |---|---|
 | `dry-run` (the default) | Nothing leaves the runner; the report is kept as the run's artifact. |
 | `testflight` | Uploads every pack to App Store Connect and waits until Apple has processed it (internal TestFlight uses the newest processed versions), then commits the new pins, spot checks and report and publishes the packs as a release, `packs-<date>`. |
-| `app-store` | As `testflight`, and submits the new versions for App Store review in one submission. |
+| `app-store` | As `testflight`; then the new versions go to App Store review. Apple takes at most ten packs in a submission and reviews one submission without an app version at a time, so this run submits the first ten, and the daily `Review packs` workflow (`review.yml`) submits the next ten whenever the app has no review submission open. |
 
 A failed spot check stops the run before anything is uploaded. A pack that fails to upload or
-process doesn't stop the others, but then nothing is submitted, committed or published.
+process doesn't stop the others, but then the run fails and commits, publishes and submits
+nothing; the daily review still submits the packs that did process, and the failed one keeps its
+last version.
 
 Uploading needs an App Store Connect API key with the App Manager role, in the repository's
 secrets `ASC_KEY_ID`, `ASC_ISSUER_ID` and `ASC_PRIVATE_KEY` (the `.p8` file's contents). Run by

@@ -1,0 +1,32 @@
+# Submits the packs' new versions for App Store review, ten at a time (Apple's limit for one
+# submission), whenever the app has no review submission open (Gamba M9.4). It runs daily while
+# the repository variable PACK_DELIVERY is app-store, and by hand from the Actions tab. It shares
+# the Packs workflow's concurrency group, so the two never submit at once. Never run it on pull
+# requests: the App Store Connect key would reach code from forks.
+name: Review packs
+
+on:
+  schedule:
+    - cron: "47 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: packs
+
+jobs:
+  review:
+    if: github.event_name == 'workflow_dispatch' || vars.PACK_DELIVERY == 'app-store'
+    runs-on: xcode-27
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - name: Submit new pack versions for review
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+        run: uv run gamba-pipeline review

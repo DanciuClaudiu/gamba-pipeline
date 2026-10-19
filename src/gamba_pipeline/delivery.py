@@ -1,6 +1,9 @@
-"""The `upload` command: every archive in build/packages goes to App Store Connect, the run waits
-until Apple has processed each one, and with `--submit` the new versions go to App Store review
-in one submission. A pack that fails doesn't stop the others, but then nothing is submitted."""
+"""Getting the packs to devices. `upload` sends every archive in build/packages to App Store
+Connect and waits until Apple has processed each one; a pack that fails doesn't stop the others.
+`review` submits the processed versions that were never submitted, ten at a time (Apple's limit
+per submission), and only when the app has no review submission open (Apple reviews one
+submission without an app version at a time), so a daily run takes a month's packs through in
+turn."""
 
 import time
 from collections.abc import Callable
@@ -10,14 +13,17 @@ from typing import Protocol
 from gamba_pipeline.appstore import BUNDLE_ID, AppStoreError, Version
 
 FINAL = ("COMPLETE", "FAILED")
+REVIEW_LIMIT = 10
+UNSUBMITTED = (None, "PREPARE_FOR_SUBMISSION", "READY_FOR_REVIEW")
 
 
 class Client(Protocol):
     def app_id(self, bundle_id: str = BUNDLE_ID) -> str: ...
     def asset_id(self, app_id: str, pack_id: str) -> str: ...
+    def assets(self, app_id: str) -> list[tuple[str, str]]: ...
     def latest_version(self, asset_id: str) -> Version | None: ...
     def upload(self, archive: Path, app_id: str) -> None: ...
-    def open_submission(self, app_id: str) -> str | None: ...
+    def open_submission(self, app_id: str) -> tuple[str, str] | None: ...
     def submit(self, app_id: str, version_ids: list[str]) -> str: ...
 
 
@@ -29,7 +35,6 @@ def deliver(
     packages: Path,
     client: Client | None,
     *,
-    submit: bool = False,
     dry_run: bool = False,
     out: Callable[[str], None] = print,
     sleep: Callable[[float], None] = time.sleep,
@@ -45,8 +50,7 @@ def deliver(
         for archive in archives:
             out(f"{archive.name}  {megabytes(archive.stat().st_size)}")
         total = megabytes(sum(archive.stat().st_size for archive in archives))
-        review = ", and submit them for App Store review" if submit else ""
-        out(f"would upload {len(archives)} packs ({total}) to {BUNDLE_ID}{review}")
+        out(f"would upload {len(archives)} packs ({total}) to {BUNDLE_ID}")
         return 0
 
     app = client.app_id()
@@ -86,15 +90,29 @@ def deliver(
         sleep(interval)
 
     out(f"{len(processed)} of {len(archives)} packs processed")
-    if len(processed) < len(archives):
-        return 1
-    if submit:
-        if client.open_submission(app):
-            out(
-                "a review submission is already open in App Store Connect; submit the packs "
-                "there, or remove it and run this again"
-            )
-            return 1
-        submission = client.submit(app, [processed[pack].id for pack in sorted(processed)])
-        out(f"submitted {len(processed)} packs for App Store review ({submission})")
+    return 0 if len(processed) == len(archives) else 1
+
+
+def review(client: Client, *, out: Callable[[str], None] = print, limit: int = REVIEW_LIMIT) -> int:
+    """Submits up to `limit` pack versions that are processed and were never submitted."""
+    app = client.app_id()
+    open_submission = client.open_submission(app)
+    if open_submission:
+        state = open_submission[1].lower().replace("_", " ")
+        out(f"a review submission is {state} in App Store Connect; the packs wait until it's done")
+        return 0
+    waiting = []
+    for asset, pack in client.assets(app):
+        version = client.latest_version(asset)
+        if version and version.state == "COMPLETE" and version.release in UNSUBMITTED:
+            waiting.append((pack, version))
+    if not waiting:
+        out("no new pack versions to submit")
+        return 0
+    batch = waiting[:limit]
+    submission = client.submit(app, [version.id for _, version in batch])
+    packs = ", ".join(pack for pack, _ in batch)
+    out(f"submitted {len(batch)} packs for App Store review ({submission}): {packs}")
+    if len(waiting) > limit:
+        out(f"{len(waiting) - limit} more wait for the next submission")
     return 0

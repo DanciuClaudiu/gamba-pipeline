@@ -150,6 +150,7 @@ def test_reuses_an_asset_pack_record(tmp_path):
 
 
 def test_reads_the_latest_version(tmp_path):
+    release = {"data": {"type": "backgroundAssetVersionAppStoreReleases", "id": "r3"}}
     version = {
         "id": "v3",
         "attributes": {
@@ -157,15 +158,45 @@ def test_reads_the_latest_version(tmp_path):
             "state": "FAILED",
             "stateDetails": {"errors": [{"code": "E1", "description": "Invalid manifest"}]},
         },
+        "relationships": {"appStoreRelease": release},
     }
-    path = "/v1/backgroundAssets/asset-ro/versions?sort=-version&limit=1"
-    connect, _ = client(
-        tmp_path, {("GET", path): [(200, {"data": [version]}), (200, {"data": []})]}
-    )
+    included = [
+        {
+            "type": "backgroundAssetVersionAppStoreReleases",
+            "id": "r3",
+            "attributes": {"state": "PREPARE_FOR_SUBMISSION"},
+        }
+    ]
+    unreleased = {"id": "v4", "attributes": {"version": "4", "state": "COMPLETE"}}
+    path = "/v1/backgroundAssets/asset-ro/versions?sort=-version&limit=1&include=appStoreRelease"
+    answers = {
+        ("GET", path): [
+            (200, {"data": [version], "included": included}),
+            (200, {"data": [unreleased]}),
+            (200, {"data": []}),
+        ]
+    }
+    connect, _ = client(tmp_path, answers)
     assert connect.latest_version("asset-ro") == appstore.Version(
-        id="v3", version="3", state="FAILED", errors=("Invalid manifest",)
+        id="v3",
+        version="3",
+        state="FAILED",
+        errors=("Invalid manifest",),
+        release="PREPARE_FOR_SUBMISSION",
     )
+    assert connect.latest_version("asset-ro") == appstore.Version("v4", "4", "COMPLETE", ())
     assert connect.latest_version("asset-ro") is None
+
+
+def test_lists_the_apps_asset_packs(tmp_path):
+    assets = [
+        {"id": "a-gb", "attributes": {"assetPackIdentifier": "food-gb", "archived": False}},
+        {"id": "a-old", "attributes": {"assetPackIdentifier": "food-zz", "archived": True}},
+        {"id": "a-ro", "attributes": {"assetPackIdentifier": "food-ro", "archived": False}},
+    ]
+    path = "/v1/apps/1/backgroundAssets?sort=assetPackIdentifier&limit=200"
+    connect, _ = client(tmp_path, {("GET", path): [(200, {"data": assets})]})
+    assert connect.assets("1") == [("a-gb", "food-gb"), ("a-ro", "food-ro")]
 
 
 def test_uploads_with_altool(tmp_path):
@@ -188,12 +219,13 @@ def test_a_failed_altool_upload_raises(tmp_path):
 
 def test_finds_an_open_review_submission(tmp_path):
     path = (
-        "/v1/reviewSubmissions?filter[app]=1&filter[platform]=IOS"
-        "&filter[state]=READY_FOR_REVIEW,UNRESOLVED_ISSUES"
+        "/v1/reviewSubmissions?filter[app]=1&filter[platform]=IOS&filter[state]="
+        "READY_FOR_REVIEW,WAITING_FOR_REVIEW,IN_REVIEW,UNRESOLVED_ISSUES,CANCELING,COMPLETING"
     )
-    answers = {("GET", path): [(200, {"data": [{"id": "s1"}]}), (200, {"data": []})]}
+    waiting = {"id": "s1", "attributes": {"state": "WAITING_FOR_REVIEW"}}
+    answers = {("GET", path): [(200, {"data": [waiting]}), (200, {"data": []})]}
     connect, _ = client(tmp_path, answers)
-    assert connect.open_submission("1") == "s1"
+    assert connect.open_submission("1") == ("s1", "WAITING_FOR_REVIEW")
     assert connect.open_submission("1") is None
 
 
