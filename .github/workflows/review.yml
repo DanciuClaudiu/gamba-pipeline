@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.0
       - name: Submit new pack versions for review
         env:
           ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}

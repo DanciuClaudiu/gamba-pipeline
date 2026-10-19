@@ -34,7 +34,7 @@ jobs:
       DELIVERY: ${{ inputs.delivery || vars.PACK_DELIVERY || 'dry-run' }}
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.3.0
       - name: Delivery and tools
         run: |
           case "$DELIVERY" in
