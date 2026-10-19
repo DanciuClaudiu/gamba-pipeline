@@ -57,9 +57,9 @@ def deliver(
     pending: dict[str, tuple[str, str | None]] = {}
     for archive in archives:
         pack = archive.stem
-        asset = client.asset_id(app, pack)
-        before = client.latest_version(asset)
         try:
+            asset = client.asset_id(app, pack)
+            before = client.latest_version(asset)
             client.upload(archive, app)
         except AppStoreError as error:
             out(f"{pack}: upload failed: {error}")

@@ -205,3 +205,18 @@ def test_review_with_nothing_new():
     assert delivery.review(client, out=lines.append) == 0
     assert client.submitted is None
     assert lines == ["no new pack versions to submit"]
+
+
+def test_a_pack_whose_record_fails_doesnt_stop_the_others(tmp_path):
+    class RecordFails(FakeClient):
+        def asset_id(self, app_id, pack_id):
+            if pack_id == "food-gb":
+                raise AppStoreError("POST /v1/backgroundAssets: 409 already exists")
+            return super().asset_id(app_id, pack_id)
+
+    client = RecordFails({"food-ro": [v(2, "COMPLETE"), v(3, "COMPLETE")]})
+    code, lines, _ = run(archives(tmp_path, ro=10, gb=10), client)
+    assert code == 1
+    assert client.uploads == ["food-ro.aar"]
+    assert "food-gb: upload failed: POST /v1/backgroundAssets: 409 already exists" in lines
+    assert "food-ro: version 3 complete" in lines

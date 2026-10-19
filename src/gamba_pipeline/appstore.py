@@ -137,7 +137,14 @@ class AppStoreConnect:
                 "Authorization": f"Bearer {self.token()}",
                 "Content-Type": "application/json",
             }
-            status, payload = self._send(method, API + path, headers, data)
+            try:
+                status, payload = self._send(method, API + path, headers, data)
+            except OSError as error:  # a dropped connection or a timeout
+                if attempt < len(RETRY_WAITS):
+                    self._sleep(RETRY_WAITS[attempt])
+                    continue
+                reason = getattr(error, "reason", error)
+                raise AppStoreError(f"{method} {path}: {reason}") from error
             if (status == 429 or status >= 500) and attempt < len(RETRY_WAITS):
                 self._sleep(RETRY_WAITS[attempt])
                 continue

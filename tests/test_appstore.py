@@ -1,6 +1,7 @@
 import json
 import stat
 import subprocess
+import urllib.error
 from pathlib import Path
 
 import pytest
@@ -263,3 +264,31 @@ def test_submits_versions_for_review(tmp_path):
     assert bodies[3] == {
         "data": {"type": "reviewSubmissions", "id": "s1", "attributes": {"submitted": True}}
     }
+
+
+def test_requests_retry_after_a_network_error(tmp_path):
+    sleeps = []
+    calls = []
+
+    def flaky(method, url, headers, body):
+        calls.append(url)
+        if len(calls) == 1:
+            raise urllib.error.URLError("Connection reset by peer")
+        return 200, b'{"data": {"id": "1"}}'
+
+    connect = appstore.AppStoreConnect(
+        credentials(tmp_path), run=FakeRun(), send=flaky, sleep=sleeps.append
+    )
+    assert connect.request("GET", "/v1/apps/1") == {"data": {"id": "1"}}
+    assert sleeps == [2]
+
+
+def test_a_network_that_stays_down_raises(tmp_path):
+    def down(method, url, headers, body):
+        raise TimeoutError("timed out")
+
+    connect = appstore.AppStoreConnect(
+        credentials(tmp_path), run=FakeRun(), send=down, sleep=lambda seconds: None
+    )
+    with pytest.raises(appstore.AppStoreError, match="GET /v1/apps/1: timed out"):
+        connect.request("GET", "/v1/apps/1")
