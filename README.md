@@ -15,8 +15,33 @@ uv run gamba-pipeline package     # package each pack for Background Assets (nee
 uv run gamba-pipeline survey      # count each country's products (for the pack threshold)
 uv run gamba-pipeline spotcheck   # check the packs against spotchecks/<country>.json
 uv run gamba-pipeline report      # write build/REPORT.md, and the full lists to build/report/
+uv run gamba-pipeline pin-latest  # pin the newest Open Food Facts export in inputs.toml
+uv run gamba-pipeline release     # gzip each pack into build/release/, with the release notes
+uv run gamba-pipeline upload      # upload the packs to App Store Connect (--dry-run, --submit)
 uv run pytest -q
 ```
+
+## Monthly run
+
+The `Packs` workflow (`.github/workflows/packs.yml`) runs on the 1st of each month on GitHub's
+`xcode-27` macOS runner. It pins the newest Open Food Facts export, builds and packages every pack,
+spot-checks them against the new export and writes the report into the run's summary. What happens
+next depends on the delivery mode: the workflow's input when it's run by hand, otherwise the
+repository variable `PACK_DELIVERY`.
+
+| Mode | |
+|---|---|
+| `dry-run` (the default) | Nothing leaves the runner; the report is kept as the run's artifact. |
+| `testflight` | Uploads every pack to App Store Connect and waits until Apple has processed it (internal TestFlight uses the newest processed versions), then commits the new pins, spot checks and report and publishes the packs as a release, `packs-<date>`. |
+| `app-store` | As `testflight`, and submits the new versions for App Store review in one submission. |
+
+A failed spot check stops the run before anything is uploaded. A pack that fails to upload or
+process doesn't stop the others, but then nothing is submitted, committed or published.
+
+Uploading needs an App Store Connect API key with the App Manager role, in the repository's
+secrets `ASC_KEY_ID`, `ASC_ISSUER_ID` and `ASC_PRIVATE_KEY` (the `.p8` file's contents). Run by
+hand, `upload` reads the same three environment variables. The USDA and free-exercise-db pins move
+by hand.
 
 ## Sources
 

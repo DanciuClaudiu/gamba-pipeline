@@ -1,5 +1,7 @@
 """Command line: `uv run gamba-pipeline <command>`. A full build runs download, reference, packs,
-package, survey, spotcheck and report, in that order."""
+package, survey, spotcheck and report, in that order. The monthly workflow
+(.github/workflows/packs.yml) runs pin-latest first, then the full build with fresh spot checks,
+then release and upload."""
 
 import argparse
 import json
@@ -19,6 +21,7 @@ from gamba_pipeline import (
     package,
     packs,
     reference,
+    release,
     report,
     spotcheck,
     survey,
@@ -48,6 +51,10 @@ def main(argv: list[str] | None = None) -> int:
         "fixtures", help="build small test databases for the app's FoodDatabase tests"
     )
     make_fixtures.add_argument("output", type=Path)
+    build_release = commands.add_parser(
+        "release", help="gzip each pack and write the notes into build/release/"
+    )
+    build_release.add_argument("--build-date", default=date.today().isoformat())
     upload = commands.add_parser("upload", help="upload build/packages/*.aar to App Store Connect")
     upload.add_argument("--dry-run", action="store_true", help="list the archives; upload nothing")
     upload.add_argument(
@@ -91,6 +98,11 @@ def main(argv: list[str] | None = None) -> int:
             return _spotcheck(args.refresh, pinned, downloads)
         case "upload":
             return _upload(args.dry_run, args.submit)
+        case "release":
+            files = release.write(ROOT / "build", args.build_date, pinned)
+            size = sum(path.stat().st_size for path in files[:-1]) / 1_000_000
+            print(f"{files[-1].parent}: {len(files) - 1} packs, {size:.1f} MB")
+            return 0
         case _:
             path = report.write(ROOT / "build", args.build_date, pinned)
             print(path)

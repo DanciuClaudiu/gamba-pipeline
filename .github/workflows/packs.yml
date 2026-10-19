@@ -1,0 +1,111 @@
+# Builds the packs from the newest Open Food Facts export on the 1st of each month and checks
+# them; with delivery on, it uploads them to App Store Connect and publishes them (Gamba M9.4).
+#   dry-run     build, check and report; nothing leaves the runner
+#   testflight  also upload every pack (internal TestFlight uses the newest processed versions),
+#               commit the new pins, spot checks and report, and publish the release
+#   app-store   also submit the new versions for App Store review
+# Scheduled runs use the repository variable PACK_DELIVERY, a dry run while it's unset. Never run it
+# on pull requests: the App Store Connect key would reach code from forks.
+name: Packs
+
+on:
+  schedule:
+    - cron: "17 4 1 * *"
+  workflow_dispatch:
+    inputs:
+      delivery:
+        description: "dry-run, testflight or app-store"
+        type: choice
+        options: [dry-run, testflight, app-store]
+        default: dry-run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: packs
+
+jobs:
+  packs:
+    runs-on: xcode-27
+    timeout-minutes: 300
+    env:
+      DELIVERY: ${{ inputs.delivery || vars.PACK_DELIVERY || 'dry-run' }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - name: Delivery and tools
+        run: |
+          case "$DELIVERY" in
+            dry-run|testflight|app-store) echo "delivery: $DELIVERY" ;;
+            *) echo "PACK_DELIVERY must be dry-run, testflight or app-store, not '$DELIVERY'"; exit 1 ;;
+          esac
+          xcodebuild -version
+          echo "memory: $(( $(sysctl -n hw.memsize) / 1073741824 )) GB"
+          df -h .
+      - name: Tests
+        run: uv run pytest -q
+      - name: Build date
+        run: echo "BUILD_DATE=$(date -u +%F)" >> "$GITHUB_ENV"
+      - name: Pin the newest Open Food Facts export
+        run: uv run gamba-pipeline pin-latest
+      - name: Download the inputs
+        run: uv run gamba-pipeline download
+      - name: Build the reference database
+        run: uv run gamba-pipeline reference --build-date "$BUILD_DATE"
+      - name: Build the packs
+        run: uv run gamba-pipeline packs --build-date "$BUILD_DATE"
+      - name: Package them
+        run: uv run gamba-pipeline package
+      - name: Survey the countries
+        run: uv run gamba-pipeline survey
+      - name: Spot-check the packs
+        run: uv run gamba-pipeline spotcheck --refresh
+      - name: Gzip them for the release
+        run: |
+          uv run gamba-pipeline release --build-date "$BUILD_DATE"
+          df -h .
+      - name: Report
+        if: ${{ !cancelled() }}
+        run: |
+          uv run gamba-pipeline report --build-date "$BUILD_DATE"
+          cat build/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the report
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v7
+        with:
+          name: report
+          path: |
+            build/REPORT.md
+            build/spotchecks.json
+            build/report/
+      - name: Upload (dry run)
+        if: env.DELIVERY == 'dry-run'
+        run: uv run gamba-pipeline upload --dry-run
+      - name: Upload to App Store Connect
+        if: env.DELIVERY != 'dry-run'
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_PRIVATE_KEY: ${{ secrets.ASC_PRIVATE_KEY }}
+        run: uv run gamba-pipeline upload ${{ env.DELIVERY == 'app-store' && '--submit' || '' }}
+      - name: Commit the pins, spot checks and report
+        if: env.DELIVERY != 'dry-run'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add inputs.toml spotchecks
+          git add -f build/REPORT.md
+          export_id=$(sed -n '/^\[off\]/,/^$/s/^release = "\(.......\).*/\1/p' inputs.toml)
+          if ! git diff --cached --quiet; then
+            git commit -m "Build the packs from Open Food Facts export $export_id"
+            git push
+          fi
+      - name: Publish the packs
+        if: env.DELIVERY != 'dry-run'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "packs-$BUILD_DATE" build/release/*.sqlite.gz \
+            --title "Packs, $BUILD_DATE" --notes-file build/release/NOTES.md \
+            --target "$(git rev-parse HEAD)"
