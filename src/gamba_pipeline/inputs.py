@@ -1,11 +1,19 @@
-"""Pinned inputs (inputs.toml): downloaded once, verified by SHA-256, unzipped once."""
+"""Pinned inputs (inputs.toml): downloaded once, verified by SHA-256, unzipped once. The monthly
+run moves the Open Food Facts pin to the newest export (`latest_off`); the others move by hand."""
 
 import hashlib
+import json
 import tomllib
 import urllib.request
 import zipfile
-from dataclasses import dataclass
+from collections.abc import Callable
+from dataclasses import dataclass, fields, replace
 from pathlib import Path
+from typing import Any
+
+HEADER = "# Every input is pinned by release and SHA-256; a mismatch stops the build."
+OFF_DATASET = "openfoodfacts/product-database"
+OFF_FILE = "food.parquet"
 
 
 class ChecksumMismatch(Exception):
@@ -24,6 +32,36 @@ class Input:
 def load(path: Path) -> dict[str, Input]:
     data = tomllib.loads(path.read_text(encoding="utf-8"))
     return {name: Input(name=name, **fields) for name, fields in data.items()}
+
+
+def save(path: Path, pins: dict[str, Input]) -> None:
+    """Writes `pins` in inputs.toml's layout: the header, then one section per input."""
+    lines = [HEADER]
+    for name, item in pins.items():
+        lines += ["", f"[{name}]"]
+        lines += [f'{field.name} = "{getattr(item, field.name)}"' for field in fields(Input)[1:]]
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def _get_json(url: str) -> Any:
+    with urllib.request.urlopen(url, timeout=60) as response:
+        return json.load(response)
+
+
+def latest_off(current: Input, get_json: Callable[[str], Any] = _get_json) -> Input:
+    """The pin of the Open Food Facts export at the dataset's newest revision on Hugging Face.
+    Hugging Face's LFS object ID for a file is its SHA-256."""
+    api = f"https://huggingface.co/api/datasets/{OFF_DATASET}"
+    revision = get_json(api)["sha"]
+    for entry in get_json(f"{api}/tree/{revision}"):
+        if entry["path"] == OFF_FILE:
+            return replace(
+                current,
+                url=f"https://huggingface.co/datasets/{OFF_DATASET}/resolve/{revision}/{OFF_FILE}",
+                release=revision,
+                sha256=entry["lfs"]["oid"],
+            )
+    raise FileNotFoundError(f"no {OFF_FILE} in {OFF_DATASET} at {revision}")
 
 
 def sha256_of(path: Path) -> str:

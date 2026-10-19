@@ -26,6 +26,7 @@ ROOT = Path.cwd()
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="gamba-pipeline", description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
+    commands.add_parser("pin-latest", help="pin the newest Open Food Facts export in inputs.toml")
     commands.add_parser("download", help="download and verify every pinned input")
     build_reference = commands.add_parser("reference", help="build build/reference.sqlite")
     build_reference.add_argument("--build-date", default=date.today().isoformat())
@@ -54,6 +55,12 @@ def main(argv: list[str] | None = None) -> int:
     pinned = inputs.load(ROOT / "inputs.toml")
     downloads = ROOT / "build" / "inputs"
     match args.command:
+        case "pin-latest":
+            latest = inputs.latest_off(pinned["off"])
+            inputs.save(ROOT / "inputs.toml", {**pinned, "off": latest})
+            old, new = pinned["off"].release[:7], latest.release[:7]
+            print(f"off: {old} → {new}" if latest != pinned["off"] else f"off: {old} (unchanged)")
+            return 0
         case "download":
             for item in pinned.values():
                 print(f"{item.name}: {inputs.fetch(item, downloads)}")

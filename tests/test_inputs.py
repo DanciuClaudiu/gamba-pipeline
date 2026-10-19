@@ -1,5 +1,6 @@
 import hashlib
 import zipfile
+from dataclasses import replace
 from pathlib import Path
 
 import pytest
@@ -54,3 +55,50 @@ def test_unzip_returns_the_folder_with_the_csv_files(tmp_path):
     folder = inputs.unzip(archive, tmp_path / "data")
     assert (folder / "food.csv").exists()
     assert folder.name == "Release_2026"
+
+
+def test_save_writes_inputs_toml_as_it_is(tmp_path):
+    original = (ROOT / "inputs.toml").read_text(encoding="utf-8")
+    inputs.save(tmp_path / "inputs.toml", inputs.load(ROOT / "inputs.toml"))
+    assert (tmp_path / "inputs.toml").read_text(encoding="utf-8") == original
+
+
+def test_latest_off_pins_the_newest_revision():
+    api = "https://huggingface.co/api/datasets/openfoodfacts/product-database"
+    responses = {
+        api: {"sha": "e7f6e1c9"},
+        f"{api}/tree/e7f6e1c9": [
+            {"path": "beauty.parquet", "lfs": {"oid": "a" * 64}},
+            {"path": "food.parquet", "lfs": {"oid": "b" * 64}},
+        ],
+    }
+    current = inputs.load(ROOT / "inputs.toml")["off"]
+    assert inputs.latest_off(current, responses.__getitem__) == replace(
+        current,
+        url="https://huggingface.co/datasets/openfoodfacts/product-database/resolve/e7f6e1c9/food.parquet",
+        release="e7f6e1c9",
+        sha256="b" * 64,
+    )
+
+
+def test_latest_off_needs_food_parquet():
+    api = "https://huggingface.co/api/datasets/openfoodfacts/product-database"
+    responses = {api: {"sha": "e7f6e1c9"}, f"{api}/tree/e7f6e1c9": []}
+    current = inputs.load(ROOT / "inputs.toml")["off"]
+    with pytest.raises(FileNotFoundError, match="e7f6e1c9"):
+        inputs.latest_off(current, responses.__getitem__)
+
+
+def test_pin_latest_saves_the_new_pin(tmp_path, monkeypatch, capsys):
+    from gamba_pipeline import cli
+
+    (tmp_path / "inputs.toml").write_bytes((ROOT / "inputs.toml").read_bytes())
+    pins = inputs.load(ROOT / "inputs.toml")
+    newer = replace(pins["off"], release="e7f6e1c9" + "0" * 32, sha256="b" * 64)
+    monkeypatch.setattr(cli, "ROOT", tmp_path)
+    monkeypatch.setattr(inputs, "latest_off", lambda current: newer)
+    assert cli.main(["pin-latest"]) == 0
+    assert inputs.load(tmp_path / "inputs.toml") == {**pins, "off": newer}
+    assert capsys.readouterr().out == "off: 3dc10b5 → e7f6e1c\n"
+    assert cli.main(["pin-latest"]) == 0
+    assert capsys.readouterr().out == "off: e7f6e1c (unchanged)\n"
