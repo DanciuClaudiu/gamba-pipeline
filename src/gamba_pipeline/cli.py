@@ -3,11 +3,16 @@ package, survey, spotcheck and report, in that order."""
 
 import argparse
 import json
+import os
+import sys
+import tempfile
 from datetime import date
 from pathlib import Path
 
 from gamba_pipeline import (
+    appstore,
     branded,
+    delivery,
     fixtures,
     inputs,
     off,
@@ -43,6 +48,11 @@ def main(argv: list[str] | None = None) -> int:
         "fixtures", help="build small test databases for the app's FoodDatabase tests"
     )
     make_fixtures.add_argument("output", type=Path)
+    upload = commands.add_parser("upload", help="upload build/packages/*.aar to App Store Connect")
+    upload.add_argument("--dry-run", action="store_true", help="list the archives; upload nothing")
+    upload.add_argument(
+        "--submit", action="store_true", help="then submit the new versions for App Store review"
+    )
     build_report = commands.add_parser("report", help="write build/REPORT.md")
     build_report.add_argument("--build-date", default=date.today().isoformat())
     args = parser.parse_args(argv)
@@ -79,6 +89,8 @@ def main(argv: list[str] | None = None) -> int:
             return 0
         case "spotcheck":
             return _spotcheck(args.refresh, pinned, downloads)
+        case "upload":
+            return _upload(args.dry_run, args.submit)
         case _:
             path = report.write(ROOT / "build", args.build_date, pinned)
             print(path)
@@ -148,6 +160,19 @@ def _package() -> int:
         archive = package.package(packs_dir, pack, ROOT / "build" / "packages")
         print(f"{archive}: {archive.stat().st_size / 1_000_000:.1f} MB")
     return 0
+
+
+def _upload(dry_run: bool, submit: bool) -> int:
+    packages = ROOT / "build" / "packages"
+    if dry_run:
+        return delivery.deliver(packages, None, submit=submit, dry_run=True)
+    with tempfile.TemporaryDirectory() as keys:
+        credentials = appstore.Credentials.from_env(os.environ, Path(keys))
+        try:
+            return delivery.deliver(packages, appstore.AppStoreConnect(credentials), submit=submit)
+        except appstore.AppStoreError as error:
+            print(f"upload: {error}", file=sys.stderr)
+            return 1
 
 
 def _spotcheck(refresh: bool, pinned: dict[str, inputs.Input], downloads: Path) -> int:
